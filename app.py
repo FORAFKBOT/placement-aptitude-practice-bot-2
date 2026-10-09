@@ -21,6 +21,7 @@ from database import (
     insert_question
 )
 from generator import QuestionGenerator
+from ai_generator import AIQuestionGenerator
 from engine import MockTestEngine, COMPANY_PROFILES
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -111,24 +112,33 @@ class PlacementBotHandler(http.server.SimpleHTTPRequestHandler):
             comp = params.get('company', [None])[0]
             top = params.get('topic', [None])[0]
             diff = params.get('difficulty', [None])[0]
+            adaptive_flag = params.get('adaptive', ['true'])[0].lower() == 'true'
 
-            q = get_random_question(category=cat, company=comp, topic=top, difficulty=diff)
-            if not q:
-                # Procedurally generate fallback
-                target_cat = cat or 'quantitative'
-                q = QuestionGenerator.generate_by_category(target_cat)
-                qid = insert_question(q, is_generated=True)
-                q['id'] = qid
-
+            from engine import PracticeEngine
+            engine = PracticeEngine(user_id="web_user")
+            q = engine.get_next_question(category=cat, company=comp, topic=top, difficulty=diff, adaptive=adaptive_flag)
             self.send_json(q)
             return
 
-        # 5. REST API: Dynamic Procedural Generation
+        # 5. REST API: Dynamic AI Question Generation
         if path == '/api/generate':
             cat = params.get('category', ['quantitative'])[0]
-            q = QuestionGenerator.generate_by_category(cat)
-            qid = insert_question(q, is_generated=True)
-            q['id'] = qid
+            comp = params.get('company', ['TCS'])[0]
+            diff = params.get('difficulty', ['Medium'])[0]
+            top = params.get('topic', [None])[0]
+            prompt = params.get('prompt', [None])[0]
+            use_llm_flag = params.get('use_llm', ['true'])[0].lower() != 'false'
+            save_flag = params.get('save_to_db', ['true'])[0].lower() != 'false'
+
+            q = AIQuestionGenerator.generate(
+                category=cat,
+                company=comp,
+                difficulty=diff,
+                topic=top,
+                custom_prompt=prompt,
+                use_llm=use_llm_flag,
+                save_to_db=save_flag
+            )
             self.send_json(q)
             return
 
@@ -168,6 +178,19 @@ class PlacementBotHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(stats)
             return
 
+        # 8. REST API: User Adaptive Skill Profile
+        if path == '/api/profile':
+            from adaptive import AdaptiveDifficultyEngine
+            prof = AdaptiveDifficultyEngine.get_profile("web_user")
+            self.send_json(prof)
+            return
+
+        # 9. REST API: Check API Key status
+        if path == '/api/config/key':
+            has_key = bool(os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
+            self.send_json({"has_key": has_key})
+            return
+
         self.send_error(404, "Endpoint not found")
 
     def do_POST(self):
@@ -180,7 +203,7 @@ class PlacementBotHandler(http.server.SimpleHTTPRequestHandler):
         except Exception:
             body = {}
 
-        # 1. Submit Single Question Answer
+        # 1. Submit Single Question Answer (with Adaptive AI & Diagnostics)
         if path == '/api/submit':
             qid = body.get('question_id')
             user_choice = str(body.get('user_choice', '')).strip().upper()
@@ -191,21 +214,24 @@ class PlacementBotHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_json({'error': 'Question not found'}, 404)
                 return
 
-            corr = q.get('answer', 'A').strip().upper()
-            is_correct = (user_choice == corr)
-
-            record_attempt("web_session", qid, q['category'], q['topic'],
-                           user_choice, is_correct, time_spent)
-
-            self.send_json({
-                'is_correct': is_correct,
-                'user_choice': user_choice,
-                'correct_answer': corr,
-                'explanation': q.get('explanation', 'Standard solution.')
-            })
+            from engine import PracticeEngine
+            practice_engine = PracticeEngine(user_id="web_user")
+            result = practice_engine.evaluate_answer(q, user_choice, time_spent)
+            self.send_json(result)
             return
 
-        # 2. Submit Mock Test
+        # 2. Configure Live AI API Key
+        if path == '/api/config/key':
+            api_key = str(body.get('api_key', '')).strip()
+            if api_key:
+                os.environ['GEMINI_API_KEY'] = api_key
+                self.send_json({'success': True, 'message': 'Gemini API Key activated for live generative tutoring!'})
+            else:
+                os.environ.pop('GEMINI_API_KEY', None)
+                self.send_json({'success': True, 'message': 'Switched to Built-in Cognitive AI Engine.'})
+            return
+
+        # 3. Submit Mock Test
         if path == '/api/mock/submit':
             session_id = body.get('session_id')
             user_answers = body.get('answers', {})
@@ -225,6 +251,38 @@ class PlacementBotHandler(http.server.SimpleHTTPRequestHandler):
             report = engine.finalize_test()
             del ACTIVE_MOCKS[session_id]
             self.send_json(report)
+            return
+
+        # 4. Generate Question via POST
+        if path == '/api/generate':
+            cat = body.get('category', 'quantitative')
+            comp = body.get('company', 'TCS')
+            diff = body.get('difficulty', 'Medium')
+            top = body.get('topic')
+            prompt = body.get('prompt')
+            use_llm_flag = body.get('use_llm', True)
+            save_flag = body.get('save_to_db', True)
+
+            q = AIQuestionGenerator.generate(
+                category=cat,
+                company=comp,
+                difficulty=diff,
+                topic=top,
+                custom_prompt=prompt,
+                use_llm=use_llm_flag,
+                save_to_db=save_flag
+            )
+            self.send_json(q)
+            return
+
+        # 5. Explicitly Save Generated Question
+        if path == '/api/save_question':
+            q_data = body.get('question')
+            if not q_data:
+                self.send_json({'error': 'Missing question data'}, 400)
+                return
+            new_id = insert_question(q_data, is_generated=True)
+            self.send_json({'success': True, 'id': new_id, 'message': 'Question saved to practice database!'})
             return
 
         self.send_error(404, "POST endpoint not found")

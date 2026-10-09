@@ -68,54 +68,93 @@ COMPANY_PROFILES = {
     }
 }
 
-class PracticeEngine:
-    """Manages single-question practice sessions and dynamic generation."""
+from adaptive import AdaptiveDifficultyEngine
+from ai_tutor import AITutor
 
-    def __init__(self):
+class PracticeEngine:
+    """Manages single-question practice sessions and dynamic generation with Adaptive AI."""
+
+    def __init__(self, user_id: str = "default_user"):
         self.session_id = str(uuid.uuid4())
+        self.user_id = user_id
 
     def get_next_question(self, category: Optional[str] = None,
                           topic: Optional[str] = None,
                           difficulty: Optional[str] = None,
                           company: Optional[str] = None,
-                          generate_dynamically: bool = False) -> Dict[str, Any]:
-        """Fetches a question from the database or dynamically creates a fresh one."""
+                          generate_dynamically: bool = False,
+                          adaptive: bool = True) -> Dict[str, Any]:
+        """Fetches a question matching user's cognitive skill level or creates one dynamically."""
+        cat = category or 'quantitative'
+        target_diff = difficulty
+        tier_info = None
+
+        if adaptive and not difficulty:
+            target_diff, tier_info = AdaptiveDifficultyEngine.get_recommended_difficulty(cat, self.user_id)
+
         if generate_dynamically:
-            cat = category or 'quantitative'
-            q = QuestionGenerator.generate_by_category(cat)
-            qid = insert_question(q, is_generated=True)
-            q['id'] = qid
+            from ai_generator import AIQuestionGenerator
+            q = AIQuestionGenerator.generate(
+                category=cat,
+                company=company or 'TCS',
+                difficulty=target_diff or 'Medium',
+                topic=topic,
+                save_to_db=True
+            )
+            q['ai_tier'] = tier_info
             return q
 
-        # Attempt to fetch from DB
-        q = get_random_question(category, company, topic, difficulty)
+        # Attempt to fetch from DB with adaptive difficulty
+        q = get_random_question(category, company, topic, target_diff)
+        if not q and target_diff:
+            # Fallback to any difficulty if target difficulty not available for this filter
+            q = get_random_question(category, company, topic, None)
+
         if not q:
-            # If no match in DB, fallback to generator
-            cat = category or 'quantitative'
+            # Fallback to generator
             q = QuestionGenerator.generate_by_category(cat)
             qid = insert_question(q, is_generated=True)
             q['id'] = qid
+            q['difficulty'] = target_diff or 'Medium'
+
+        q['ai_tier'] = tier_info
         return q
 
     def evaluate_answer(self, question: Dict[str, Any], user_choice: str,
                         time_taken: float = 0.0) -> Dict[str, Any]:
-        """Evaluates user answer, logs attempt in DB, and returns feedback."""
+        """Evaluates user answer, updates adaptive Elo rating, and generates AI diagnostic feedback."""
         user_choice = user_choice.strip().upper()
         correct_ans = question.get('answer', 'A').strip().upper()
         is_correct = (user_choice == correct_ans)
 
-        # Record in DB
         qid = question.get('id', 0)
-        cat = question.get('category', 'general')
+        cat = question.get('category', 'quantitative')
         top = question.get('topic', 'General')
+        diff = question.get('difficulty', 'Medium')
+
+        # Record attempt in DB
         record_attempt(self.session_id, qid, cat, top, user_choice, is_correct, time_taken)
+
+        # Update Adaptive Elo Skill Rating
+        skill_update = AdaptiveDifficultyEngine.update_rating(cat, diff, is_correct, time_taken, self.user_id)
+
+        # Generate Personalized AI Tutor Diagnostic Feedback
+        ai_feedback = AITutor.generate_personalized_feedback(
+            question=question,
+            user_choice=user_choice,
+            is_correct=is_correct,
+            time_taken_sec=time_taken,
+            user_skill_info=skill_update
+        )
 
         return {
             'is_correct': is_correct,
             'user_choice': user_choice,
             'correct_answer': correct_ans,
             'explanation': question.get('explanation', 'Standard solution.'),
-            'time_taken_sec': round(time_taken, 1)
+            'time_taken_sec': round(time_taken, 1),
+            'skill_update': skill_update,
+            'ai_feedback': ai_feedback
         }
 
 

@@ -9,37 +9,42 @@ The bot utilizes the official placement repository from Google Drive:
 
 ## 🌟 Key Features
 
-1. **Multi-Domain Practice Engine**:
-   - 📐 **Quantitative Aptitude**: Time & Work, Speed-Time-Distance, Profit & Loss, Percentages, P&C, Probability, Simple/Compound Interest, Ratios & Ages, Numbers.
-   - 🧩 **Logical Reasoning**: Number & Letter Series, Syllogisms, Blood Relations, Direction Sense, Coding-Decoding, Seating & Ordering.
-   - 📖 **Verbal Ability**: High-frequency Placement Vocabulary, Synonyms & Antonyms, Sentence Correction, Spotting Errors, Fill in the Blanks.
+1. **✨ AI Question Generation Studio (`ai_generator.py`)**:
+   - **Hybrid Generative AI**: Generates dynamic questions using **Google Gemini LLM** (when API key is provided) or the built-in **Offline Cognitive Heuristics Engine**.
+   - **Company Exam Pattern Styles**: Calibrated specifically for **TCS NQT**, **Infosys (Specialist/DSE)**, **Accenture (Critical Reasoning)**, **Cognizant (GenC/GenC Next)**, **Capgemini**, and **Wipro (NLTH/Elite)**.
+   - **Custom Topics & Directives**: Enter custom topics or prompts (e.g. "C pointer arithmetic", "Boat upstream vs downstream", "Recursion stack tree") with automated computation of solutions, options, and placement speed hacks.
+   - **Direct Bank Persistence**: One-click or auto-save newly generated questions into the local SQLite practice bank.
+
+2. **🤖 Adaptive AI Difficulty Personalization (`adaptive.py`)**:
+   - **Elo-Based Bayesian Skill Modeling**: Evaluates student cognitive mastery independently across Quantitative, Logical, Verbal, and Coding domains.
+   - **Cognitive Tier Progression**: Real-time rank progression from Novice (1000) to Placement Ready (1400) and Elite / Digital (1550+).
+   - **Dynamic Calibration**: Calibrates difficulty (Easy, Medium, Hard) dynamically using user performance streaks, time latency, and question difficulty.
+
+3. **🧠 AI Tutor Diagnostic Assessment (`ai_tutor.py`)**:
+   - **Cognitive Misconception Analysis**: Dissects user mistakes and explains the exact cognitive trap or distractor behind incorrect choices.
+   - **⚡ High-Yield Speed Hacks**: Every question delivers an actionable 15-second mental math shortcut or placement rule of thumb.
+   - **Pacing Evaluation & Coaching Tips**: Analyzes response time and offers encouraging coaching advice.
+
+4. **Multi-Domain Placement Practice Engine**:
+   - 📐 **Quantitative Aptitude**: Time & Work, Speed-Time-Distance, Profit & Loss, Percentages, P&C, Probability, Simple/Compound Interest, Mixtures & Alligations, Ratios & Ages.
+   - 🧩 **Logical Reasoning**: Number & Letter Series, Syllogisms, Blood Relations, Direction Sense, Coding-Decoding, Clocks & Calendars, Seating Arrangement.
+   - 📖 **Verbal Ability**: High-frequency Placement Vocabulary, Synonyms & Antonyms, Sentence Correction, Idioms & Phrases, Spotting Errors.
    - 💻 **Coding & Pseudocode**: C/Python/Java Output Tracing, Pointers, Bitwise Logic, Recursion, Time & Space Complexity, Data Structures.
 
-2. **Google Drive Database Ingestion**:
-   - Direct automated ingestion pipeline (`extractor.py`) parses questions, options, answer keys, and step-by-step explanations from TCS, Infosys, Accenture, Cognizant, Capgemini, Wipro, eLitmus, and AMCAT placement tests.
-   - Stores all questions in indexed SQLite (`data/questions.db`) and JSON (`data/questions.json`).
+5. **Google Drive Database Ingestion (`extractor.py`)**:
+   - Automated ingestion pipeline parses 290+ real placement questions from Google Drive PDF materials across TCS, Infosys, Accenture, Cognizant, Capgemini, Wipro, eLitmus, and AMCAT.
+   - Stored in indexed SQLite (`data/questions.db`) and JSON (`data/questions.json`).
 
-3. **⚡ Infinite Algorithmic Question Generator (`generator.py`)**:
-   - Beyond the database, the bot includes a procedural math & logic generator that creates never-seen-before questions with dynamic variables, mathematically computed solutions, and step-by-step explanations on the fly.
-
-4. **🏆 Company-Specific Placement Mock Tests**:
-   - Timed mock simulations modeled after major campus placement tests:
-     - **TCS NQT** (Numerical, Reasoning, Verbal, Coding)
-     - **Infosys Specialist / SE** (Mathematical Critical Thinking, Analytical, Pseudocode)
-     - **Accenture Cognitive & Technical** (Abstract Reasoning, Critical Thinking, Tech)
-     - **Cognizant GenC / GenC Next**
-     - **Capgemini Assessment**
-     - **Wipro NLTH**
-     - **eLitmus pH Test**
+6. **🏆 Company-Specific Placement Mock Tests**:
+   - Timed mock simulations modeled after major campus placement tests (TCS, Infosys, Accenture, Cognizant, Capgemini, Wipro, eLitmus).
    - Live timer, question palette, sectional breakdown, accuracy rate, cutoff readiness assessment, and solution review.
 
-5. **📊 Diagnostic Analytics & Weak Area Diagnosis**:
-   - Tracks every user attempt, speed per question, and sectional accuracy.
-   - Automatically detects topics where accuracy falls below 60% and suggests personalized practice recommendations.
+7. **📊 Diagnostic Analytics & Weak Area Diagnosis**:
+   - Tracks every user attempt, speed per question, sectional accuracy, and detects weak topics for targeted practice.
 
-6. **Dual User Interface**:
+8. **Dual User Interface**:
    - **Interactive Terminal Bot (CLI)**: Beautiful ANSI colored terminal UI (`cli_bot.py`).
-   - **Modern Web Dashboard**: Zero-dependency browser portal with dark theme, live timer, and instant feedback (`app.py` at `http://localhost:8080`).
+   - **Modern Web Dashboard**: Responsive browser portal with dark theme, live timer, AI Question Generator studio, and instant feedback (`app.py` at `http://localhost:8080`).
 
 ---
 

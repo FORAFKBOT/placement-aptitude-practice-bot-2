@@ -70,8 +70,11 @@ def display_question(q: dict, q_num: int = 1, total: int = 1):
     comp = q.get('company', 'General')
     topic = q.get('topic', 'General Aptitude')
     diff = q.get('difficulty', 'Medium')
+    tier_info = q.get('ai_tier')
     
     header = f"\n{badge} {Style.BOLD}Topic:{Style.RESET} {topic} | {Style.BOLD}Company:{Style.RESET} {comp} | {Style.BOLD}Diff:{Style.RESET} {diff}"
+    if tier_info:
+        header += f" | {Style.MAGENTA}[AI Level: {tier_info.get('icon', '')} {tier_info.get('name', '')} (Rating: {tier_info.get('rating', '')})]{Style.RESET}"
     if total > 1:
         header = f"\n{Style.BOLD}Question {q_num} of {total}{Style.RESET} | " + header
     print(header)
@@ -94,7 +97,7 @@ def display_question(q: dict, q_num: int = 1, total: int = 1):
 
 def run_practice_mode():
     engine = PracticeEngine()
-    print(f"\n{Style.BOLD}{Style.CYAN}--- Topic & Domain Practice Mode ---{Style.RESET}")
+    print(f"\n{Style.BOLD}{Style.CYAN}--- Topic & Domain Practice Mode (Adaptive AI Enabled) ---{Style.RESET}")
     print("Choose Practice Domain:")
     print("1. Quantitative Aptitude (Math, Arithmetic, Algebra)")
     print("2. Logical Reasoning (Series, Syllogisms, Blood Relations)")
@@ -117,7 +120,7 @@ def run_practice_mode():
     correct_count = 0
 
     while True:
-        q = engine.get_next_question(category=cat)
+        q = engine.get_next_question(category=cat, adaptive=True)
         if not q:
             print("No questions available for this filter.")
             break
@@ -142,16 +145,32 @@ def run_practice_mode():
         result = engine.evaluate_answer(q, user_input, elapsed)
         total_practiced += 1
         
+        skill = result.get('skill_update', {})
+        ai_fb = result.get('ai_feedback', {})
+        delta = skill.get('rating_delta', 0)
+        delta_str = f"+{delta}" if delta >= 0 else str(delta)
+        rating_line = f"Rating: {skill.get('new_rating')} ({delta_str}) | {skill.get('tier', {}).get('icon', '')} {skill.get('tier', {}).get('name', '')}"
+        
         if result['is_correct']:
             streak += 1
             correct_count += 1
-            print(f"\n{Style.GREEN}{Style.BOLD}CORRECT! (+1 point){Style.RESET} Time: {result['time_taken_sec']}s | Streak: {streak} 🔥")
+            print(f"\n{Style.GREEN}{Style.BOLD}CORRECT! (+1 point){Style.RESET} Time: {result['time_taken_sec']}s | Streak: {streak} | {rating_line}")
         else:
             streak = 0
-            print(f"\n{Style.RED}{Style.BOLD}INCORRECT!{Style.RESET} You chose ({user_input}), but Correct Answer is ({result['correct_answer']}). Time: {result['time_taken_sec']}s")
+            print(f"\n{Style.RED}{Style.BOLD}INCORRECT!{Style.RESET} You chose ({user_input}), Correct is ({result['correct_answer']}). Time: {result['time_taken_sec']}s | {rating_line}")
 
-        print(f"\n{Style.CYAN}{Style.BOLD}Explanation:{Style.RESET}")
-        print(f"{result['explanation']}\n")
+        if skill.get('promoted'):
+            print(f"\n{Style.CYAN}{Style.BOLD}[PROMOTION ALERT] You leveled up to {skill.get('tier', {}).get('name')}! Question difficulty is increasing.{Style.RESET}")
+        elif skill.get('demoted'):
+            print(f"\n{Style.YELLOW}[CALIBRATION ALERT] Adjusting difficulty down to rebuild fundamentals.{Style.RESET}")
+
+        print(f"\n{Style.CYAN}{Style.BOLD}--- AI TUTOR DIAGNOSTIC FEEDBACK ({ai_fb.get('source', 'Cognitive AI')}) ---{Style.RESET}")
+        print(f"{Style.BOLD}Diagnosis:{Style.RESET} {ai_fb.get('diagnostic_assessment')}")
+        if not result['is_correct']:
+            print(f"{Style.YELLOW}{Style.BOLD}Placement Trap:{Style.RESET} {ai_fb.get('misconception_analysis')}")
+        print(f"{Style.GREEN}{Style.BOLD}{ai_fb.get('speed_hack')}{Style.RESET}")
+        print(f"{Style.MAGENTA}{Style.BOLD}Coaching Advice:{Style.RESET} {ai_fb.get('coaching_tip')}")
+        print(f"{Style.DIM}Standard Solution:{Style.RESET} {result['explanation']}\n")
         
         cont = input(f"{Style.DIM}Press Enter for Next Question, or 'Q' to return to menu...{Style.RESET}").strip().upper()
         if cont == 'Q':
@@ -237,37 +256,83 @@ def run_mock_test_mode():
 
 def run_dynamic_generator_mode():
     engine = PracticeEngine()
-    print(f"\n{Style.BOLD}{Style.CYAN}--- Infinite Dynamic Question Generator ---{Style.RESET}")
-    print("Generates fresh, never-seen-before mathematical & logical problems on the fly!")
-    print("1. Dynamic Quantitative Aptitude (Trains, Work, P&C, Probability, Ages)")
-    print("2. Dynamic Logical Reasoning (Series, Coding-Decoding, Direction Sense)")
-    print("3. Dynamic Verbal Ability (High-frequency Placement Vocabulary & Grammar)")
-    print("4. Dynamic Coding & Output Tracing (Pointers, Bitwise, Recursion, Complexity)")
-    
-    sel = input(f"{Style.BOLD}Choose Domain (1-4): {Style.RESET}").strip()
-    cat_map = {'1': 'quantitative', '2': 'logical', '3': 'verbal', '4': 'coding'}
-    cat = cat_map.get(sel, 'quantitative')
-    
+    print(f"\n{Style.BOLD}{Style.CYAN}--- ✨ AI Question Generator Studio ---{Style.RESET}")
+    print("Dynamically generates fresh, custom campus placement problems with step-by-step reasoning & speed hacks!")
+    print("Domains:")
+    print("  1. Quantitative Aptitude (Mixtures, Work, Boats, Probability, Ages, Interest)")
+    print("  2. Logical Reasoning (Clocks, Seating, Syllogisms, Series, Blood Relations)")
+    print("  3. Verbal Ability (Placement Vocabulary, Idioms, Sentence Correction)")
+    print("  4. Coding & Pseudocode (Pointers, Bitwise Tricks, Recursion, Complexity)")
+    print("  5. Mixed / Any Domain")
+
+    sel_cat = input(f"{Style.BOLD}Choose Domain (1-5) [Default 1]: {Style.RESET}").strip()
+    cat_map = {'1': 'quantitative', '2': 'logical', '3': 'verbal', '4': 'coding', '5': None}
+    cat = cat_map.get(sel_cat, 'quantitative')
+
+    print("\nCompany Pattern Styles:")
+    companies = ['TCS', 'Infosys', 'Accenture', 'Cognizant', 'Capgemini', 'Wipro', 'General']
+    for idx, c in enumerate(companies, 1):
+        print(f"  {idx}. {c}")
+    sel_comp = input(f"{Style.BOLD}Select Company Style (1-7) [Default 1 - TCS]: {Style.RESET}").strip()
+    try:
+        chosen_company = companies[int(sel_comp) - 1]
+    except (ValueError, IndexError):
+        chosen_company = 'TCS'
+
+    print("\nDifficulty Level:")
+    print("  1. Auto-Adaptive (calibrated to current skill)")
+    print("  2. Easy (Foundations)")
+    print("  3. Medium (Standard Cutoff)")
+    print("  4. Hard (Digital / Ninja / High Package)")
+    sel_diff = input(f"{Style.BOLD}Select Difficulty (1-4) [Default 1]: {Style.RESET}").strip()
+    diff_map = {'1': None, '2': 'Easy', '3': 'Medium', '4': 'Hard'}
+    chosen_diff = diff_map.get(sel_diff, None)
+
+    topic_focus = input(f"{Style.BOLD}Specific Topic or Keyword (e.g. 'mixture', 'pointers', 'bitwise', or press Enter for any): {Style.RESET}").strip()
+    topic = topic_focus if topic_focus else None
+
+    from ai_generator import AIQuestionGenerator
+
     while True:
-        q = engine.get_next_question(category=cat, generate_dynamically=True)
+        print(f"\n{Style.DIM}⚡ Generating placement question with AI Engine...{Style.RESET}")
+        q = AIQuestionGenerator.generate(
+            category=cat or 'quantitative',
+            company=chosen_company,
+            difficulty=chosen_diff or 'Medium',
+            topic=topic,
+            save_to_db=True
+        )
+
         display_question(q)
-        
+        print(f"{Style.DIM}AI Source: {q.get('ai_engine', 'AI Engine')} | Speed Hack Included{Style.RESET}\n")
+
         t0 = time.time()
         ans = input(f"{Style.BOLD}Your Answer (A/B/C/D) or 'Q' to Quit: {Style.RESET}").strip().upper()
         elapsed = time.time() - t0
-        
+
         if ans == 'Q':
             break
-            
+
         if ans in ['A', 'B', 'C', 'D']:
             res = engine.evaluate_answer(q, ans, elapsed)
             if res['is_correct']:
-                print(f"\n{Style.GREEN}{Style.BOLD}CORRECT!{Style.RESET}")
+                print(f"\n{Style.GREEN}{Style.BOLD}[CORRECT] Excellent!{Style.RESET} ({elapsed:.1f}s)")
             else:
-                print(f"\n{Style.RED}{Style.BOLD}INCORRECT!{Style.RESET} Correct answer is ({res['correct_answer']}).")
-            print(f"\n{Style.CYAN}Step-by-Step Mathematical Explanation:{Style.RESET}")
+                print(f"\n{Style.RED}{Style.BOLD}[INCORRECT]{Style.RESET} Selected {ans}, correct answer is {Style.GREEN}{res['correct_answer']}{Style.RESET}")
+
+            # Display AI Tutor Feedback
+            fb = res.get('ai_feedback', {})
+            if fb:
+                print(f"\n{Style.CYAN}{Style.BOLD}🧠 AI Diagnostic Assessment:{Style.RESET}")
+                print(f"  • Diagnosis: {fb.get('diagnostic_assessment', '')}")
+                if not res['is_correct']:
+                    print(f"  • {fb.get('misconception_analysis', '')}")
+                if fb.get('speed_hack'):
+                    print(f"  • {Style.YELLOW}{fb['speed_hack']}{Style.RESET}")
+
+            print(f"\n{Style.BOLD}Step-by-Step Mathematical Explanation:{Style.RESET}")
             print(f"{res['explanation']}\n")
-            
+
         cont = input(f"{Style.DIM}Generate another question? (Enter=Yes, Q=Quit): {Style.RESET}").strip().upper()
         if cont == 'Q':
             break

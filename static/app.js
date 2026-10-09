@@ -16,11 +16,28 @@ let mockAnswers = {};
 document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
   loadDBSummary();
+  loadUserSkillProfile();
   loadNextPracticeQuestion();
   initMockEventListeners();
   initGeneratorEventListeners();
   initCodingSandbox();
+  initAISettingsModal();
 });
+
+// Load User Adaptive Skill Profile
+async function loadUserSkillProfile() {
+  try {
+    const res = await fetch('/api/profile');
+    const prof = await res.json();
+    const tier = prof.tier || {};
+    const badge = document.getElementById('headerTierBadge');
+    if (badge && tier.name) {
+      badge.innerText = `${tier.icon || '🎯'} ${tier.name} (${tier.rating || prof.overall_rating})`;
+    }
+  } catch (e) {
+    console.error('Error loading skill profile:', e);
+  }
+}
 
 // Navigation Tabs
 function initNavigation() {
@@ -54,6 +71,7 @@ function initNavigation() {
 
   document.getElementById('btnNextPractice')?.addEventListener('click', loadNextPracticeQuestion);
   document.getElementById('practiceCategorySelect')?.addEventListener('change', loadNextPracticeQuestion);
+  document.getElementById('practiceDifficultySelect')?.addEventListener('change', loadNextPracticeQuestion);
   document.getElementById('practiceCompanySelect')?.addEventListener('change', loadNextPracticeQuestion);
 }
 
@@ -78,13 +96,21 @@ async function loadNextPracticeQuestion() {
   updatePracticeTimer();
 
   const cat = document.getElementById('practiceCategorySelect')?.value || '';
+  const diffVal = document.getElementById('practiceDifficultySelect')?.value || 'adaptive';
   const comp = document.getElementById('practiceCompanySelect')?.value || '';
+
+  let url = `/api/question?category=${encodeURIComponent(cat)}&company=${encodeURIComponent(comp)}`;
+  if (diffVal === 'adaptive') {
+    url += '&adaptive=true';
+  } else {
+    url += `&difficulty=${encodeURIComponent(diffVal)}&adaptive=false`;
+  }
 
   const expBox = document.getElementById('explanationBox');
   if (expBox) expBox.style.display = 'none';
 
   try {
-    const res = await fetch(`/api/question?category=${encodeURIComponent(cat)}&company=${encodeURIComponent(comp)}`);
+    const res = await fetch(url);
     const q = await res.json();
     currentPracticeQuestion = q;
     renderPracticeQuestion(q);
@@ -107,6 +133,20 @@ function renderPracticeQuestion(q) {
   document.getElementById('qBadgeCategory').innerText = (q.category || 'GENERAL').toUpperCase();
   document.getElementById('qPillTopic').innerText = q.topic || 'General Aptitude';
   document.getElementById('qPillCompany').innerText = q.company || 'General';
+  
+  const diffPill = document.getElementById('qPillDifficulty');
+  if (diffPill) diffPill.innerText = q.difficulty || 'Medium';
+
+  const aiPill = document.getElementById('qPillAITier');
+  if (aiPill) {
+    if (q.ai_tier) {
+      aiPill.style.display = 'inline-block';
+      aiPill.innerText = `🤖 ${q.ai_tier.name}`;
+    } else {
+      aiPill.style.display = 'none';
+    }
+  }
+
   document.getElementById('qText').innerText = q.question || '';
 
   // Code snippet
@@ -168,7 +208,6 @@ async function submitPracticeAnswer(choice, btnElement) {
     } else {
       btnElement.classList.add('wrong');
       streak = 0;
-      // Highlight the correct one
       allBtns.forEach(b => {
         if (b.querySelector('.option-key').innerText === result.correct_answer) {
           b.classList.add('correct');
@@ -181,11 +220,87 @@ async function submitPracticeAnswer(choice, btnElement) {
     document.getElementById('streakCount').innerText = streak;
     document.getElementById('scoreCount').innerText = score;
 
+    // AI Tutor Diagnostic Feedback Display
+    const aiFb = result.ai_feedback || {};
+    const skill = result.skill_update || {};
+
+    const sourceEl = document.getElementById('aiTutorSource');
+    if (sourceEl) sourceEl.innerText = aiFb.source || 'AI Tutor Diagnostic Feedback';
+
+    const deltaPill = document.getElementById('aiRatingDeltaPill');
+    if (deltaPill && skill.rating_delta !== undefined) {
+      const d = skill.rating_delta;
+      deltaPill.innerText = (d >= 0 ? `+${d}` : `${d}`) + ' Elo Rating';
+      deltaPill.className = 'rating-delta-pill' + (d < 0 ? ' neg' : '');
+    }
+
+    if (skill.tier) {
+      const badge = document.getElementById('headerTierBadge');
+      if (badge) badge.innerText = `${skill.tier.icon || '🎯'} ${skill.tier.name} (${skill.tier.rating})`;
+    }
+
+    document.getElementById('aiDiagnosisText').innerText = aiFb.diagnostic_assessment || 'Analyzing student reasoning...';
+    
+    const trapRow = document.getElementById('aiTrapRow');
+    const trapText = document.getElementById('aiTrapText');
+    if (aiFb.misconception_analysis && !result.is_correct) {
+      trapRow.style.display = 'block';
+      trapText.innerText = aiFb.misconception_analysis;
+    } else {
+      trapRow.style.display = 'none';
+    }
+
+    document.getElementById('aiHackText').innerText = aiFb.speed_hack || '';
+    document.getElementById('aiCoachingText').innerText = aiFb.coaching_tip || '';
+
     expBody.innerText = result.explanation || 'Refer to the standard placement problem solution.';
     expBox.style.display = 'block';
   } catch (e) {
     console.error('Error submitting answer:', e);
   }
+}
+
+// AI Settings Modal
+function initAISettingsModal() {
+  const modal = document.getElementById('aiSettingsModal');
+  const btnOpen = document.getElementById('btnOpenAISettings');
+  const btnClose = document.getElementById('btnCloseAISettings');
+  const btnSave = document.getElementById('btnSaveApiKey');
+  const input = document.getElementById('geminiApiKeyInput');
+  const statusMsg = document.getElementById('apiKeyStatusMsg');
+
+  btnOpen?.addEventListener('click', async () => {
+    modal.style.display = 'flex';
+    try {
+      const res = await fetch('/api/config/key');
+      const data = await res.json();
+      if (data.has_key) {
+        statusMsg.innerHTML = '<span style="color:#22c55e;">Active: Custom Gemini API key is configured.</span>';
+      } else {
+        statusMsg.innerHTML = '<span style="color:#94a3b8;">Active: Using Built-in Cognitive AI Diagnosis Engine (Offline).</span>';
+      }
+    } catch (e) {}
+  });
+
+  btnClose?.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+
+  btnSave?.addEventListener('click', async () => {
+    const key = input.value.trim();
+    try {
+      const res = await fetch('/api/config/key', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ api_key: key })
+      });
+      const data = await res.json();
+      statusMsg.innerHTML = `<span style="color:#22c55e;">${data.message}</span>`;
+      setTimeout(() => { modal.style.display = 'none'; }, 1000);
+    } catch (e) {
+      statusMsg.innerHTML = '<span style="color:#ef4444;">Error saving API key.</span>';
+    }
+  });
 }
 
 // COMPANY MOCK TESTS
@@ -401,28 +516,185 @@ function renderMockReport(report) {
   });
 }
 
-// INFINITE GENERATOR
+// AI QUESTION GENERATOR STUDIO
+let currentGeneratedQuestion = null;
+let selectedGenChoice = null;
+
+async function checkAIEngineStatus() {
+  try {
+    const res = await fetch('/api/config/key');
+    const data = await res.json();
+    const lbl = document.getElementById('genEngineName');
+    if (lbl) {
+      if (data.has_key) {
+        lbl.innerText = 'Gemini 2.5 Flash LLM (Live)';
+        lbl.style.color = '#38bdf8';
+      } else {
+        lbl.innerText = 'Cognitive Heuristics (Offline)';
+        lbl.style.color = '#a78bfa';
+      }
+    }
+  } catch (e) {
+    console.error('Error checking key status:', e);
+  }
+}
+
 function initGeneratorEventListeners() {
-  document.querySelectorAll('.generator-controls .btn-accent').forEach(btn => {
-    btn.addEventListener('click', async () => {
-      const cat = btn.getAttribute('data-gencat');
+  checkAIEngineStatus();
+
+  // Generate Button Click
+  const btnGen = document.getElementById('btnAIGenerate');
+  if (btnGen) {
+    btnGen.addEventListener('click', async () => {
+      const cat = document.getElementById('aiGenCategory')?.value || 'quantitative';
+      const comp = document.getElementById('aiGenCompany')?.value || 'TCS';
+      const diff = document.getElementById('aiGenDifficulty')?.value || 'Medium';
+      const topic = document.getElementById('aiGenTopic')?.value?.trim() || '';
+      const prompt = document.getElementById('aiGenPrompt')?.value?.trim() || '';
+
+      const spinner = document.getElementById('genBtnSpinner');
+      const btnText = document.getElementById('genBtnText');
+      if (spinner) spinner.style.display = 'inline';
+      if (btnText) btnText.innerText = 'Generating with AI...';
+      btnGen.disabled = true;
+
       try {
-        const res = await fetch(`/api/generate?category=${cat}`);
+        const res = await fetch('/api/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            category: cat,
+            company: comp,
+            difficulty: diff,
+            topic: topic || null,
+            prompt: prompt || null,
+            use_llm: true,
+            save_to_db: true
+          })
+        });
         const q = await res.json();
         renderGeneratorQuestion(q);
       } catch (e) {
         console.error('Error generating question:', e);
+      } finally {
+        if (spinner) spinner.style.display = 'none';
+        if (btnText) btnText.innerText = '✨ Generate Question with AI';
+        btnGen.disabled = false;
       }
     });
+  }
+
+  // Quick Preset Topic Chips
+  document.querySelectorAll('.topic-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const cat = chip.getAttribute('data-cat');
+      const comp = chip.getAttribute('data-comp');
+      const top = chip.getAttribute('data-topic');
+
+      if (cat) document.getElementById('aiGenCategory').value = cat;
+      if (comp) document.getElementById('aiGenCompany').value = comp;
+      if (top) document.getElementById('aiGenTopic').value = top;
+
+      document.getElementById('btnAIGenerate')?.click();
+    });
   });
+
+  // Regenerate Button Click
+  document.getElementById('btnRegenerateAI')?.addEventListener('click', () => {
+    document.getElementById('btnAIGenerate')?.click();
+  });
+
+  // Submit Answer to Generated Question
+  const btnSubmit = document.getElementById('btnSubmitGenAnswer');
+  if (btnSubmit) {
+    btnSubmit.addEventListener('click', async () => {
+      if (!currentGeneratedQuestion || !selectedGenChoice) return;
+      btnSubmit.disabled = true;
+
+      const allBtns = document.querySelectorAll('#genOptionsGrid .option-btn');
+      allBtns.forEach(b => b.classList.add('disabled'));
+
+      try {
+        const res = await fetch('/api/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question_id: currentGeneratedQuestion.id,
+            user_choice: selectedGenChoice,
+            time_taken_sec: 12.0
+          })
+        });
+        const result = await res.json();
+
+        // Highlight options
+        allBtns.forEach(b => {
+          const k = b.querySelector('.option-key')?.innerText;
+          if (k === result.correct_answer) {
+            b.classList.add('correct');
+          } else if (k === selectedGenChoice && !result.is_correct) {
+            b.classList.add('wrong');
+          }
+        });
+
+        // Show AI Diagnostics & Solution Box
+        const expBox = document.getElementById('genExplanationBox');
+        const expHead = document.getElementById('genExpHeader');
+        const aiAssess = document.getElementById('genAIAssess');
+        const aiSpeedHack = document.getElementById('genAISpeedHack');
+        const aiTrap = document.getElementById('genAITrap');
+        const expText = document.getElementById('genExpText');
+
+        if (result.is_correct) {
+          expHead.innerHTML = `✅ Correct! (Option ${result.correct_answer})`;
+          expHead.style.color = '#22c55e';
+          streak++;
+          score += 10;
+        } else {
+          expHead.innerHTML = `❌ Incorrect! Correct Answer: Option ${result.correct_answer}`;
+          expHead.style.color = '#ef4444';
+          streak = 0;
+        }
+
+        document.getElementById('streakCount').innerText = streak;
+        document.getElementById('scoreCount').innerText = score;
+
+        const fb = result.ai_feedback || {};
+        aiAssess.innerText = fb.diagnostic_assessment || (result.is_correct ? 'Great reasoning!' : 'Review this concept.');
+        aiSpeedHack.innerText = fb.speed_hack || currentGeneratedQuestion.speed_hack || '⚡ Speed Hack: Test boundary conditions and eliminate extreme options.';
+
+        if (!result.is_correct && fb.misconception_analysis) {
+          aiTrap.style.display = 'block';
+          aiTrap.innerText = fb.misconception_analysis;
+        } else {
+          aiTrap.style.display = 'none';
+        }
+
+        expText.innerText = result.explanation || currentGeneratedQuestion.explanation || 'No step-by-step explanation available.';
+        expBox.style.display = 'block';
+
+        // Update skill profile in header
+        loadUserSkillProfile();
+      } catch (e) {
+        console.error('Error submitting answer:', e);
+      }
+    });
+  }
 }
 
 function renderGeneratorQuestion(q) {
+  currentGeneratedQuestion = q;
+  selectedGenChoice = null;
+
   const card = document.getElementById('generatorQuestionCard');
   card.style.display = 'block';
 
   document.getElementById('genBadgeCategory').innerText = (q.category || 'QUANTITATIVE').toUpperCase();
   document.getElementById('genPillTopic').innerText = q.topic || 'Algorithmic Problem';
+  document.getElementById('genPillCompany').innerText = q.company || 'TCS';
+  document.getElementById('genPillDifficulty').innerText = q.difficulty || 'Medium';
+  document.getElementById('genPillEngine').innerText = q.ai_engine || (q.source?.includes('Gemini') ? '⚡ Gemini Live' : '🧠 Cognitive Offline');
+  document.getElementById('genPillSaved').innerText = `💾 Saved to Bank (#${q.id || 'Active'})`;
+
   document.getElementById('genQText').innerText = q.question;
 
   const codeBox = document.getElementById('genCodeBox');
@@ -435,8 +707,12 @@ function renderGeneratorQuestion(q) {
 
   const grid = document.getElementById('genOptionsGrid');
   grid.innerHTML = '';
+
   const expBox = document.getElementById('genExplanationBox');
   expBox.style.display = 'none';
+
+  const btnSubmit = document.getElementById('btnSubmitGenAnswer');
+  if (btnSubmit) btnSubmit.disabled = true;
 
   ['A', 'B', 'C', 'D'].forEach(key => {
     if (q.options && q.options[key]) {
@@ -444,22 +720,17 @@ function renderGeneratorQuestion(q) {
       btn.className = 'option-btn';
       btn.innerHTML = `<span class="option-key">${key}</span><span class="option-text">${q.options[key]}</span>`;
       btn.onclick = () => {
-        if (key === q.answer) {
-          btn.classList.add('correct');
-        } else {
-          btn.classList.add('wrong');
-          // Highlight correct
-          grid.querySelectorAll('.option-btn').forEach(b => {
-            if (b.querySelector('.option-key').innerText === q.answer) b.classList.add('correct');
-          });
-        }
-        document.getElementById('genExpHeader').innerText = `Solution (Correct: Option ${q.answer})`;
-        document.getElementById('genExpText').innerText = q.explanation;
-        expBox.style.display = 'block';
+        grid.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        selectedGenChoice = key;
+        if (btnSubmit) btnSubmit.disabled = false;
       };
       grid.appendChild(btn);
     }
   });
+
+  // Smooth scroll down to generated question card
+  card.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // CODING SANDBOX

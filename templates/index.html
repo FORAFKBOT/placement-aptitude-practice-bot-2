@@ -29,7 +29,7 @@
           <span class="icon">🏆</span> Company Mock Tests
         </button>
         <button class="nav-item" data-tab="generator">
-          <span class="icon">⚡</span> Infinite Generator
+          <span class="icon">✨</span> AI Question Generator
         </button>
         <button class="nav-item" data-tab="coding">
           <span class="icon">💻</span> Coding & Pseudocode
@@ -52,8 +52,10 @@
       <header class="top-bar">
         <div class="page-title" id="pageTitle">Practice Mode</div>
         <div class="header-actions">
+          <div class="ai-tier-badge" id="headerTierBadge">🎯 AI Tier: Loading...</div>
           <div class="streak-badge">🔥 Streak: <span id="streakCount">0</span></div>
           <div class="score-badge">⭐ Score: <span id="scoreCount">0</span></div>
+          <button class="btn btn-outline" id="btnOpenAISettings" style="padding:6px 12px; font-size:12px;">⚙️ AI Settings</button>
         </div>
       </header>
 
@@ -68,6 +70,15 @@
               <option value="logical">Logical Reasoning</option>
               <option value="verbal">Verbal Ability</option>
               <option value="coding">Coding & Technical</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Difficulty:</label>
+            <select id="practiceDifficultySelect">
+              <option value="adaptive">🤖 Adaptive AI (Auto-calibrated)</option>
+              <option value="Easy">Easy (Foundations)</option>
+              <option value="Medium">Medium (Standard Cutoff)</option>
+              <option value="Hard">Hard (High Package / Digital)</option>
             </select>
           </div>
           <div class="filter-group">
@@ -92,6 +103,8 @@
             <span class="badge" id="qBadgeCategory">QUANTITATIVE</span>
             <span class="pill" id="qPillTopic">Speed, Time & Distance</span>
             <span class="pill pill-company" id="qPillCompany">TCS</span>
+            <span class="pill pill-diff" id="qPillDifficulty">Medium</span>
+            <span class="pill pill-ai" id="qPillAITier" style="display:none;">🤖 AI Level 3</span>
             <div class="timer-box">⏱️ <span id="questionTimer">0.0s</span></div>
           </div>
 
@@ -107,9 +120,34 @@
             <!-- Dynamically injected options -->
           </div>
 
-          <!-- Solution & Explanation Panel -->
+          <!-- Solution & AI Tutor Feedback Panel -->
           <div class="explanation-box" id="explanationBox" style="display:none;">
             <div class="exp-header" id="expHeader">Correct Answer: Option A</div>
+
+            <!-- AI Tutor Diagnostic Card -->
+            <div class="ai-tutor-card" id="aiTutorCard">
+              <div class="ai-card-title">
+                <span class="ai-icon">🤖</span>
+                <span id="aiTutorSource">AI Tutor Diagnostic Feedback</span>
+                <span class="rating-delta-pill" id="aiRatingDeltaPill">+0 Elo</span>
+              </div>
+              <div class="ai-card-body">
+                <div class="ai-diag-item" id="aiDiagnosisRow">
+                  <strong>Diagnostic Assessment:</strong> <span id="aiDiagnosisText"></span>
+                </div>
+                <div class="ai-diag-item ai-trap" id="aiTrapRow" style="display:none;">
+                  <strong>⚠️ Placement Trap / Misconception:</strong> <span id="aiTrapText"></span>
+                </div>
+                <div class="ai-diag-item ai-hack" id="aiHackRow">
+                  <span id="aiHackText"></span>
+                </div>
+                <div class="ai-diag-item ai-coaching" id="aiCoachingRow">
+                  <strong>💡 Coaching Advice:</strong> <span id="aiCoachingText"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="std-sol-title">Standard Step-by-Step Solution:</div>
             <div class="exp-body" id="expText">Explanation steps...</div>
           </div>
         </div>
@@ -258,33 +296,119 @@
         </div>
       </section>
 
-      <!-- TAB 3: INFINITE GENERATOR -->
+      <!-- TAB 3: AI QUESTION GENERATOR -->
       <section id="tab-generator" class="tab-panel">
         <div class="section-heading">
-          <h3>⚡ Infinite Dynamic Question Generator</h3>
-          <p>Procedurally generates algorithmic problems with computed mathematical solutions and step-by-step reasoning.</p>
+          <h3>✨ AI Question Generator Studio</h3>
+          <p>Generate infinite custom placement problems calibrated to TCS, Infosys, Accenture, Cognizant, and Wipro exam standards. Powered by Gemini LLM & Cognitive Heuristics.</p>
         </div>
 
-        <div class="generator-controls">
-          <button class="btn btn-accent" data-gencat="quantitative">📐 Generate Math / Quant Problem</button>
-          <button class="btn btn-accent" data-gencat="logical">🧩 Generate Logical Reasoning</button>
-          <button class="btn btn-accent" data-gencat="verbal">📖 Generate Verbal / Vocab</button>
-          <button class="btn btn-accent" data-gencat="coding">💻 Generate Code Output Problem</button>
+        <!-- AI Generator Studio Controls Card -->
+        <div class="ai-gen-studio-card">
+          <div class="gen-form-grid">
+            <div class="gen-form-field">
+              <label for="aiGenCategory">Domain / Category:</label>
+              <select id="aiGenCategory">
+                <option value="quantitative">Quantitative Aptitude</option>
+                <option value="logical">Logical Reasoning</option>
+                <option value="verbal">Verbal Ability</option>
+                <option value="coding">Coding & Technical</option>
+              </select>
+            </div>
+
+            <div class="gen-form-field">
+              <label for="aiGenCompany">Company Pattern:</label>
+              <select id="aiGenCompany">
+                <option value="TCS">TCS NQT (Numerical & Code)</option>
+                <option value="Infosys">Infosys (Puzzles & Logic)</option>
+                <option value="Accenture">Accenture (Critical Reasoning)</option>
+                <option value="Cognizant">Cognizant (Automata & Speed)</option>
+                <option value="Capgemini">Capgemini (Inductive Logic)</option>
+                <option value="Wipro">Wipro (NLTH / Elite)</option>
+                <option value="General">General Campus Placement</option>
+              </select>
+            </div>
+
+            <div class="gen-form-field">
+              <label for="aiGenDifficulty">Difficulty Level:</label>
+              <select id="aiGenDifficulty">
+                <option value="Medium">Medium (Standard Cutoff)</option>
+                <option value="Easy">Easy (Foundations)</option>
+                <option value="Hard">Hard (High Package / Digital)</option>
+              </select>
+            </div>
+
+            <div class="gen-form-field">
+              <label for="aiGenTopic">Topic Focus (Optional):</label>
+              <input type="text" id="aiGenTopic" placeholder="e.g. mixture, recursion, pointers, clocks..." />
+            </div>
+          </div>
+
+          <div class="gen-custom-prompt-row">
+            <label for="aiGenPrompt">Custom AI Prompt Directive (Optional):</label>
+            <input type="text" id="aiGenPrompt" placeholder="e.g. Include a C program with post-increment pointer traps or tricky compound interest" />
+          </div>
+
+          <!-- Quick Topic Chips -->
+          <div class="quick-chips-wrapper">
+            <span class="chips-label">⚡ Quick Presets:</span>
+            <div class="chips-list">
+              <button class="topic-chip" data-cat="quantitative" data-comp="TCS" data-topic="mixture">☕ Mixtures & Alligations</button>
+              <button class="topic-chip" data-cat="quantitative" data-comp="Infosys" data-topic="boat">⛵ Boats & Streams</button>
+              <button class="topic-chip" data-cat="logical" data-comp="Accenture" data-topic="clock">⏰ Clocks & Angles</button>
+              <button class="topic-chip" data-cat="quantitative" data-comp="TCS" data-topic="lcm">🔢 LCM & Remainders</button>
+              <button class="topic-chip" data-cat="coding" data-comp="TCS" data-topic="bit">⚡ Bitwise Tricks</button>
+              <button class="topic-chip" data-cat="coding" data-comp="Infosys" data-topic="recursion">🔄 Recursion Stack</button>
+              <button class="topic-chip" data-cat="coding" data-comp="Capgemini" data-topic="pointer">🎯 C Pointers</button>
+              <button class="topic-chip" data-cat="logical" data-comp="Cognizant" data-topic="seating">🪑 Seating Arrangement</button>
+              <button class="topic-chip" data-cat="verbal" data-comp="Accenture" data-topic="idiom">💡 Idioms & Phrases</button>
+            </div>
+          </div>
+
+          <div class="gen-actions-bar">
+            <div class="ai-engine-indicator" id="genEngineStatus">
+              <span class="dot live"></span> AI Mode: <strong id="genEngineName">Cognitive Heuristics (Offline)</strong>
+            </div>
+            <button class="btn btn-primary" id="btnAIGenerate">
+              <span id="genBtnSpinner" style="display:none;">⏳</span>
+              <span id="genBtnText">✨ Generate Question with AI</span>
+            </button>
+          </div>
         </div>
 
-        <div class="question-container" id="generatorQuestionCard" style="display:none; margin-top:20px;">
+        <!-- Generated Question Card -->
+        <div class="question-container" id="generatorQuestionCard" style="display:none; margin-top:24px;">
           <div class="question-meta-bar">
             <span class="badge" id="genBadgeCategory">QUANTITATIVE</span>
             <span class="pill" id="genPillTopic">Dynamic Formula</span>
-            <span class="pill pill-company">Algorithmic Generator</span>
+            <span class="pill pill-company" id="genPillCompany">TCS</span>
+            <span class="pill pill-diff" id="genPillDifficulty">Medium</span>
+            <span class="pill pill-ai" id="genPillEngine">AI Engine</span>
+            <span class="pill" id="genPillSaved" style="background:rgba(16,185,129,0.15); color:#10b981;">💾 Saved to Bank</span>
           </div>
+
           <div class="question-text" id="genQText"></div>
+
           <div class="code-box" id="genCodeBox" style="display:none;">
             <pre><code id="genCodeText"></code></pre>
           </div>
+
           <div class="options-grid" id="genOptionsGrid"></div>
-          <div class="explanation-box" id="genExplanationBox" style="display:none;">
-            <div class="exp-header" id="genExpHeader">Solution</div>
+
+          <div class="gen-card-actions" style="margin-top:20px; display:flex; gap:12px;">
+            <button class="btn btn-primary" id="btnSubmitGenAnswer" disabled>Submit Answer</button>
+            <button class="btn btn-outline" id="btnRegenerateAI">✨ Generate Another</button>
+          </div>
+
+          <!-- AI Diagnostic & Solution Area (shown upon answer submission) -->
+          <div class="explanation-box" id="genExplanationBox" style="display:none; margin-top:20px;">
+            <div class="exp-header" id="genExpHeader">Solution & AI Assessment</div>
+            <div class="ai-diag-card" id="genAIDiagCard" style="margin-bottom:14px;">
+              <div class="ai-diag-item ai-assessment" id="genAIAssess"></div>
+              <div class="ai-diag-item ai-hack" id="genAISpeedHack"></div>
+              <div class="ai-diag-item ai-trap" id="genAITrap" style="display:none;"></div>
+            </div>
+            <div class="std-sol-title">Step-by-Step Mathematical Explanation:</div>
             <div class="exp-body" id="genExpText"></div>
           </div>
         </div>
@@ -358,6 +482,32 @@
         </div>
       </section>
     </main>
+  </div>
+
+  <!-- AI Settings Modal -->
+  <div class="modal-overlay" id="aiSettingsModal" style="display:none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>⚙️ AI Tutor & Difficulty Settings</h3>
+        <button class="modal-close" id="btnCloseAISettings">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:13px; color:#94a3b8; margin-bottom:16px;">
+          By default, the <strong>Built-in Cognitive AI Engine</strong> operates completely offline with instant distractor analysis, dynamic difficulty adjustment, and placement speed hacks.
+        </p>
+        <div class="form-group" style="margin-bottom:16px;">
+          <label style="font-size:13px; font-weight:600; display:block; margin-bottom:6px;">
+            Optional: Google Gemini API Key (Live Generative AI):
+          </label>
+          <input type="password" id="geminiApiKeyInput" placeholder="AIzaSy..." style="width:100%; padding:10px; background:#0f172a; border:1px solid #334155; border-radius:6px; color:#fff; font-size:13px;">
+          <span style="font-size:11px; color:#64748b; margin-top:4px; display:block;">
+            Leave blank to use the built-in offline Cognitive AI Diagnosis Engine.
+          </span>
+        </div>
+        <div id="apiKeyStatusMsg" style="font-size:12px; margin-bottom:12px;"></div>
+        <button class="btn btn-primary" id="btnSaveApiKey" style="width:100%;">Save AI Settings</button>
+      </div>
+    </div>
   </div>
 
   <script src="/static/app.js"></script>

@@ -129,5 +129,97 @@ class TestPlacementAptitudeBot(unittest.TestCase):
         self.assertIn('category_stats', stats)
         print(f"[PASS] Performance Analytics: {stats['total_attempts']} attempts, Accuracy: {stats['overall_accuracy']}%")
 
+    def test_07_adaptive_difficulty_engine(self):
+        """Verifies Adaptive AI cognitive skill modeling and rating adjustments."""
+        import uuid
+        from adaptive import AdaptiveDifficultyEngine
+        fresh_user = f"test_ai_user_{uuid.uuid4().hex[:8]}"
+        prof = AdaptiveDifficultyEngine.get_profile(fresh_user)
+        self.assertEqual(prof['overall_rating'], 1250.0)
+
+        # Correct answer on Medium should increase rating
+        up1 = AdaptiveDifficultyEngine.update_rating("quantitative", "Medium", True, 12.0, fresh_user)
+        self.assertGreater(up1['new_rating'], up1['old_rating'])
+        self.assertGreater(up1['rating_delta'], 0)
+
+        # Wrong answer on Easy should decrease rating
+        up2 = AdaptiveDifficultyEngine.update_rating("quantitative", "Easy", False, 2.0, fresh_user)
+        self.assertLess(up2['new_rating'], up2['old_rating'])
+        self.assertLess(up2['rating_delta'], 0)
+
+        # Recommended difficulty check
+        rec_diff, tier = AdaptiveDifficultyEngine.get_recommended_difficulty("quantitative", fresh_user)
+        self.assertIn(rec_diff, ["Easy", "Medium", "Hard"])
+        self.assertIn("name", tier)
+        print(f"[PASS] Adaptive Difficulty Engine: Elo rating updates and {rec_diff} recommendation verified")
+
+    def test_08_ai_tutor_feedback(self):
+        """Verifies personalized AI Tutor diagnostic feedback, distractor analysis and speed hacks."""
+        from ai_tutor import AITutor
+        dummy_q = {
+            'category': 'quantitative',
+            'topic': 'Speed, Time & Distance',
+            'question': 'A train of length 200m travels at 72 km/hr...',
+            'options': {'A': '10s', 'B': '15s', 'C': '20s', 'D': '25s'},
+            'answer': 'A',
+            'explanation': 'Time = 200 / (72 * 5/18) = 10s.'
+        }
+        # Incorrect selection
+        fb_wrong = AITutor.generate_personalized_feedback(dummy_q, 'C', False, 4.5)
+        self.assertIn('diagnostic_assessment', fb_wrong)
+        self.assertIn('misconception_analysis', fb_wrong)
+        self.assertIn('speed_hack', fb_wrong)
+        self.assertIn('⚡', fb_wrong['speed_hack'])
+
+        # Correct selection
+        fb_corr = AITutor.generate_personalized_feedback(dummy_q, 'A', True, 8.2)
+        self.assertTrue(fb_corr['is_correct'])
+        self.assertIn('coaching_tip', fb_corr)
+        print("[PASS] AI Tutor Feedback: Cognitive diagnosis, misconception traps and speed hacks verified")
+
+    def test_09_ai_question_generator(self):
+        """Verifies AI Question Generator across categories, company patterns, topics, and database persistence."""
+        from ai_generator import AIQuestionGenerator
+
+        # 1. Test all 4 domain categories
+        for cat in ['quantitative', 'logical', 'verbal', 'coding']:
+            q = AIQuestionGenerator.generate(category=cat, company="TCS", difficulty="Medium")
+            self.assertIsNotNone(q)
+            self.assertEqual(q['category'].lower(), cat)
+            self.assertIn(q['answer'], ['A', 'B', 'C', 'D'])
+            self.assertEqual(len(q['options']), 4)
+            self.assertIn('speed_hack', q)
+            self.assertIn('explanation', q)
+            self.assertTrue(len(q['question']) > 5)
+
+        # 2. Test specialized topics (mixtures, boats, clocks, recursion, bitwise, pointers, seating, idioms)
+        specialized_topics = [
+            ('quantitative', 'mixture'),
+            ('quantitative', 'boat'),
+            ('logical', 'clock'),
+            ('coding', 'bit'),
+            ('coding', 'recursion'),
+            ('coding', 'pointer'),
+            ('logical', 'seating'),
+            ('verbal', 'idiom')
+        ]
+        for cat, top in specialized_topics:
+            q = AIQuestionGenerator.generate(category=cat, company="Infosys", difficulty="Hard", topic=top)
+            self.assertIn(q['answer'], ['A', 'B', 'C', 'D'])
+            self.assertEqual(len(q['options']), 4)
+
+        # 3. Test database persistence
+        q_saved = AIQuestionGenerator.generate(category="coding", company="TCS", difficulty="Medium", save_to_db=True)
+        self.assertIn('id', q_saved)
+        self.assertIsInstance(q_saved['id'], int)
+        self.assertGreater(q_saved['id'], 0)
+
+        # Verify it can be retrieved from DB
+        from database import get_question_by_id
+        fetched = get_question_by_id(q_saved['id'])
+        self.assertIsNotNone(fetched)
+        self.assertEqual(fetched['question'], q_saved['question'])
+        print("[PASS] AI Question Generator: 4 categories, company styles, 8 specialized topics & DB persistence verified")
+
 if __name__ == '__main__':
     unittest.main()
