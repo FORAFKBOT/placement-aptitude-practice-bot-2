@@ -1,0 +1,4762 @@
+[
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A certain number of men take 45 days to complete work. If there are 10 men less\n \nthen they will take 60 days to complete the work. Find the original number of men.",
+    "code_snippet": "",
+    "options": {
+      "A": "50",
+      "B": "60",
+      "C": "30",
+      "D": "40"
+    },
+    "answer": "D",
+    "explanation": "Let us assume initially there are X men. Then x*45 = (x-10)*60. So we get x = 40",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "5 men and 10 boys can do a piece of work in 30 days and 8 men and 12 boys can do\n \nthe work in 20 days then the ratio of daily work done by a man to that of a boy.",
+    "code_snippet": "",
+    "options": {
+      "A": "5:1",
+      "B": "4:5",
+      "C": "6:1",
+      "D": "7:3"
+    },
+    "answer": "C",
+    "explanation": "Given that, 5m + 10b = 1/30 and 8m + 12b = 1/20\n \nafter solving we get m = 1/200 and b = 1/1200\n \nso required ratio = (1/200) : (1/1200) = 6:1",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "4 women and 5 men working together can do 3 times the work done by 2 women\n \nand one man together. Calculate the work of a man to that of a woman.",
+    "code_snippet": "",
+    "options": {
+      "A": "1:1",
+      "B": "3:2",
+      "C": "1:2",
+      "D": "2:1"
+    },
+    "answer": "A",
+    "explanation": "Given\n \n4w + 5m = 3*(2w + m)\n \ni.e. 2w = 2m\n \nso the ratio of work done by man to woman is 1:1\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Manoj can do a work in 20 days, while Chandu can do the same work in 25 days.\n \nThey started the work jointly. A few days later Suresh also joined them and thus all of\n \nthem completed the whole work in 10 days. All of them were paid total Rs.1000. What\n \nis the share of Suresh?",
+    "code_snippet": "",
+    "options": {
+      "A": "100",
+      "B": "300",
+      "C": "200",
+      "D": "400"
+    },
+    "answer": "A",
+    "explanation": "Efficiency of Manoj = 5%\n \nThe efficiency of Chandu = 4%\n \nThey will complete only 90% of the work = [(5+4)*10] =90\n \nRemaining work was done by Suresh = 10%.\n \nShare of Suresh = 10/100 * 1000 = 100",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Nagarjuna lends Rs 30,000 of two of his friends. He gives Rs 15,000 to the first at\n \n6% p.a. simple interest. He wants to make a profit of 10% on the whole. The simple\n \ninterest rate at which he should lend the remaining sum of money to the second friend\n \nis",
+    "code_snippet": "",
+    "options": {
+      "A": "8%",
+      "B": "12%",
+      "C": "14%",
+      "D": "16%"
+    },
+    "answer": "C",
+    "explanation": "Simple Interest on Rs 15000\n \n=(15000×6×1)/100 = Rs. 900\n \nProfit to made on Rs 30000\n \n= 30000×10/100=Rs 3000\n \nSimple Interest on Rs.15000 = 3000-900 = Rs.2100\n \nRate=(S.I.* 100)/(P * T)=(2100×100)/15000\n \n=14% per annum\n \nTherefore, the simple interest rate at which he should lend the remaining sum of money to\n \nthe second friend is 14%\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A portion of $6600 is invested at a 5% annual return, while the remainder is invested\n \nat a 3% annual return. If the annual income from the portion earning a 5% return is\n \ntwice that of the other portion, what is the total income from the two investments after\n \none year?",
+    "code_snippet": "",
+    "options": {
+      "A": "270",
+      "B": "250",
+      "C": "280",
+      "D": "200"
+    },
+    "answer": "A",
+    "explanation": "According to the given data\n \n5x + 3y = z (total)\n \nx + y = 6600\n \n5x= 2(3y) [ condition given] 5x – 6y = 0\n \nx + y = 6600\n \n5x -6y = 0\n \nSubtract both equations and you get x = 3600 so y = 3000\n \n3600*.05 = 180\n \n3000*.03 = 90\n \nz (total) = 270\n \nTherefore, the total income from the two investments after one year = 270",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "While calculating the weight of a group of men, the weight of 63 kg of one of the\n \nmember was mistakenly written as 83 kg. Due to this the average of the weights\n \nincreased by half kg. What is the number of men in the group?",
+    "code_snippet": "",
+    "options": {
+      "A": "25",
+      "B": "20",
+      "C": "40",
+      "D": "60"
+    },
+    "answer": "C",
+    "explanation": "Increase in marks lead to an increase in average by 1/2\n \nSo (83-63) = x/2\n \nx = 40\n \nTherefore, the number of men in the group are 40\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "In a group of 8 boys, 2 men aged at 21 and 23 were replaced, two new boys. Due to\n \nthis the average cost of the group increased by 2 years. What is the average age of\n \nthe 2 new boys?",
+    "code_snippet": "",
+    "options": {
+      "A": "17",
+      "B": "30",
+      "C": "28",
+      "D": "23"
+    },
+    "answer": "B",
+    "explanation": "According to the given data\n \nAverage of 8 boys increased by 2, this means the total age of boys increased by 8*2 = 16\n \nyrs\n \nSo sum of ages of two new boys = 21+23+16 = 60\n \nAverage of these = 60/2 = 30",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "A Boat takes total 16 hours for traveling downstream from point A to point B and\n \ncoming back point C which is somewhere between A and B. If the speed of the Boat in\n \nStill water is 9 Km/hr and the rate of stream is 6 Km/hr, then what is the distance\n \nbetween A and C?",
+    "code_snippet": "",
+    "options": {
+      "A": "60 Km",
+      "B": "90 Km",
+      "C": "30 Km",
+      "D": "Cannot be determined"
+    },
+    "answer": "D",
+    "explanation": "16 = D/9+6 + x/9-6",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "A Boat going upstream takes 8 hours 24 minutes to cover a certain distance, while\n \nit takes 5 hours to cover 5/7 of the same distance running downstream. Then what is\n \nthe ratio of the speed of boat to speed of water current?",
+    "code_snippet": "",
+    "options": {
+      "A": "11:5",
+      "B": "11:6",
+      "C": "11:1",
+      "D": "6:5\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation"
+    },
+    "answer": "C",
+    "explanation": "Answer –\n\n C. 11:1\n \nExplanation:\n \n(S-R)*42/5 = (S+R)*7\n \nS:R = 11:1",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "A Boat takes 128 min less to travel to 48 Km downstream than to travel the same\n \ndistance upstream. If the speed of the stream is 3 Km/hr. Then Speed of Boat in still\n \nwater is?",
+    "code_snippet": "",
+    "options": {
+      "A": "12 Km/hr",
+      "B": "15 Km/hr",
+      "C": "6 Km/hr",
+      "D": "9 Km/hr"
+    },
+    "answer": "A",
+    "explanation": "32/15 = 48(1/s-3 – 1/s+3)\n \ns= 12\n \nTherefore, Speed of Boat in still water is 12 Km/hr.",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "An alloy contains Brass, Iron, and Zinc in the ratio 2:3:1 and another contains Iron,\n \nzinc, and lead in the ratio 5:4:3. If equal weights of both alloys are melted together to\n \nform a third alloy, then what will be the weight of lead per kg in new alloy?",
+    "code_snippet": "",
+    "options": {
+      "A": "1/4",
+      "B": "41/7",
+      "C": "1/8",
+      "D": "51/9"
+    },
+    "answer": "C",
+    "explanation": "Shortcut:\n \nIn the first alloy,\n \n2:3:1 =6*2\n \n5:4:3 =12\n \nMultiply 2 to make it equal,\n \n4:6:2\n \n5:4:3\n \nAdding all,\n \n4:11:6:3=24\n \n3/24=1/8\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "A milkman mixes 6 liters of free tap water with 20litres of pure milk. If the cost of\n \npure milk is Rs.28 per liter the % Profit of the milkman when he sells all the mixture at\n \nthe cost price is",
+    "code_snippet": "",
+    "options": {
+      "A": "30%",
+      "B": "16(1/3)%",
+      "C": "25%",
+      "D": "16.5%"
+    },
+    "answer": "A",
+    "explanation": "Profit=28*6=728\n \nCp=28*20=560\n \nProfit = 168*100/560=30%",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "144 liters of the mixture contains milk and water in the ratio 5: 7. How much milk\n \nneeds to be added to this mixture so that the new ratio is 23: 21 respectively?",
+    "code_snippet": "",
+    "options": {
+      "A": "40 liters",
+      "B": "28 liters",
+      "C": "32 liters",
+      "D": "36 liters"
+    },
+    "answer": "C",
+    "explanation": "144 == 5:7\n \n60: 84\n \nNow == 21 = 84\n \n23 = 92\n \n92-60 = 32",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "A shopkeeper bought 30kg of rice at Rs.75 per kg and 20 kg of rice the rate of\n \nRs.70. per kg.If he mixed the two brand of rice and sold the mixture at Rs.80 per kg.\n \nFind his gain",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs.350",
+      "B": "Rs.550",
+      "C": "Rs.420",
+      "D": "Rs.210"
+    },
+    "answer": "A",
+    "explanation": "Explanation:\n \nCP = 30*75 + 20*70 = 2250 + 1400\n \n= 3650\n \nSP =80*(30+20) = 4000\n \nHence, Gain = 4000-3650 = 350",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Cost price of 80 notebooks is equal to the selling price of 65 notebooks. The gain\n \nor loss % is",
+    "code_snippet": "",
+    "options": {
+      "A": "32%",
+      "B": "42%",
+      "C": "27%",
+      "D": "23%"
+    },
+    "answer": "D",
+    "explanation": "% = [80 – 65/65]*100\n \n= 15*100/65 = 1500/65\n \n= 23.07 = 23% profit\n \nTherefore, the gain percentage is 23%.",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "Eight years ago, Pranathi's age was equal to the sum of the present ages of her\n \none son and one daughter. Five years hence, the respective ratio between the ages of\n \nher daughter and her son that time will be 7:6. If Pranathi's husband is 7 years elder to\n \nher and his present age is three times the present age of their son, what is the present\n \nage of the daughter?",
+    "code_snippet": "",
+    "options": {
+      "A": "19 years",
+      "B": "27 years",
+      "C": "15 years",
+      "D": "23 years"
+    },
+    "answer": "D",
+    "explanation": "P – 8 = S + D —(1)\n \n6D + 30 = 7S + 35 —(2)\n \nH = 7 + P\n \nH = 3S\n \n3S = 7 + P —-(3)\n \nSolving equation (1),(2) and (3) D = 23\n \nTherefore, the present age of the daughter is 23 years\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "Shas married 8 year ago. Today her age is 9/7 times to that time of marriage. At\n \npresent his son's age is 1/6th of her age. What was her son's age 3 year ago?",
+    "code_snippet": "",
+    "options": {
+      "A": "4 yr",
+      "B": "2 yr",
+      "C": "3 yr",
+      "D": "5 yr"
+    },
+    "answer": "B",
+    "explanation": "Let us assume that Sravan's age 8 year ago = x\n \nPresent age = x + 8\n \nx + 8 = 9/7 x\n \n7(x + 8)= 9x\n \nx = 28; 28 + 8 = 36\n \nSon's age = 1/6 * 36 = 6\n \nSon's age 4 year ago = 6-4 =2",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "The respective ratio between the present age of Mani and Dheeraj is x : 42. Mani is\n \n8 years younger than Murali. Murali's age after 8 years will be 33 years. The difference\n \nbetween Dheeraj's and Mani's age is same as the present age of Murali. What is the\n \nvalue of x?",
+    "code_snippet": "",
+    "options": {
+      "A": "18",
+      "B": "10",
+      "C": "16",
+      "D": "17"
+    },
+    "answer": "D",
+    "explanation": "Murali's age after 8 years = 33 years\n \nMurali's present age = 33 – 8= 25 years\n \nMani's present age = 25 – 8 = 17 years\n \nDheeraj's present age = 17 + 25 = 42 years\n \nRatio between Mani and Dheeraj = 17: 42\n \nX = 17",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Revanth's present age is three times his son's present age and 4/5th of his father's\n \npresent age. The average of the present ages of all of them is 62 years. What is the\n \ndifference between the Revanth's son's present age and Revanth's father's present\n \nage?\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation",
+    "code_snippet": "",
+    "options": {
+      "A": "64 years",
+      "B": "69 years",
+      "C": "66 years",
+      "D": "62 years"
+    },
+    "answer": "C",
+    "explanation": "A. 64 years\n \nB. 69 years\n \nC. 66 years\n \nD. 62 years\n \n \nAnswer –\n\n C. 66 years\n \nExplanation:\n \nPresent age of Revanth is = 4/5x\n \nPresent age of Revanth's father is = 4/15x\n \nRatio = 15: 12 : 4\n \nDifference between the Revanth's son's present age and Revanth's father's present age =\n \n62/31 * 3(15 – 4).\n \n= 2*3*11 = 66 years.",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Percentages",
+    "difficulty": "Medium",
+    "question": "36% of 945 – 26% of 765 + 17.7 =?",
+    "code_snippet": "",
+    "options": {
+      "A": "167",
+      "B": "187",
+      "C": "159",
+      "D": "143"
+    },
+    "answer": "C",
+    "explanation": "",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "√(456÷12+142-11) =?",
+    "code_snippet": "",
+    "options": {
+      "A": "11",
+      "B": "169",
+      "C": "23",
+      "D": "13"
+    },
+    "answer": "D",
+    "explanation": "38+142-11 = 169 = 13*13",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "1(1/5) of 1(1/2) of ? = 216",
+    "code_snippet": "",
+    "options": {
+      "A": "100",
+      "B": "125",
+      "C": "140",
+      "D": "120\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n\n Accenture Aptitude Questions and Answers with Explanation"
+    },
+    "answer": "D",
+    "explanation": "Answer –\n\n D. 120\n \n \nExplanation:\n \n6/5*3/2 *x = 216\n \nX = 216*2*5/6*3 = 2160/18 = 120",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "15 32 60 122 240 ?",
+    "code_snippet": "",
+    "options": {
+      "A": "488",
+      "B": "482",
+      "C": "364",
+      "D": "362"
+    },
+    "answer": "B",
+    "explanation": "15 * 2 + 2 = 32\n \n32 * 2 – 4 = 60\n \n60 * 2 + 2 = 122; 122 * 2 – 4 = 240\n \nThen 240*2 + 2 = 482",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "18 10 8 9 11.5 ?",
+    "code_snippet": "",
+    "options": {
+      "A": "10.75",
+      "B": "18.75",
+      "C": "19.75",
+      "D": "14.75"
+    },
+    "answer": "D",
+    "explanation": "18 / 2 + 1 = 10\n \n10 / 2 + 3 = 8\n \n8 / 2 + 5 = 9\n \n9 / 2 + 7 = 11.5",
+    "source": "Accenture-Aptitude.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Chess",
+      "B": "Badminton",
+      "C": "Cricket",
+      "D": "Volleyball"
+    },
+    "answer": "A",
+    "explanation": "Remaining games are played in the field",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Win",
+      "B": "Compete",
+      "C": "Triumph",
+      "D": "Victory"
+    },
+    "answer": "B",
+    "explanation": "Remaining words give the same meaning",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Jackal",
+      "B": "Horse",
+      "C": "Cat",
+      "D": "Dog"
+    },
+    "answer": "B",
+    "explanation": "Horse alone omnivores",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "YB",
+      "B": "AD\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation",
+      "C": "IK",
+      "D": "MP"
+    },
+    "answer": "C",
+    "explanation": "C. IK\n \nD. MP\n \nE. WZ\n \n \nAnswer –\n\n C. IK\n \nExplanation:\n\n Remaining pairs have 2 letters between them",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "BCDF",
+      "B": "KJNL",
+      "C": "RSTU",
+      "D": "WXYZ"
+    },
+    "answer": "C",
+    "explanation": "Remaining are contained only consonants",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Avoid",
+      "B": "Obstruct",
+      "C": "Block",
+      "D": "Hamper"
+    },
+    "answer": "A",
+    "explanation": "Remaining words give the same meaning",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Arvind Kejriwal",
+      "B": "Siddaramaiah",
+      "C": "Draupadi Murmu",
+      "D": "Mukul Sangma"
+    },
+    "answer": "C",
+    "explanation": "Explanation:\n \nDraupadi Murmu is governor of Jharkhand remaining all are CM 's",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Wheat",
+      "B": "Corn",
+      "C": "Millet",
+      "D": "Jowar"
+    },
+    "answer": "E",
+    "explanation": "Cotton is a fiber crop, remaining are food crops",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Sparrow",
+      "B": "Parrot",
+      "C": "Swan",
+      "D": "Koel"
+    },
+    "answer": "C",
+    "explanation": "Only Swan is the water bird",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Manure",
+      "B": "Ammonia",
+      "C": "Urea",
+      "D": "Potash"
+    },
+    "answer": "E",
+    "explanation": "All except Nitrogen are used as fertilizers\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statements:\n \n \nI.\n\n The bank decided to give advances to the priority sector at the rate of interest at par with\n \nthe corporate sector.\n \nII.\n\n The percentage of bad loans given by the banks to the priority sector is very low\n \ncompared to the corporate sector.",
+    "code_snippet": "",
+    "options": {
+      "A": "I is the cause and II is its effect.",
+      "B": "II is the cause and I is its effect.",
+      "C": "Both I and II are independent causes.",
+      "D": "Both I and II are effects of independent causes."
+    },
+    "answer": "D",
+    "explanation": "The bank can change its policy with the priority sector due to a change in the government\n \npolicy. Thus, it is an effect. But the same cause cannot be the reason for the percentage of\n \nbad loans being less for the priority sector.",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statements:\n \n \nI.\n\n Many seats in the private medical colleges in the state have remained vacant this year.\n \nII.\n\n The government medical colleges in the state could accommodate all the students who\n \nsought admission this year.",
+    "code_snippet": "",
+    "options": {
+      "A": "I is the cause and II is its effect.",
+      "B": "II is the cause and I is its effect.",
+      "C": "Both I and II are effects of independent causes.",
+      "D": "Both I and II are effects of some common causes."
+    },
+    "answer": "B",
+    "explanation": "Statement II is the cause and statement I is its effect. As the government medical college\n \ncould accommodate all students who applied to it (and most medical students prefer\n \ngovernment colleges which are less expensive), many seats in the private medical colleges\n \nin the state have remained vacant.",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statements:\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation\n \n \n \nI.\n\n The Ganges river is flooded due to large sheets of ice coming down from the Himalayas.\n \nII.\n\n Many people in the Himalayan ranges lost their houses under huge sheets of ice.",
+    "code_snippet": "",
+    "options": {
+      "A": "I is the cause and II is its effect.",
+      "B": "II is the cause and I is its effect.",
+      "C": "Both I and II are effects of some common causes.",
+      "D": "Both I and II are independent causes."
+    },
+    "answer": "C",
+    "explanation": "I.\n\n The Ganges river is flooded due to large sheets of ice coming down from the Himalayas.\n \nII.\n\n Many people in the Himalayan ranges lost their houses under huge sheets of ice.\n \n \nA. I is the cause and II is its effect.\n \nB. II is the cause and I is its effect.\n \nC. Both I and II are effects of some common causes.\n \nD. Both I and II are independent causes.\n \nE. Both I and II are effects of independent causes.\n \n \nAnswer –\n\n C. Both I and II are effects of some common causes.\n \nExplanation:\n \nBoth statements are the effects of some common cause. In this case, the cause is 'melting'\n \nor 'sliding down of ice' from the Himalayan mountain ranges. Some common climatic cause\n \nis associated with the occurrence and hence the effects have been manifested in the\n \nfollowing way.",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "In a class of 20 students, Shreya is 5 from the top and Annie is 7 ranks below\n \nShreya. Find Annie's rank from the bottom.",
+    "code_snippet": "",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "D",
+    "explanation": "Annie is 12 ranks from top, so from bottom = 20-12 + 1 = 9",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "Rita is sitting 5th from the left end of the row and Sita is 11th to the right of Rita\n \nwith Tina being 4th to left of Sita. Madhuri is 8th to the right of Tina. What is the total\n \nnumber of students in the row if Madhuri is sitting at the extreme end?",
+    "code_snippet": "",
+    "options": {
+      "A": "20",
+      "B": "28",
+      "C": "23",
+      "D": "33"
+    },
+    "answer": "A",
+    "explanation": "Explanation:\n \nRita is 5th from left, Sita 11th to the right of Rita, so 16th from the left end, Tina is 4th to left\n \nof Sita so Tina is 12th from the left end. Now Madhuri is 8th to the right of Tina, this means\n \n20th from left, so 20 students",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "Karuna is sitting 25th from the left end and Preeti is sitting 26th from the right end.\n \nPreeti is at 20th to the left of Karuna. What is the total number of students sitting in\n \nthe row?",
+    "code_snippet": "",
+    "options": {
+      "A": "21",
+      "B": "32",
+      "C": "26",
+      "D": "28"
+    },
+    "answer": "E",
+    "explanation": "Karuna is 25th from the left end and Preeti is 20th to left of Karuna so Preeti is 5th from the\n \nleft end and given 26th from the right end, so total = (5+26) – 1 = 30",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "In a row of 30 children, A is 11th from the right end of row. If there are 4 children\n \nbetween A and B, What is the position of B from the left end of the row?",
+    "code_snippet": "",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "4",
+      "D": "6"
+    },
+    "answer": "E",
+    "explanation": "Since it is not given that B is left of A or right of A, cant is determined.",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "Prerna is 5th from the left end and Charu is 4th from the right of the row. Charu\n \ninterchanges her position with the one who is sitting 3rd to the right of Prerna and\n \nnow Charu is 10th from the right end. How many children are there in the row?",
+    "code_snippet": "",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "15",
+      "D": "17\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation"
+    },
+    "answer": "D",
+    "explanation": "E. 16\n \n \nAnswer -\n\n D. 17\n \nExplanation:\n \nLet A is 3rd to the right of Prerna, so Charu comes to his place so now charge is (5+3) = 8th\n \n \nfrom the left end and also she is 10th from the right end, so in total (8+10)-1 = 17",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Judge: Court:: Doctor:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Municipality",
+      "B": "Hospital",
+      "C": "Tehsil",
+      "D": "Factory"
+    },
+    "answer": "B",
+    "explanation": "The judge sits in court similarly doctor sits in a hospital",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Carbon dioxide: Extinguish:: Oxygen:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Foam",
+      "B": "Explode",
+      "C": "Burn",
+      "D": "Isolate"
+    },
+    "answer": "C",
+    "explanation": "Oxygen supports Burning similarly Carbon dioxide helps in extinguishing",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Kitten: Cat:: Cub:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Tiger",
+      "B": "Dear",
+      "C": "Giraffe",
+      "D": "Horse"
+    },
+    "answer": "A",
+    "explanation": "Explanation:\n \nKitten is the young one of Cat similarly Cub is the younger one of Tiger",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Den: lion:: stable: ?",
+    "code_snippet": "",
+    "options": {
+      "A": "Cat",
+      "B": "Dog",
+      "C": "Horse",
+      "D": "Cow"
+    },
+    "answer": "C",
+    "explanation": "Lion lives in den similarly Horse lives in Stable",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Accenture",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Thermometer: Temperature:: Barometer:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Stress",
+      "B": "Pressure",
+      "C": "Strain",
+      "D": "Force"
+    },
+    "answer": "B",
+    "explanation": "The thermometer is used to measure to Temperature similarly Barometer is used to measure\n \nPressure",
+    "source": "Accenture-Logical.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Chess",
+      "B": "Badminton",
+      "C": "Cricket",
+      "D": "Volleyball"
+    },
+    "answer": "A",
+    "explanation": "Remaining games are played in the field",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Win",
+      "B": "Compete",
+      "C": "Triumph",
+      "D": "Victory"
+    },
+    "answer": "B",
+    "explanation": "Remaining words give the same meaning",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Jackal",
+      "B": "Horse",
+      "C": "Cat",
+      "D": "Dog"
+    },
+    "answer": "B",
+    "explanation": "Horse alone omnivores",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "YB",
+      "B": "AD\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation",
+      "C": "IK",
+      "D": "MP"
+    },
+    "answer": "C",
+    "explanation": "C. IK\n \nD. MP\n \nE. WZ\n \n \nAnswer –\n\n C. IK\n \nExplanation:\n\n Remaining pairs have 2 letters between them",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "BCDF",
+      "B": "KJNL",
+      "C": "RSTU",
+      "D": "WXYZ"
+    },
+    "answer": "C",
+    "explanation": "Remaining are contained only consonants",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Avoid",
+      "B": "Obstruct",
+      "C": "Block",
+      "D": "Hamper"
+    },
+    "answer": "A",
+    "explanation": "Remaining words give the same meaning",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Arvind Kejriwal",
+      "B": "Siddaramaiah",
+      "C": "Draupadi Murmu",
+      "D": "Mukul Sangma"
+    },
+    "answer": "C",
+    "explanation": "Explanation:\n \nDraupadi Murmu is governor of Jharkhand remaining all are CM 's",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Wheat",
+      "B": "Corn",
+      "C": "Millet",
+      "D": "Jowar"
+    },
+    "answer": "E",
+    "explanation": "Cotton is a fiber crop, remaining are food crops",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Sparrow",
+      "B": "Parrot",
+      "C": "Swan",
+      "D": "Koel"
+    },
+    "answer": "C",
+    "explanation": "Only Swan is the water bird",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Manure",
+      "B": "Ammonia",
+      "C": "Urea",
+      "D": "Potash"
+    },
+    "answer": "E",
+    "explanation": "All except Nitrogen are used as fertilizers\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Statements:\n \n \nI.\n\n The bank decided to give advances to the priority sector at the rate of interest at par with\n \nthe corporate sector.\n \nII.\n\n The percentage of bad loans given by the banks to the priority sector is very low\n \ncompared to the corporate sector.",
+    "code_snippet": "",
+    "options": {
+      "A": "I is the cause and II is its effect.",
+      "B": "II is the cause and I is its effect.",
+      "C": "Both I and II are independent causes.",
+      "D": "Both I and II are effects of independent causes."
+    },
+    "answer": "D",
+    "explanation": "The bank can change its policy with the priority sector due to a change in the government\n \npolicy. Thus, it is an effect. But the same cause cannot be the reason for the percentage of\n \nbad loans being less for the priority sector.",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Statements:\n \n \nI.\n\n Many seats in the private medical colleges in the state have remained vacant this year.\n \nII.\n\n The government medical colleges in the state could accommodate all the students who\n \nsought admission this year.",
+    "code_snippet": "",
+    "options": {
+      "A": "I is the cause and II is its effect.",
+      "B": "II is the cause and I is its effect.",
+      "C": "Both I and II are effects of independent causes.",
+      "D": "Both I and II are effects of some common causes."
+    },
+    "answer": "B",
+    "explanation": "Statement II is the cause and statement I is its effect. As the government medical college\n \ncould accommodate all students who applied to it (and most medical students prefer\n \ngovernment colleges which are less expensive), many seats in the private medical colleges\n \nin the state have remained vacant.",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Statements:\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation\n \n \n \nI.\n\n The Ganges river is flooded due to large sheets of ice coming down from the Himalayas.\n \nII.\n\n Many people in the Himalayan ranges lost their houses under huge sheets of ice.",
+    "code_snippet": "",
+    "options": {
+      "A": "I is the cause and II is its effect.",
+      "B": "II is the cause and I is its effect.",
+      "C": "Both I and II are effects of some common causes.",
+      "D": "Both I and II are independent causes."
+    },
+    "answer": "C",
+    "explanation": "I.\n\n The Ganges river is flooded due to large sheets of ice coming down from the Himalayas.\n \nII.\n\n Many people in the Himalayan ranges lost their houses under huge sheets of ice.\n \n \nA. I is the cause and II is its effect.\n \nB. II is the cause and I is its effect.\n \nC. Both I and II are effects of some common causes.\n \nD. Both I and II are independent causes.\n \nE. Both I and II are effects of independent causes.\n \n \nAnswer –\n\n C. Both I and II are effects of some common causes.\n \nExplanation:\n \nBoth statements are the effects of some common cause. In this case, the cause is 'melting'\n \nor 'sliding down of ice' from the Himalayan mountain ranges. Some common climatic cause\n \nis associated with the occurrence and hence the effects have been manifested in the\n \nfollowing way.",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "In a class of 20 students, Shreya is 5 from the top and Annie is 7 ranks below\n \nShreya. Find Annie's rank from the bottom.",
+    "code_snippet": "",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "D",
+    "explanation": "Annie is 12 ranks from top, so from bottom = 20-12 + 1 = 9",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Number Systems & Divisibility",
+    "difficulty": "Medium",
+    "question": "Rita is sitting 5th from the left end of the row and Sita is 11th to the right of Rita\n \nwith Tina being 4th to left of Sita. Madhuri is 8th to the right of Tina. What is the total\n \nnumber of students in the row if Madhuri is sitting at the extreme end?",
+    "code_snippet": "",
+    "options": {
+      "A": "20",
+      "B": "28",
+      "C": "23",
+      "D": "33"
+    },
+    "answer": "A",
+    "explanation": "Explanation:\n \nRita is 5th from left, Sita 11th to the right of Rita, so 16th from the left end, Tina is 4th to left\n \nof Sita so Tina is 12th from the left end. Now Madhuri is 8th to the right of Tina, this means\n \n20th from left, so 20 students",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Number Systems & Divisibility",
+    "difficulty": "Medium",
+    "question": "Karuna is sitting 25th from the left end and Preeti is sitting 26th from the right end.\n \nPreeti is at 20th to the left of Karuna. What is the total number of students sitting in\n \nthe row?",
+    "code_snippet": "",
+    "options": {
+      "A": "21",
+      "B": "32",
+      "C": "26",
+      "D": "28"
+    },
+    "answer": "E",
+    "explanation": "Karuna is 25th from the left end and Preeti is 20th to left of Karuna so Preeti is 5th from the\n \nleft end and given 26th from the right end, so total = (5+26) – 1 = 30",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "In a row of 30 children, A is 11th from the right end of row. If there are 4 children\n \nbetween A and B, What is the position of B from the left end of the row?",
+    "code_snippet": "",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "4",
+      "D": "6"
+    },
+    "answer": "E",
+    "explanation": "Since it is not given that B is left of A or right of A, cant is determined.",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Prerna is 5th from the left end and Charu is 4th from the right of the row. Charu\n \ninterchanges her position with the one who is sitting 3rd to the right of Prerna and\n \nnow Charu is 10th from the right end. How many children are there in the row?",
+    "code_snippet": "",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "15",
+      "D": "17\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Accenture Logical Reasoning Questions and Answers with Explanation"
+    },
+    "answer": "D",
+    "explanation": "E. 16\n \n \nAnswer -\n\n D. 17\n \nExplanation:\n \nLet A is 3rd to the right of Prerna, so Charu comes to his place so now charge is (5+3) = 8th\n \n \nfrom the left end and also she is 10th from the right end, so in total (8+10)-1 = 17",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Judge: Court:: Doctor:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Municipality",
+      "B": "Hospital",
+      "C": "Tehsil",
+      "D": "Factory"
+    },
+    "answer": "B",
+    "explanation": "The judge sits in court similarly doctor sits in a hospital",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Carbon dioxide: Extinguish:: Oxygen:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Foam",
+      "B": "Explode",
+      "C": "Burn",
+      "D": "Isolate"
+    },
+    "answer": "C",
+    "explanation": "Oxygen supports Burning similarly Carbon dioxide helps in extinguishing",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Kitten: Cat:: Cub:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Tiger",
+      "B": "Dear",
+      "C": "Giraffe",
+      "D": "Horse"
+    },
+    "answer": "A",
+    "explanation": "Explanation:\n \nKitten is the young one of Cat similarly Cub is the younger one of Tiger",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Den: lion:: stable: ?",
+    "code_snippet": "",
+    "options": {
+      "A": "Cat",
+      "B": "Dog",
+      "C": "Horse",
+      "D": "Cow"
+    },
+    "answer": "C",
+    "explanation": "Lion lives in den similarly Horse lives in Stable",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Accenture",
+    "topic": "Quantitative Ability",
+    "difficulty": "Medium",
+    "question": "Thermometer: Temperature:: Barometer:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Stress",
+      "B": "Pressure",
+      "C": "Strain",
+      "D": "Force"
+    },
+    "answer": "B",
+    "explanation": "The thermometer is used to measure to Temperature similarly Barometer is used to measure\n \nPressure",
+    "source": "Accenture-QA.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "A shopkeeper gains 15% after allowing a discount of 20% on the market price of an\n \narticle. Find his profit %, if the articles are sold at a market price allowing no\n \ndiscount?",
+    "code_snippet": "",
+    "options": {
+      "A": "43.76%",
+      "B": "45%",
+      "C": "50%",
+      "D": "53.75%"
+    },
+    "answer": "A",
+    "explanation": "Market price = Rs.100\n \nSP = Rs.80, Discount = 20\n \nGain = 15%\n \nCP = 80*100/115 = 69.56\n \nProfit % = [100-69.56/69.56]*100\n \n= 30.44*100/69.56\n \n= 43.76%",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Cost price of 80 notebooks is equal to the selling price of 65 notebooks. The gain or\n \nloss % is",
+    "code_snippet": "",
+    "options": {
+      "A": "23%",
+      "B": "32%",
+      "C": "42%",
+      "D": "27%"
+    },
+    "answer": "A",
+    "explanation": "% = [80 – 65/65]*100\n \n= 15*100/65 = 1500/65\n \n= 23.07 = 23% profit\n \nFinally, the gain is 23%",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Articles are marked at a price which gives a profit of 22%. After allowing a certain\n \ndiscount the profit reduced to half of the previous profit, then the discount % is",
+    "code_snippet": "",
+    "options": {
+      "A": "7%",
+      "B": "10%",
+      "C": "12%",
+      "D": "9%\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Aptitude Questions and Answers with Explanation"
+    },
+    "answer": "D",
+    "explanation": "Answer –\n\n D. 9%\n \nExplanation:\n \nCost Price (CP) = 100\n \nMarket Price (MP)= 122\n \nSelling Price (SP) = 111\n \n% of Discount (D) => 122 *(100-x)/100 = 111\n \n122*(100-x) = 11100\n \n12200-122x = 11100\n \n12200-11100 = 122x\n \nX = 1100/122 = 9.02 = 9%\n \nTherefore, the discount is 9%",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Ramesh lends Rs 50,000 of two of his friends. He gives Rs 30,000 to the first at 6%\n \np.a. simple interest. He wants to make a profit of 10% on the whole. The simple\n \ninterest rate at which he should lend the remaining sum of money to the second friend\n \nis",
+    "code_snippet": "",
+    "options": {
+      "A": "11%",
+      "B": "17%",
+      "C": "8%",
+      "D": "16%"
+    },
+    "answer": "D",
+    "explanation": "S.I. on Rs 30000\n \n=(30000×6×1)/100 = Rs. 1800\n \nProfit to made on Rs 50000\n \n= 50000×10/100=Rs 5000\n \nS.I.on Rs.20000 = 5000-1800 = Rs.3200\n \nRate=(S.I.* 100)/(P * T)=(3200×100)/20000\n \n=16% per annum",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "question": "Vishal borrowed some money for one year at 8% per annum simple interest and\n \nafter 18 months, he again borrowed the same money at a Simple Interest of 32% per\n \nannum. In both cases, he paid Rs.5452. Which of the following could be the amount\n \nthat was borrowed by Hussain in each case if interest is paid half-yearly?",
+    "code_snippet": "",
+    "options": {
+      "A": "4500",
+      "B": "4700",
+      "C": "3900",
+      "D": "4200\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Aptitude Questions and Answers with Explanation"
+    },
+    "answer": "B",
+    "explanation": "Answer –\n\n B. 4700\n \nExplanation:\n \n16% for 6 months\n \nx = Borrowed money\n \nTake x =100%\n \n116% of x = 5452\n \nx = 4700",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "Rakesh lent out a part of Rs. 38800 is lent out at 6% per six months. The rest of the\n \namount is lent out at 5% per annum after one year. The ratio of interest after 3 years\n \nfrom the time when the first amount was lent is 5:4. Find the second part that was lent\n \nout at 5%.",
+    "code_snippet": "",
+    "options": {
+      "A": "28500",
+      "B": "28800",
+      "C": "30080",
+      "D": "20500"
+    },
+    "answer": "B",
+    "explanation": "First Part = x\n \n[x * (0.06)*6] / (388800 – x)*0.05*2 = 5/4",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "The cost of the Coal block varies directly with the square of its weight. The Coal\n \nblock is divided into three parts whose weights are in the ratio of 5:6:7. If the Coal\n \nblock is divided into three equal parts by weight then there would be further loss of\n \nRs.7200. Then what is the actual cost of Coal Block?",
+    "code_snippet": "",
+    "options": {
+      "A": "2332880",
+      "B": "3888000",
+      "C": "3960000",
+      "D": "1166400"
+    },
+    "answer": "D",
+    "explanation": "Cost = (5x)2+(6x)2+(7x)2 = 110×2\n \nWhen weights equal = (6x)2+(6x)2+(6x)2 =108×2\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Aptitude Questions and Answers with Explanation\n \n \n \nLoss = 7200 = 110×2-108×2=2×2\n \nx =60\n \nActual cost = (6x+6x+6x)2\n \n(18*60)2 = 1166400\n \nTherefore, the actual cost of Coal Block is 1166440.",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "There are 459 students in a hostel. If the number of students increased by 36, the\n \nexpenses of the mess increased by Rs .81 Per day while the average expenditure per\n \nhead reduced by 1. Find the original expenditure of the mess?",
+    "code_snippet": "",
+    "options": {
+      "A": "7304",
+      "B": "7314",
+      "C": "7334",
+      "D": "7344"
+    },
+    "answer": "D",
+    "explanation": "Total expenditure = 459x\n \n36 students joined then total expenditure = 459x+81\n \naverage = 459x+81/495 = x-1\n \nx = 16\n \noriginal expenditure = 16*459 = 7344\n \nHence the original expenditure of the mess is 7344.",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "M and N invested rupees 4000 and 5000 respectively in a business. M being an\n \nactive partner will get rupee 50 every month extra for running the business. In a year if\n \nM receive a total of 800 rupees, then what will N get from the business.",
+    "code_snippet": "",
+    "options": {
+      "A": "200",
+      "B": "300",
+      "C": "400",
+      "D": "250"
+    },
+    "answer": "D",
+    "explanation": "The ratio in which the profit will divide – 4:5.\n \nM will get 50*12 = 600 rupees extra, so from business M got 200 rupees.\n \ni.e (4/9)*P = 200, P = 450. So N will get 450 – 200 = 250 rupees",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "A Jar contains 30 liters mixture of Milk and Water in the ratio of x:y respectively.\n \nWhen 10 liters of the mixture is taken out and replaced it water, then the ratio\n \nbecomes 2:3. Then what is the initial quantity of Milk in the Jar?",
+    "code_snippet": "",
+    "options": {
+      "A": "18 Liter",
+      "B": "20 Liter",
+      "C": "12 Liter",
+      "D": "15 Liter"
+    },
+    "answer": "A",
+    "explanation": "x+y =30\n \n(x-10*x/x+y)/ (y-10*y/(x+y) + 10) = 2/3\n \n2x-4/3y = 20\n \nx =18",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "A Jar contains 100 liters of Milk a thief stole 10 liters of Milk and replaced it with\n \nwater. Next, he stole 20 liters of Milk and replaced it with water. Again he stole 25\n \nliters of Milk and replaced with water. Then what is the quantity of water in the final\n \nmixture?",
+    "code_snippet": "",
+    "options": {
+      "A": "55 Liter",
+      "B": "54 Liter",
+      "C": "50 Liter",
+      "D": "46 Liter\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Aptitude Questions and Answers with Explanation"
+    },
+    "answer": "D",
+    "explanation": "Answer –\n\n D. 46 Liter\n \nExplanation:\n \nAccording to the given data\n \nMilk = 100*90/100*80/100*75/100 = 54\n \nWater = 100-54 = 46",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "A Container contains 'X' Liters of Milk. A thief stole 50 Liters of Milk and replaced\n \nit with the same quantity of water. He repeated the same process further two times.\n \nAnd thus Milk in the container is only 'X-122' liters. Then what is the quantity of water\n \nin the final mixture?",
+    "code_snippet": "",
+    "options": {
+      "A": "124 Liter",
+      "B": "128 Liter",
+      "C": "250 Liter",
+      "D": "122 Liter"
+    },
+    "answer": "D",
+    "explanation": "X-122 = X(1-50/X)³\n \nX = 250 Liter\n \nMilk = 250-122 = 128\n \nWater = 122",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "The perimeter of a square is equal to twice the perimeter of a rectangle of length\n \n10 cm and breadth 4 cm. What is the circumference of a semi-circle whose diameter is\n \nequal to the side of the square?",
+    "code_snippet": "",
+    "options": {
+      "A": "46 cm",
+      "B": "36 cm",
+      "C": "38 cm",
+      "D": "23 cm"
+    },
+    "answer": "B",
+    "explanation": "However, Perimeter of square = 2(l + b)\n \n= 2 * 2(10 + 4) = 2 * 28 = 56 cm\n \nSide of square = 56/4 = 14 cm\n \nRadius of semi-circle = 14/2 = 7cm\n \nCircumference of the semi-circle = 22/7 * 7 + 14 = 36 cm\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Aptitude Questions and Answers with Explanation",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "The length of a rectangle is 3/5th of the side of a square. The radius of a circle is\n \nequal to the side of the square. The circumference of the circle is 132 cm. What is the\n \narea of the rectangle, if the breadth of the rectangle is 15 cm?",
+    "code_snippet": "",
+    "options": {
+      "A": "112 cm²",
+      "B": "149 cm²",
+      "C": "189 cm²",
+      "D": "199 cm²"
+    },
+    "answer": "C",
+    "explanation": "The circumference of the circle = 132\n \n2πR = 132; R = 21 cm\n \nSide of square = 21 cm\n \nLength of the rectangle = 3/5 * 21 = 63/5\n \nArea of the rectangle = 63/5 * 15 = 189 cm²",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Capgemini",
+    "topic": "Aptitude",
+    "difficulty": "Medium",
+    "question": "Smallest side of a right-angled triangle is 13 cm less than the side of a square of\n \nperimeter 72 cm. Second largest side of the right-angled triangle is 2 cm less than the\n \nlength of the rectangle of area 112 cm² and breadth 8 cm. What is the largest side of\n \nthe right-angled triangle?",
+    "code_snippet": "",
+    "options": {
+      "A": "20 cm",
+      "B": "12 cm",
+      "C": "10 cm",
+      "D": "13 cm"
+    },
+    "answer": "D",
+    "explanation": "Side of square = 72/4 = 18 cm\n \nSmallest side of the right angled triangle = 18 – 13 = 5 cm\n \nLength of rectangle = 112/8 = 14 cm\n \nSecond side of the right angled triangle = 14 – 2 = 12 cm\n \nHypotenuse of the right angled triangle = √(25 + 144) = 13cm\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "Capgemini-Aptitude.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Quartz: Radio:: ? : Cement",
+    "code_snippet": "",
+    "options": {
+      "A": "Plaster of Paris",
+      "B": "Plastic",
+      "C": "Leather",
+      "D": "gypsum"
+    },
+    "answer": "D",
+    "explanation": "Quartz is used to make radio similarly Gypsum is used to make Cement",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Carbon dioxide: Extinguish:: Oxygen:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Isolate",
+      "B": "Foam",
+      "C": "Explode",
+      "D": "Burn"
+    },
+    "answer": "D",
+    "explanation": "Oxygen supports Burning similarly Carbon dioxide helps in extinguishing",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Farming: Monsoons:: Market:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Volume",
+      "B": "Demand",
+      "C": "Supply",
+      "D": "Rate"
+    },
+    "answer": "B",
+    "explanation": "First depends on the second",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Three of the following Four are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Apple",
+      "B": "Orange",
+      "C": "Brinjal",
+      "D": "Grapes\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Logical Reasoning Questions and Answers with Solutions"
+    },
+    "answer": "C",
+    "explanation": "s\n \n \n \nAnswer -\n\n C. Brinjal\n \nExplanation:\n \nBrinjal is a vegetable",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Three of the following Four are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Badminton",
+      "B": "Table Tennis",
+      "C": "Rugby",
+      "D": "Hockey"
+    },
+    "answer": "C",
+    "explanation": "Only sport Rugby contains a single thing Rugby, all other contains 2 things in order to play",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Three of the following Four are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Mathura",
+      "B": "Varanasi",
+      "C": "Haridwar",
+      "D": "Allahabad"
+    },
+    "answer": "A",
+    "explanation": "Remainings are located in the bank of Ganga river",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Three of the following Four are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Papaya",
+      "B": "Water Melon",
+      "C": "Mango",
+      "D": "Orange"
+    },
+    "answer": "C",
+    "explanation": "Mango – only 1 seed, Remaining all fruits contains more than 3 seeds",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Three of the following Four are alike in a certain way and so form a group. Which is\n \nthe one that does not belong to that group?",
+    "code_snippet": "",
+    "options": {
+      "A": "Italy\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Logical Reasoning Questions and Answers with Solutions",
+      "B": "Greece",
+      "C": "Poland",
+      "D": "Europe"
+    },
+    "answer": "D",
+    "explanation": "s\n \n \n \nB. Greece\n \nC. Poland\n \nD. Europe\n \n \nAnswer -\n\n D. Europe\n \nExplanation:\n\n It is an Asian country",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statement:\n\n Should India install more nuclear reactors for electricity generation.\n \nArguments:\n \nI.\n\n Yes, the government can earn more revenue from them.\n \nII.\n\n No, this will increase the costs of the government.",
+    "code_snippet": "",
+    "options": {
+      "A": "Only I is strong",
+      "B": "Only II is strong",
+      "C": "Both I & II are strong",
+      "D": "None of the above are valid"
+    },
+    "answer": "D",
+    "explanation": "Both the arguments I and II are not forceful as revenue and money cannot be the sole factor\n \nthat would be considered in a major decision concerning nuclear reactors. There are going\n \nto be more important and other factors as well that would need to be taken care of in taking\n \na critical decision like this.",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statement:\n\n India should increase the number of universities from 350 to 1500.\n \nArguments:\n \nI.\n\n Yes, it is crucial to sustaining India's growth because we have a large number of people\n \nseeking education.\n \nII.\n\n No, the increase will cause a dilution in academic standards and more corruption.",
+    "code_snippet": "",
+    "options": {
+      "A": "Only I is strong",
+      "B": "Only II is strong",
+      "C": "Both are equally valid",
+      "D": "None are valid"
+    },
+    "answer": "A",
+    "explanation": "The argument 'I' is a logical argument as the number of students seeking education is\n \ngrowing and thus the need for universities is also increasing. However, the corruption clause\n \nin argument II is beyond the scope of the argument. Therefore, the only argument I hold\n \nstrength\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Logical Reasoning Questions and Answers with Solutions",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statement:\n\n Is clear focus the key to high achievements?\n \nArguments:\n \nI.\n\n Yes, one with no goal or focus leads a barren existence.\n \nII.\n\n No, behind every successful man is a woman.",
+    "code_snippet": "",
+    "options": {
+      "A": "Only I is strong",
+      "B": "Only II is strong",
+      "C": "Both I & II are strong",
+      "D": "None of the above are valid"
+    },
+    "answer": "D",
+    "explanation": "The question is whether focus can be regarded as the key to high achievements or not. The\n \nargument I talk about people who have no goals. It does not answer the question raised by\n \nthe main statement. Argument II has no connection with the main statement.",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "A is fifteenth from the left end and B is eight from the right end. If there are 4 boys\n \nbetween them and B is to the right of A then the total number of a student sitting in\n \nthe row.",
+    "code_snippet": "",
+    "options": {
+      "A": "27",
+      "B": "28",
+      "C": "29",
+      "D": "26"
+    },
+    "answer": "A",
+    "explanation": "Given that, A is fifteenth from the left end and B is eight from the right end then\n \n(14 people) A **** B (7 persons) = 27\n \nTherefore, the total number of a student sitting in the row = 27",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "In a row of 30 children, Madhav is 12th from the left end. Raghu a friend of Madhav\n \nis 3 to the left of Madhav. Find the position of Raghu from the left end.",
+    "code_snippet": "",
+    "options": {
+      "A": "10th",
+      "B": "5th",
+      "C": "8th",
+      "D": "9th"
+    },
+    "answer": "D",
+    "explanation": "s\n \n \n \nExplanation:\n \n(8 persons) (Raghu) ** Madhav(18 people)\n \nHence, the position of Raghu from the left end = 9th",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Avinash is 5 ranks above Sunil in a class of 30. If Sunil rank is 15th from the last.\n \nWhat is Avinash rank from the start?",
+    "code_snippet": "",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "13",
+      "D": "11"
+    },
+    "answer": "D",
+    "explanation": "(10 students) Avinash * * * * Sunil (14 person)\n \nTherefore, Avinash rank from the starting is 11",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "P is fifteenth from the left end in a row of boys and Q is eighteenth from the right\n \nend. If R is tenth from P towards the right end and fourth from Q towards the right\n \nend. How many boys are there in the row?",
+    "code_snippet": "",
+    "options": {
+      "A": "38",
+      "B": "40",
+      "C": "35",
+      "D": "36"
+    },
+    "answer": "A",
+    "explanation": "(14 people)P * * * * * Q * * * R (13 person)\n \nTherefore, the number of boys in the row is 38.",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Capgemini",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "In a group of 6 students P, Q, R, S, T and U each one having different height. P is\n \ntaller than T but not as tall as U. Q and U are not the tallest and also R is the shortest.\n \nWho is the tallest among them?",
+    "code_snippet": "",
+    "options": {
+      "A": "S",
+      "B": "Q",
+      "C": "P",
+      "D": "U\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Capgemini Logical Reasoning Questions and Answers with Solutions"
+    },
+    "answer": "A",
+    "explanation": "s\n \n \n \nAnswer –\n\n A. S\n \nExplanation:\n \nAccording to the given data\n \nS > (Q,U) > P > T > R\n \nHence S is the tallest among them\n \n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "Capgemini-Logical.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km\n \nmore. The actual distance traveled by him is:",
+    "code_snippet": "",
+    "options": {
+      "A": "70 km",
+      "B": "80 km",
+      "C": "50 km",
+      "D": "56 km"
+    },
+    "answer": "C",
+    "explanation": "Let us assume, the actual distance traveled be x km.\n \nThen, x/10 = (x + 20)/14\n \n14x = 10x + 200\n \n4x = 200\n \nx = 50 km.",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is\n \n45 kmph. For how many minutes does the bus stop per hour?",
+    "code_snippet": "",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "20",
+      "D": "9"
+    },
+    "answer": "A",
+    "explanation": "Due to stoppages, it covers 9 km less.\n \nTime taken to cover 9 km = (9/54)x 60 mins = 10 mins",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "The distance between two cities P and Q is 300km. A train starts from station P at\n \n10 am with speed 80 km/hr towards Q. Another train starts from Q towards P with\n \nspeed 40km/hr at 11 am. At what time do they meet.",
+    "code_snippet": "",
+    "options": {
+      "A": "12: 50 pm",
+      "B": "1 pm",
+      "C": "12: 20 pm",
+      "D": "12: 40 pm"
+    },
+    "answer": "A",
+    "explanation": "https://www.freshersnow.com/placement-papers-download/\n \n \n \n Cognizant Aptitude Questions and Answers with Explanation\n \nFirst train starts at 10 am so in one hour it covers 80 km in one hour. Now distance b/w P\n \nand Q is 220. Suppose at some' x' km they meet. So,\n \nx/80 = (220-x)/40\n \nx = 440/3.\n \nThe time after which they meet = (440/3)/80 = 11/6 i.e = 1hr 50 min.\n \nTherefore, they will meet at 12: 50 pm",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "Two cities A and B are at a distance of 60 km from each other. Two persons P and Q\n \nstart from the First city at a speed of 10km/hr and 5km/hr respectively. P reached the\n \nsecond city B and returns back and meets Q at Y. Find the distance between A and Y.",
+    "code_snippet": "",
+    "options": {
+      "A": "40 km",
+      "B": "50 km",
+      "C": "30 km",
+      "D": "55 km"
+    },
+    "answer": "A",
+    "explanation": "Time taken by P to reach city B is 6hr. In 6 hr, distance covered by Q is 30km. Now at some\n \nx distance, they will meet. So\n \nx/5 = (30-x)/10. X= 10.\n \nSo distance b/w A and Y is 30+10 =40 km\n \nTherefore, the distance between A and Y is 40 km.",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "The CP of Desk is Rs.2000. A Salesman wants to make 15% profit by selling it. At\n \nthe time of sale, he declares a discount of 10% on MP. The Marked price is?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs. 2554",
+      "B": "Rs. 2556",
+      "C": "Rs. 2550",
+      "D": "Rs. 2552"
+    },
+    "answer": "B",
+    "explanation": "90x/100 = 2000*(115/100)\n \nX = 2000*115/90 = 2555.5 = 2556\n \nTherefore, the market price is Rs. 2556.",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A boy bought 2 items for Rs.7500. One item he sells at a profit of 16% and another\n \nitem at 14% loss. In this, the boy makes neither any profit nor any loss. What is the\n \ndifference between the SP of 2 items?\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n \n Cognizant Aptitude Questions and Answers with Explanation",
+    "code_snippet": "",
+    "options": {
+      "A": "600",
+      "B": "620",
+      "C": "602",
+      "D": "610"
+    },
+    "answer": "B",
+    "explanation": "A. 600\n \nB. 620\n \nC. 602\n \nD. 610\n \n \nAnswer -\n\n B. 620\n \nExplanation:\n \n116X/100 + (7500-x)86/100 = 7500\n \n116x-86x-645000 = 750000\n \nX = 3500, 7500 – 3500 = 4000\n \n(3500*116)/100 – (4000*86)/100 = 620",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "A Shopkeeper bought 30 kg of rice at the rate of Rs. 40 per kg. He sold 40% of the\n \ntotal quantity at the rate of Rs. 50 per kg. At what price per kg should he sell the\n \nremaining quantity to make a 25% overall profit?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs.50",
+      "B": "Rs.40",
+      "C": "Rs.30",
+      "D": "Rs.54"
+    },
+    "answer": "A",
+    "explanation": "Total CP of Rice = 30 * 40 = 1200\n \n40% of Total Quantity = 40% of 30 = 12\n \nSP = 12*50 = 600\n \nSP = 1200 * 125/100 = 1500\n \nSP of Remaining Quantity = 1500 – 600 = 900\n \nRemaining Quantity = 18kg\n \nRice per Kg = 900/18 = Rs. 50",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Prakash sold a machine to Swapna at a profit of 30%. Swapna sold this machine to\n \nAjay at a loss of 20%. If Prakash paid Rs.5000 for this machine, then find the cost\n \nprice of machine for Ajay?",
+    "code_snippet": "",
+    "options": {
+      "A": "6200",
+      "B": "5200",
+      "C": "4800",
+      "D": "4750"
+    },
+    "answer": "B",
+    "explanation": "https://www.freshersnow.com/placement-papers-download/\n \n \n \n Cognizant Aptitude Questions and Answers with Explanation\n \nR1 = 30% R2 = 20%\n \n5000 * 130/100 * 80/100 = Rs. 5200",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "question": "A man borrows Rs 4000 at 8% compound interest for 3 years. At the end of each\n \nyear, he paid Rs 500. How much amount should he pay at the end of the 3rd year to\n \nclear the debt?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs 4254.5",
+      "B": "Rs 3465.2",
+      "C": "Rs 3485.2",
+      "D": "Rs 3915.6"
+    },
+    "answer": "D",
+    "explanation": "Amount after 1 yr = 4000[1 + 8/100] = 4320\n \nPaid 500, so P = 4320 – 500 = 3820\n \nAmount after 2nd yr = 3820[1 + 8/100] = 4125.6\n \nSo P= 4125.6-500 = 3625.6\n \nAmount after 3rd yr = 3625.6[1 + 8/100] = 3915.6",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "question": "A person earns an interest of 240 on investing certain amount at Simple interest\n \nfor 2 years at 5 percent amount. If the rate of interest is compounded annually then\n \nhow much more interest will be gain by the person at same rate of interest and on the\n \nsame sum.",
+    "code_snippet": "",
+    "options": {
+      "A": "8",
+      "B": "12",
+      "C": "10",
+      "D": "6"
+    },
+    "answer": "D",
+    "explanation": "240 = P*(5/100)*2, P = 2400\n \nCI = 2400(1+5/100)^2 – 2400 = 246\n \nSo, 246 – 240 = 6",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "question": "A sum of rupees 4420 is to be divided between Ramesh and Suresh in such a way\n \nthat after 5 years and 7 years respectively the amount they get is equal. The rate of\n \ninterest is 10 percent. Find the share of Ramesh and Suresh",
+    "code_snippet": "",
+    "options": {
+      "A": "2000, 2420\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n \n Cognizant Aptitude Questions and Answers with Explanation",
+      "B": "2420, 2000",
+      "C": "2480, 2420",
+      "D": "2210, 2210"
+    },
+    "answer": "B",
+    "explanation": "B. 2420, 2000\n \nC. 2480, 2420\n \nD. 2210, 2210\n \n \nAnswer –\n\n B. 2420, 2000\n \nExplanation:\n \nLet the share of Ramesh and Suresh be R and S\n \nR*(1+10/100)^ 5 = (4420 – R)*(1+10/100)^ 7\n \nWe get R = 2420, so S = 2000",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "The average price of 10 books is Rs. 12 while the average price of 8 of these books\n \nis Rs. 11.75. Of the remaining two books, if the price of one book is 60% more than the\n \nprice of the other, what is the price of each of these two books?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs 12 and Rs 24",
+      "B": "Rs 24 and Rs 18",
+      "C": "Rs 28 and Rs 12",
+      "D": "Rs 10 and Rs 16"
+    },
+    "answer": "D",
+    "explanation": "Given that, Total price of the two books = Rs. [(12 x 10) – (11.75 x 8)] = Rs. (120 – 94) = Rs.\n \n26\n \nLet the price of one book be Rs.x\n \nThen, the price of another book = Rs. (x + 60% of x )= x + (3/5)x= (8/5)x\n \nso, x +(8/5)x=26 , x=10\n \nThe prices of the two books are Rs. 10 and Rs. 16",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "The average of 11 results is 50. If the average of the first 6 results is 49 and that of\n \nlast 6 is 52, find the sixth result?",
+    "code_snippet": "",
+    "options": {
+      "A": "65",
+      "B": "62",
+      "C": "55",
+      "D": "56"
+    },
+    "answer": "D",
+    "explanation": "The total of 11 results = 11 x 50 = 550\n \nThe total of first 6 results = 6 x 49 = 294\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n \n Cognizant Aptitude Questions and Answers with Explanation\n \nThe total of last 6 results = 6 x 52 = 312\n \nThe sixth result is common to both:\n \nSixth result = 294 + 312 – 550 = 56",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "A mixture contains A and B in the ratio 5: 9. 14 liters of this mixture is taken out\n \nand 14 liters of B is poured in. Now the ratio of A to B becomes 2: 5. Find the amount\n \nof B originally present in the mixture.",
+    "code_snippet": "",
+    "options": {
+      "A": "45 liters",
+      "B": "55 liters",
+      "C": "40 liters",
+      "D": "25 liters"
+    },
+    "answer": "A",
+    "explanation": "Total = 5x+9x+14 = 14 x+14\n \nSo 5x/9x+14 = 2/5\n \nSolve, x = 4",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Arun and Vinod established a firm together. Arun 's investment was thrice that of\n \nVinod. Arun also kept the investment for twice as much time as Vinod. If Vinod got a\n \nprofit of 4000, what was the total profit?",
+    "code_snippet": "",
+    "options": {
+      "A": "30,000",
+      "B": "28,000",
+      "C": "40,000",
+      "D": "45,000"
+    },
+    "answer": "B",
+    "explanation": "Let us assume, Vinod 's investment= X\n \nThen, Arun investment= 3X\n \nlets time for Vinod = t\n \nThen, Arun time= 2t\n \nNow, Arun: Vinod\n \n3X x 3t : X x t\n \n6:1\n \nVinod's share = 1/7 x total = 4000\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n \n Cognizant Aptitude Questions and Answers with Explanation\n \nTherefore, the total profit=28,000",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "Cognizant",
+    "topic": "Profit & Loss",
+    "difficulty": "Medium",
+    "question": "Avinash being the sleeping partner receives 1/10th of profit and the remaining is\n \ndivided between Vamsi and Ramu in the ratio of 1:2. If the difference between the\n \nprofit shares of Avinash and Vamsi is Rs.2000.What is Vamsi's share in Rs.?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs.1800",
+      "B": "Rs.2200",
+      "C": "Rs.1200",
+      "D": "Rs.1500"
+    },
+    "answer": "C",
+    "explanation": "let total profit =x\n \nAvinash's share in profit is (1/10)x\n \nremaining profit = x= (1/10)x= (9/10)x\n \nVamsi's share= 1/3 x (9/10)x = (3/10 )x\n \nRamu's share= 2/3 x (9/10)x = (6/10)x\n \nAvinash – Ramu= (6/10)x -(1/10)x = (5/10)x\n \n5/10 x = 2,000 so, x= 4000\n \nVamsi's share= (3/10) x 4000=1200\n \nSo total = 14*4 + 14 = 70 litres\n \nSo B = 9/(5+9) * 70 = 45\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "Cognizant-Aptitude.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statements:\n \nAll pens are pins. No tag is a pin. All papers are pens\n \nConclusions:\n \nI. \n\nNo pin is a tag\n \nII. \n\nAll papers are pins\n \nI\n\nII. \n\nAll pins are definitely not tag",
+    "code_snippet": "",
+    "options": {
+      "A": "Only I follows",
+      "B": "Only II follows",
+      "C": "Only II and III follow",
+      "D": "All I, II and III follow"
+    },
+    "answer": "D",
+    "explanation": "I: from II => No tag is a pin => No pin is a tag\n \nII: All+ All = All from I and III => true\n \nIII: From II => All pins are definitely not tag => true",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statements:\n \nNo plant is a tree. All trees are roots. Some branches are roots\n \nConclusions:\n \nI. \n\nAll roots being plants is a possibility\n \nII.\n\n Some roots are definitely trees\n \nIII. \n\nAt least some branches are definitely not trees",
+    "code_snippet": "",
+    "options": {
+      "A": "Only I follow",
+      "B": "Only II follows",
+      "C": "Only II and III follow",
+      "D": "Only I and II follow"
+    },
+    "answer": "B",
+    "explanation": "I: No+all => some not =>Possibility not exist because of negative statement\n \nII: All trees are roots => Some roots are trees => true\n \nIII: From II and III => All+some => No conclusion => false",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Syllogisms & Verbal Reasoning",
+    "difficulty": "Medium",
+    "question": "Statements:\n \nSome halls are classes. No class in school.All schools are colleges\n \nConclusions:\n \nI.\n\n Some halls are not schools\n \nII.\n\n At least some schools are classes\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \nCognizant Reasoning Questions and Answers with Explanation\n \n \n \nIII.\n\n All colleges being the school is a possibility",
+    "code_snippet": "",
+    "options": {
+      "A": "Only I and III follow",
+      "B": "Only II and III follow",
+      "C": "Either I or II and III follow",
+      "D": "All I, II and III follow"
+    },
+    "answer": "A",
+    "explanation": "III.\n\n All colleges being the school is a possibility\n \n \nA. Only I and III follow\n \nB. Only II and III follow\n \nC. Either I or II and III follow\n \nD. All I, II and III follow\n \n \nAnswer –\n\n A. Only I and III follow\n \nExplanation:\n \nI: From I and II => Some + No => some not => true\n \nII: No class is the school => False\n \nIII: All schools are colleges => possibility exists => true",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Choose the odd one",
+    "code_snippet": "",
+    "options": {
+      "A": "Marigold",
+      "B": "Grapes",
+      "C": "Rose",
+      "D": "Lotus"
+    },
+    "answer": "B",
+    "explanation": "Except grapes all are flowers",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Choose the odd one",
+    "code_snippet": "",
+    "options": {
+      "A": "Lion",
+      "B": "Crocodile",
+      "C": "Deer",
+      "D": "Bat"
+    },
+    "answer": "B",
+    "explanation": "Except for crocodile, all are mammals",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Choose the odd one",
+    "code_snippet": "",
+    "options": {
+      "A": "Keyboard",
+      "B": "Mouse",
+      "C": "Printer",
+      "D": "Scanner\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \nCognizant Reasoning Questions and Answers with Explanation"
+    },
+    "answer": "C",
+    "explanation": "Answer –\n\n C. Printer\n \nExplanation:\n \nExcept for the printer, all are an input device\n \n \nDirections (Q. 7 - 9):\n\n Below asked questions, two rows of numbers are given. The resultant\n \nnumber in each row is to be worked out separately based on the following rules and the\n \nquestions below the rows of numbers are to be answered. The operations of numbers\n \nprogress from the left to the right.\n \n \nRules:\n \n(i)\n\n If an odd number is followed by another composite odd number, they are to be added.\n \n(ii)\n\n If an even number is followed by an odd number they are to be added.\n \n(iii)\n\n If an even number is followed by a number which is the perfect square, the even number\n \nis to be subtracted from the perfect square.\n \n(iv)\n\n If an odd number is followed by a prime odd number, the first number i",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "I. 15 6 21\n \nII. P 3 27\n \n \nIf 'P' is the resultant of the first row, what will be the resultant of the second row?",
+    "code_snippet": "",
+    "options": {
+      "A": "27",
+      "B": "60",
+      "C": "58",
+      "D": "82"
+    },
+    "answer": "B",
+    "explanation": "15 – 6 = 9 [Rule v] 9 + 21= 30 [Rule i] P = 30\n \n30 + 3 = 33 [Rule ii] 33 + 27 = 60 [Rule i]",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "I. 51 17 35\n \nII. 14 15 R\n \n \nIf 'R' is the resultant of the first row, what will be the sum of the resultants of first and second\n \nrow?\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \nCognizant Reasoning Questions and Answers with Explanation",
+    "code_snippet": "",
+    "options": {
+      "A": "31",
+      "B": "- 3",
+      "C": "29",
+      "D": "3"
+    },
+    "answer": "C",
+    "explanation": "A. 31\n \nB. - 3\n \nC. 29\n \nD. 3\n \nAnswer -\n\n C. 29\n \nExplanation:\n \n51 / 17 = 3 [Rule iv] 3 + 35 = 38 [Rule i] R = 38\n \n14 + 15 = 29 [Rule ii] 29 – 38 = -9[Rule v] ; Sum of the resultants of first and second row =\n \n38 – 9 = 29",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "I. 12 36 15\n \nII. 18 Q 10\n \n \n \nIf 'Q' is the resultant of the first row, what will be the resultant of the second row ?",
+    "code_snippet": "",
+    "options": {
+      "A": "85",
+      "B": "101",
+      "C": "69",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "36 – 12 = 24 [Rule iii] 24 + 15 = 39 [Rule ii] Q = 39\n \n18 + 39 = 57 [Rule ii] 57 – 10 = 47 [Rule v]\n \nTherefore, Answer is none of the above.",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Thermometer: Temperature:: Barometer:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Strain",
+      "B": "Force",
+      "C": "Stress",
+      "D": "Pressure"
+    },
+    "answer": "D",
+    "explanation": "The thermometer is used to measure to Temperature similarly Barometer is used to measure\n \nPressure",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Kitten: Cat:: Cub:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Tiger\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \nCognizant Reasoning Questions and Answers with Explanation",
+      "B": "Dear",
+      "C": "Giraffe",
+      "D": "Horse"
+    },
+    "answer": "A",
+    "explanation": "B. Dear\n \nC. Giraffe\n \nD. Horse\n \n \nAnswer –\n\n A. Tiger\n \nExplanation:\n \nKitten is the young one of Cat similarly Cub is the younger one of Tiger.\n \n \nDirections(Q 12 -14)\n\n Study the following arrangement to answer the given questions\n \n \nR 6 J # L @ 3 E D T A C * G © U M 2 F I V $ 4 Z 5 Y",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Which of the following is the sixth to the left of the fifth to the left of \"V\"?",
+    "code_snippet": "",
+    "options": {
+      "A": "3",
+      "B": "D",
+      "C": "T",
+      "D": "A"
+    },
+    "answer": "C",
+    "explanation": "If we observe the above-given sequence sixth to the left of the fifth to the left of \"V\" – 11th to\n \nthe left of V",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If all the numbers are dropped from the above arrangement, which of the following\n \nwill be the seventeenth from the right end?",
+    "code_snippet": "",
+    "options": {
+      "A": "E",
+      "B": "I",
+      "C": "@",
+      "D": "C"
+    },
+    "answer": "C",
+    "explanation": "Given Sequence R 6 J # L @ 3 E D T A C * G © U M 2 F I V $ 4 Z 5 Y\n \nAfter removing the number from the sequence: R J # L @ E D T A C * G © U M F I V $ Z Y\n \nTherefore, the seventeenth symbol from the right side is @",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "Cognizant",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Which of the following is the eighth to the right of the fourteenth from the left end\n \nof the above arrangement?\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \nCognizant Reasoning Questions and Answers with Explanation",
+    "code_snippet": "",
+    "options": {
+      "A": "$",
+      "B": "E",
+      "C": "V",
+      "D": "4"
+    },
+    "answer": "A",
+    "explanation": "A. $\n \nB. E\n \nC. V\n \nD. 4\n \n \nAnswer -\n\n A. $\n \nExplanation:\n \nIf you carefully observe the above-given sequence then\n \n8th to the right of 14th from the left – 6th from the left end – $\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "Cognizant-Reasoning.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Despite all the goodies that participants get, I am not \n\ngoing for\n\n the competition.\n \n \nI. gunning for\n \nII. competing\n \nIII. taking part in",
+    "code_snippet": "",
+    "options": {
+      "A": "I, II",
+      "B": "II, III",
+      "C": "III",
+      "D": "II"
+    },
+    "answer": "B",
+    "explanation": "going for – to take part in",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Many of us conform to the \n\noutmoded customs\n\n laid down by our forebears.\n \n \nI. outdated practices\n \nII. in vogue traditions\n \nIII. obsolescent conventions",
+    "code_snippet": "",
+    "options": {
+      "A": "I, III",
+      "B": "I",
+      "C": "I, II",
+      "D": "II, III"
+    },
+    "answer": "A",
+    "explanation": "Outdated customs – old-fashioned and no longer useful or relevant to modern life.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "The\n\n amateur\n\n pianist made one or two false starts before finally playing the piece a bit\n \nright at the culmination.\n \n \nI. professional\n \nII. dabbler\n \nIII. partisan",
+    "code_snippet": "",
+    "options": {
+      "A": "II",
+      "B": "II, III",
+      "C": "I, II",
+      "D": "I, II\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Cognizant Verbal Ability / English Questions and Answers with Explanation"
+    },
+    "answer": "A",
+    "explanation": "Answer –\n\n A. II\n \nExplanation:\n \nAmateur – a person who engages in a pursuit on an unpaid rather than a professional\n \nbasis/done in an incompetent or inept way.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Vikas \n\npulled a long face\n\n when he was taken to task by his teacher for his carelessness.\n \n \nI. showed arrogance\n \nII. looked disappointed\n \nIII. mocked him",
+    "code_snippet": "",
+    "options": {
+      "A": "II, III",
+      "B": "II",
+      "C": "I, III",
+      "D": "I, III"
+    },
+    "answer": "B",
+    "explanation": "Pull a long face – to look sad, disappointed",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "We were\n\n kept on tenterhooks\n\n for hours while the judges chose the winner.\n \n \nI. waiting nervously\n \nII. in suspense\n \nIII. kept in dark",
+    "code_snippet": "",
+    "options": {
+      "A": "II, III",
+      "B": "I, III",
+      "C": "I, II",
+      "D": "I"
+    },
+    "answer": "C",
+    "explanation": "On tenterhooks – waiting nervously/anxiously for a result/ in anticipation for something\n \neventful\n \nDirections (Q. 6 - 9): Identify the Synonyms of the given word.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Discursive",
+    "code_snippet": "",
+    "options": {
+      "A": "rambling",
+      "B": "methodical",
+      "C": "neglectful",
+      "D": "impolite"
+    },
+    "answer": "A",
+    "explanation": "Discursive – moving from one point to another in a speech or writing, or simply leave the\n \nmain subject temporarily in speech or writing",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Sacrosanct",
+    "code_snippet": "",
+    "options": {
+      "A": "indifferent",
+      "B": "voluble",
+      "C": "ineffable",
+      "D": "inviolable"
+    },
+    "answer": "D",
+    "explanation": "Sacrosanct – something which is regarded as too important or valuable to be interfered with.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Procrastinate",
+    "code_snippet": "",
+    "options": {
+      "A": "exclude",
+      "B": "propagate",
+      "C": "experiment",
+      "D": "expedite"
+    },
+    "answer": "D",
+    "explanation": "Procrastinate – delay or postpone action; put off doing something.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Susceptible",
+    "code_snippet": "",
+    "options": {
+      "A": "immune",
+      "B": "unpredictable",
+      "C": "incredible",
+      "D": "predictable\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Cognizant Verbal Ability / English Questions and Answers with Explanation"
+    },
+    "answer": "A",
+    "explanation": "Answer -\n\n A. immune\n \nExplanation:\n \nSusceptible – likely or liable to be influenced or harmed by a particular thing.\n \nDirections (Q. 14 - 17 ): Spotting Errors, Choose the part of the sentence which is the\n \nincorrect format.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "When Socrates was asked by interrogators / to clarify what he meant, / he is said\n \nto have affirmed that he / was a big fan of a method called \"elenchus\".",
+    "code_snippet": "",
+    "options": {
+      "A": "When Socrates was asked by interrogators",
+      "B": "to clarify what he meant,",
+      "C": "he is said to have affirmed that he",
+      "D": "No error"
+    },
+    "answer": "D",
+    "explanation": "The Given sentence is the incorrect format",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "Medium",
+    "question": "In the complaint, the restaurant manager has said that / Socrates lurked behind a\n \nguest ordering wine / and than began harassing him to explain / the meaning of the\n \nFrench name of the wine.",
+    "code_snippet": "",
+    "options": {
+      "A": "and than began harassing him to explain",
+      "B": "the meaning of the French name of the wine.",
+      "C": "In the complaint, the restaurant manager has said that",
+      "D": "Socrates lurked behind a guest ordering wine"
+    },
+    "answer": "A",
+    "explanation": "Replace 'than' with 'then'.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Tata Steel last week announce that it had completed the / acquisition of Bhushan\n \nSteel, a company which / had the dubious record of being one of the largest /\n \ndefaulters to the Indian banking system.",
+    "code_snippet": "",
+    "options": {
+      "A": "defaulters to the Indian banking system.",
+      "B": "Tata Steel last week announce that it had completed the",
+      "C": "acquisition of Bhushan Steel, a company which",
+      "D": "had the dubious record of being one of the largest"
+    },
+    "answer": "B",
+    "explanation": "Explanation:\n \nIt should be 'announced' because given sentence talks about past events.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "The investigator said the informer network / was activate and information / began\n \ntrickling in that Plato / was a shadowy figure.",
+    "code_snippet": "",
+    "options": {
+      "A": "was activate and information",
+      "B": "began trickling in that Plato",
+      "C": "The investigator said the informer network",
+      "D": "was a shadowy figure."
+    },
+    "answer": "A",
+    "explanation": "Replace 'activate' with 'activated'.\n \nDirections (Q. 18 - 21): Fill in the Blanks which suits for the sentence",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "The State government is only postponing the_____________, as upgrading\n \nacademic_____________in its own schools and preparing students for future\n \nchallenges are unavoidable_____________.",
+    "code_snippet": "",
+    "options": {
+      "A": "abolishing, abnormal, voluntary",
+      "B": "extirpation, different, optional",
+      "C": "avoidable, encroachment, proposals",
+      "D": "inevitable, standards, imperatives"
+    },
+    "answer": "D",
+    "explanation": "inevitable – certain to happen; unavoidable.\n \nstandards – a level of quality or attainment.\n \nimperatives – an essential or urgent thing",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Such a commitment is vital for_____________up reproductive and child health\n \ncare to achieve a sharp_____________in India's deplorable infant and maternal\n \nmortality levels, besides_____________the spread of infectious diseases across\n \nStates.",
+    "code_snippet": "",
+    "options": {
+      "A": "preventable, stopping, inciting",
+      "B": "heighten, offensive, restring",
+      "C": "scaling, reduction, preventing",
+      "D": "unsure, blitz, creating\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Cognizant Verbal Ability / English Questions and Answers with Explanation"
+    },
+    "answer": "C",
+    "explanation": "Answer -\n\n C. scaling, reduction, preventing\n \nExplanation:\n \nscaling – remove scale or scales from.\n \npreventing – keep (something) from happening.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Besides its long-term structural benefits, the_____________of the GST, says Mr.\n \nSubramanian, would also_____________provide a short-term impetus by easing a\n \ncross-country logistics_____________following the removal of checkpoints.",
+    "code_snippet": "",
+    "options": {
+      "A": "crashing, enshroud, varying",
+      "B": "implementation, straightaway, constraint",
+      "C": "leave, changing, deviating",
+      "D": "crushing, ensconce, intermittent"
+    },
+    "answer": "B",
+    "explanation": "implementation – the process of putting a decision or plan into effect; execution.\n \nstraightaway – extending or moving in a straight line.\n \nconstraint – a limitation or restriction.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "According to the CEA, would be the increasing stress to balance sheets that\n \ncompanies in the power and telecom sectors have to_____________with, and the\n \ndeflationary bias to activity that such stress would_____________.",
+    "code_snippet": "",
+    "options": {
+      "A": "extinction, beard",
+      "B": "contend, impart",
+      "C": "abandon, irregular",
+      "D": "abolition, camouflage"
+    },
+    "answer": "B",
+    "explanation": "contend – struggle to surmount\n \nimpart – make known.\n \nDirections ( Q 22 - 25): Sentence Completion, Complete the given sentence by\n \nchoosing the correct option",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "This is exactly the kind of situation that the Right to Information law is meant for. The RBI\n \nis always in the news for monetary policy or licensing or its leadership. That mostly obscures\n \nthe fact that its track record in consumer protection is terrible. It's time for bank\n \ncustomers___________________ changes.\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Cognizant Verbal Ability / English Questions and Answers with Explanation",
+    "code_snippet": "",
+    "options": {
+      "A": "to why banks must continue to be allowed to dip",
+      "B": "into your pocket whenever they feel the need",
+      "C": "to step up, get organized and start forcing some",
+      "D": "the banks and their so-called regulator"
+    },
+    "answer": "C",
+    "explanation": "A. to why banks must continue to be allowed to dip\n \nB. into your pocket whenever they feel the need\n \nC. to step up, get organized and start forcing some\n \nD. the banks and their so-called regulator\n \n \nAnswer –\n\n C. to step up, get organized and start forcing some\n \nExplanation:\n\n Option C is the correct, in order to complete the sentence.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Does it actually cost extra to use a networked computer system at a different branch\n \nfrom the customers' own? Is this bank going back to the days of branch banking? Now, we\n \nshould not be asking these questions from these banks. They will spin something in polite\n \nPR language___________________ they are following regulations.",
+    "code_snippet": "",
+    "options": {
+      "A": "of each bank's income comes from such fines",
+      "B": "it even collects the data? Can we have a list of what",
+      "C": "but basically ask us to buzz off because",
+      "D": "are managed in such a way as to create non-compliance"
+    },
+    "answer": "C",
+    "explanation": "Option C is the correct, in order to complete the sentence.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Here in India the real clash of civilizations is taking place as I write this; not between\n \ncastes and religions but between Hindus who deride Hindutva and they are called secular\n \nand tolerant and the vast majority who ___________________by the so-called secularists\n \nas intolerant.",
+    "code_snippet": "",
+    "options": {
+      "A": "have finally reacted against it and are termed",
+      "B": "the clash is between us and not from other religions",
+      "C": "are termed by the so-called secularists as intolerant",
+      "D": "I learned today is being Hindutva—believing in my heritage"
+    },
+    "answer": "A",
+    "explanation": "Option A is the correct, in order to complete the sentence.",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "Cognizant",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "6% in November 2016 to 6.1% in February with___________________ of a good rabi\n \ncrop.\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n Cognizant Verbal Ability / English Questions and Answers with Explanation",
+    "code_snippet": "",
+    "options": {
+      "A": "global recovery in other commodity prices is also adding to the price pressures",
+      "B": "fuel and power prices which are driving the price line",
+      "C": "even wheat prices decelerating in anticipation",
+      "D": "wholesale prices very different is unlike in the past when food prices"
+    },
+    "answer": "C",
+    "explanation": "A. global recovery in other commodity prices is also adding to the price pressures\n \nB. fuel and power prices which are driving the price line\n \nC. even wheat prices decelerating in anticipation\n \nD. wholesale prices very different is unlike in the past when food prices\n \n \nAnswer –\n\n C. even wheat prices decelerating in anticipation\n \nExplanation:\n\n Option C is the correct, in order to complete the sentence.\n \n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "Cognizant-Verbal.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "Jithu is now 12 years younger than Madhav. If 9 years from now Madhav will be\n \ntwice as old as Jithu, how old will Jithu be in 4 years?",
+    "code_snippet": "",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "explanation": "Let us assume the Age of\n \nJithu =x years, then Madhav = x+12 years\n \nGiven that 9 from now,\n \n2(x+9)=x+21\n \n2x+18=x+21\n \nx=3\n \nx+4 = 7 years",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "At present, the respective ratio between the ages of X and Y is 3:4 and that between\n \nX and Z is 1:2. six years hence, the sum of X, Y and Z will be 96 years. what is the\n \npresent age of X?",
+    "code_snippet": "",
+    "options": {
+      "A": "18 years",
+      "B": "19 years",
+      "C": "20 years",
+      "D": "21 years"
+    },
+    "answer": "A",
+    "explanation": "Given that\n \nThe ratio between X, Y and Z is = 3:4:6\n \nThe sum of the present age of X, Y and Z = 96 – 18 = 78\n \n13a = 78\n \na = 6\n \nPresent age of X = 3a = 18",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Sampath can complete the job in 12 hrs. Arjun can complete the job in 8 hrs. If\n \nSampath worked for 6 hrs then quit. How many hours will Arjun alone take to\n \ncomplete the remaining work?\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude",
+    "code_snippet": "",
+    "options": {
+      "A": "3 hrs",
+      "B": "4 hrs",
+      "C": "5 hrs",
+      "D": "7 hrs"
+    },
+    "answer": "B",
+    "explanation": "Let time taken to complete the work = x\n \nThen, 6/12+x/8= 1\n \n12+3x = 24\n \n3x = 12\n \nx =4",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "A man takes 20 minutes to row 12 km upstream which is a third more than the time\n \nhe takes on his way downstream. What is his speed in still water?",
+    "code_snippet": "",
+    "options": {
+      "A": "41 km/hr",
+      "B": "36 km/hr",
+      "C": "42 km/hr",
+      "D": "45 km/hr"
+    },
+    "answer": "C",
+    "explanation": "Let the speed in still water = x km/hr.\n \nTakes 20 min to row 12 km upstream \n⇒\n speed of u/s = 36 km/hr.\n \nAlso, a time taken for u/s is 1/3 more than for d/s.\n \nTherefore, distance covered in d / s will be 1/3 more.\n \nHence distance covered by man for d / s in 20 min. = 12 × (12/3) = 16 km.\n \nSo, speed of d/s = 48 km/hr.\n \nx + y = 48 and x – y = 36\n \nBy solving the above two equations we will get\n \nx = 42 km/hr.",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "A boat goes 12 km upstream in 48 minutes. The speed of a stream is 2 km/hr. The\n \nspeed of the boat in still water is",
+    "code_snippet": "",
+    "options": {
+      "A": "17 km/hr",
+      "B": "18 km/hr",
+      "C": "19 km/hr",
+      "D": "20 km/hr\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude"
+    },
+    "answer": "A",
+    "explanation": "Given that\n \n12 km upstream in 48 min.\n \nIt will cover 15 km in 1 hr.\n \nSpeed of stream = 2 km / hr.\n \nTherefore, Speed of boat in still water = 15 + 2 = 17 km/hr.",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Mahendra can do a work in 15 days. After working for 3 days he is joined by Vikas.\n \nIf they complete the remaining work in 3 more days, in how many days can Vikas\n \nalone complete the work?",
+    "code_snippet": "",
+    "options": {
+      "A": "5 days",
+      "B": "10 days",
+      "C": "15 days",
+      "D": "20 days"
+    },
+    "answer": "A",
+    "explanation": "Total days Mahendra worked = 3+3 = 6\n \n6/15 = 2/5\n \nSo 3/5 = 3/x\n \nx = 5",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "X can type 100 letters in 5 minutes. Y and Z typing together can type 50 letters in 2\n \nminutes. If all of them working together then can type 90 letters in how many\n \nminutes?",
+    "code_snippet": "",
+    "options": {
+      "A": "2 minutes",
+      "B": "4 minutes",
+      "C": "5 minutes",
+      "D": "10 minutes"
+    },
+    "answer": "A",
+    "explanation": "According to the given data\n \n(1/5+1/4)\n \n20/9*90/100 = 2 mins",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "The proportion of copper and zinc in the brass is 13:7. How much zinc will there be\n \nin 100 kg of brass?\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude",
+    "code_snippet": "",
+    "options": {
+      "A": "14 kg",
+      "B": "20 kg",
+      "C": "35 kg",
+      "D": "40 kg"
+    },
+    "answer": "C",
+    "explanation": "Given that the proportion of copper and zinc in the brass is 13: 7\n \nHence, 7/20 * 100 = 35",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "P, Q, and R play a cricket match. The ratio of the runs scored by them in the match\n \nis P: Q = 2:3 and Q: R = 2:5. If the total runs scored by all of them are 75, the runs\n \nscored by Q are?",
+    "code_snippet": "",
+    "options": {
+      "A": "15",
+      "B": "18",
+      "C": "21",
+      "D": "24"
+    },
+    "answer": "B",
+    "explanation": "Given that\n \nP: Q = 2:3\n \nQ: R = 2:5\n \nBy solving P: Q: R = 4:6:15\n \n6/25 * 75 = 18",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "The ratio of M and N is in the ratio 5: 8. After 6 years, the ratio of ages of M and N\n \nwill be in the ratio 17: 26. Find the present age of N.",
+    "code_snippet": "",
+    "options": {
+      "A": "60",
+      "B": "65",
+      "C": "72",
+      "D": "75"
+    },
+    "answer": "C",
+    "explanation": "M/N = 5/8 , M+6/N+6 = 17/26\n \nSolve both, N = 72\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "The incomes of Raghu and Vishwanath are in the ratio 1: 2 and their expenditures\n \nare in the ratio 2: 5. If Raghu saves Rs 20,000 and Vishwanath saves Rs 35,000, what\n \nis the total income of Raghu and Vishwanath?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs 30,000",
+      "B": "Rs 50,000",
+      "C": "Rs 70,000",
+      "D": "Rs 90,000"
+    },
+    "answer": "D",
+    "explanation": "Let, Income of Raghu= x, of Vishwanath = 2x\n \nExpenditure of Raghu = 2y, of Vishwanath = 5y\n \nSavings is (income – expenditure). So\n \nx – 2y = 20,000\n \n2x – 5y = 35,000\n \nBy solving the above two equations you will get x = 30,000\n \nSo total = x+2x = 3x = 3*30,000 = 90,000\n \nTherefore, the total income of Raghu and Vishwanath = Rs 90,000.",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Two taps can separately fill a cistern 10 minutes and 15 minutes respectively and\n \nwhen the waste pipe is open, they can together fill it in 18 minutes. The waste pipe\n \ncan empty the full cistern in?",
+    "code_snippet": "",
+    "options": {
+      "A": "7 min",
+      "B": "9 min",
+      "C": "12 min",
+      "D": "15 min"
+    },
+    "answer": "B",
+    "explanation": "According to the given data\n \n1/10 + 1/15 - 1/x = 1/18\n \nx = 9",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "If a pipe P can fill a tank 3 times faster than pipe Q and takes 32 minutes less than\n \npipe P to fill the tank. If both the pipes are opened simultaneously, then find the time\n \ntaken to fill the tank?",
+    "code_snippet": "",
+    "options": {
+      "A": "12 minutes",
+      "B": "14 minutes\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude",
+      "C": "15 minutes",
+      "D": "16 minutes"
+    },
+    "answer": "A",
+    "explanation": "3x – x = 32\n \nx = 16\n \n1/16 + 1/48 = 4/48\n \nTime taken to fill the tank = 48/4 = 12 minutes",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Pipe M can fill a tank in 16 minutes and pipe N cam empty it in 24 minutes. If both\n \nthe pipes are opened together after how many minutes should pipe N be closed so\n \n \nthat the tank is filled in 30 minutes?",
+    "code_snippet": "",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "22",
+      "D": "23"
+    },
+    "answer": "B",
+    "explanation": "Let the pipe N be closed after x minutes.\n \n30/16 - x/24 = 1\n \n=> x/24 = 30/16\n \n=> x = 14/16 * 24 = 21.",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A pipe can fill a cistern in 8 hours. After half the tank is filled, three more similar\n \ntaps are opened. What is the total time taken to fill the cistern completely?",
+    "code_snippet": "",
+    "options": {
+      "A": "3 hours",
+      "B": "2 hours",
+      "C": "4 hours",
+      "D": "5 hours"
+    },
+    "answer": "D",
+    "explanation": "One hour pipe can fill = 1/8\n \nTime is taken to fill half of the tank = 1/2 * 8 = 4 hours\n \nPart filled by four pipes in one hour = (4*1/8) = 1/2\n \nRequired Remaining Part = 1/2\n \nTotal time = 4 + 1 = 5 hours\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Percentages",
+    "difficulty": "Medium",
+    "question": "What amount would Rs.2560 fetch if it is lent at 8% SI for 15 years?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs.3072",
+      "B": "Rs.4632",
+      "C": "Rs.5072",
+      "D": "Rs.5632"
+    },
+    "answer": "D",
+    "explanation": "Simple Interest (SI) = 2560*8*15/100 = 3072\n \nAmount = 2560+3072 = 5632",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Percentages",
+    "difficulty": "Medium",
+    "question": "The length and breadth of a rectangle are increased by 20% and 30%. The area of\n \nthe resulting rectangle exceeds the area of the original rectangle?",
+    "code_snippet": "",
+    "options": {
+      "A": "50%",
+      "B": "56%",
+      "C": "65%",
+      "D": "156%"
+    },
+    "answer": "B",
+    "explanation": "(120/100) ×(130/100) ×100=156.\n \n156-100=56.",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Percentages",
+    "difficulty": "Medium",
+    "question": "If x is 20% more than y, then by what percent y is smaller than x.",
+    "code_snippet": "",
+    "options": {
+      "A": "40/3 %",
+      "B": "46/3 %",
+      "C": "47/3 %",
+      "D": "50/3 %"
+    },
+    "answer": "D",
+    "explanation": "x = 120y/100 or x = 6y/5\n \ny = 5x/6.\n \nPercentage by which y is smaller\n \nThen x is [(x – 5x/6)/x]*100 = 50/3 %",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "In an election, the votes between the winner and loser candidate are in the ratio\n \n5:1. If a total number of eligible voters is 1000, out of which 12% did not cast their vote\n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Aptitude\n \n \nand among the remaining vote 10% declared invalid. What is the number of votes the\n \nwinning candidate get?",
+    "code_snippet": "",
+    "options": {
+      "A": "620",
+      "B": "630",
+      "C": "640",
+      "D": "660"
+    },
+    "answer": "D",
+    "explanation": "Given that Ratio between winner and loser 5:1\n \nTotal number of votes casted actually = 1000*(88/100)*(90/100) = 792\n \n5x + x = 792, x =132\n \nHence, Votes of winner candidate = 5*132 = 660",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "eLitmus",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "If the positions of the digits of a two digit number are interchanged, the number\n \nobtained is smaller than the original number by 27. If the digits of the number are in\n \nthe ratio of 1:2, what is the original number?",
+    "code_snippet": "",
+    "options": {
+      "A": "16",
+      "B": "32",
+      "C": "63",
+      "D": "82"
+    },
+    "answer": "C",
+    "explanation": "Original number – 10x + y\n \n(10x + y) – (10y + x) = 27\n \n9(x – y) = 27\n \nx – y = 3\n \ny/x = 1/2\n \nx = 2y\n \ny = 3, x = 6\n \nNow, Original number = 10x + y = 10(6) + 3 = 63.\n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "eLitmus-Aptitude.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Aravind said - \"This girl is the wife of the grandson of my mother\". How is Aravind\n \nrelated to the girl?",
+    "code_snippet": "",
+    "options": {
+      "A": "Father-in-law",
+      "B": "Brother",
+      "C": "Grandfather",
+      "D": "Husband"
+    },
+    "answer": "A",
+    "explanation": "The girl is the wife of the grandson of Aravind's mother\n \nIt seems that the girl is the wife of a son of Aravind.\n \nHence, Aravind is the father-in-law of the girl.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Pointing towards a girl, Ashwin says, \"This girl is the daughter of only a child of my\n \nfather.\" What is the relation of Ashwin's wife to that girl?",
+    "code_snippet": "",
+    "options": {
+      "A": "Daughter",
+      "B": "Sister",
+      "C": "Mother",
+      "D": "Aunt"
+    },
+    "answer": "C",
+    "explanation": "Only the child of my father means 'Ashwin' himself.\n \nThis means the girl is the daughter od Ashwin.\n \nHence, Ashwin's wife is the mother of the girl.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Kailash says, \"Ram's mother is the only daughter of my mother\", How is Kailash\n \n \nrelated to Ram?",
+    "code_snippet": "",
+    "options": {
+      "A": "Father",
+      "B": "Uncle",
+      "C": "Grandfather",
+      "D": "Brother"
+    },
+    "answer": "B",
+    "explanation": "Daughter of Kailash's mother – Kailash's Sister.\n \nHence, Kailash is an Uncle of Ram.\n \n \n \n\n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Logical Reasoning",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Introducing Sunitha, Amarendra says, \"She is the wife of the only nephew of the\n \nonly brother of my mother.\" How Sunitha is related to Amarendra?",
+    "code_snippet": "",
+    "options": {
+      "A": "Wife",
+      "B": "Sister",
+      "C": "Sister-in-law",
+      "D": "Data is inadequate"
+    },
+    "answer": "A",
+    "explanation": "Brother of the mother means maternal uncle.\n \nHence the only nephew of Amarendra's maternal uncle means Amarendra himself.\n \nTherefore Sunitha is the wife of Amarendra.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "A woman introduces a man as the son of the brother of her mother. How is the man\n \nrelated to the woman?",
+    "code_snippet": "",
+    "options": {
+      "A": "Nephew",
+      "B": "Uncle",
+      "C": "Cousin",
+      "D": "Son"
+    },
+    "answer": "C",
+    "explanation": "Brother of the mother means Uncle\n \nUncle's son - Cousin.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Pointing to a girl Sainath said, \"She is the daughter of the only sister of my father.\"\n \nHow is Sainath related to the girl?",
+    "code_snippet": "",
+    "options": {
+      "A": "Uncle",
+      "B": "Cousin",
+      "C": "Father",
+      "D": "Grandfather"
+    },
+    "answer": "B",
+    "explanation": "The girl is the daughter of the sister of Sainath's father.\n \nHence, Sainath is the cousin of the girl.\n \n \n \n\n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Logical Reasoning",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If in a certain code MANAGEMENT is written as NTNAGEMAME. How DISTRIBUTE\n \nis written in that code?",
+    "code_snippet": "",
+    "options": {
+      "A": "TESTRIBUDI",
+      "B": "TESTRIDIBU",
+      "C": "TESTDIRIBU",
+      "D": "RIBUDITEST"
+    },
+    "answer": "B",
+    "explanation": "MANAGEMENT => MA – 1, NA- 2, GE- 3, ME – 4, NT – 5.\n \nNow the code follow – 52314\n \nSimilarly for DISTRIBUTE=> DI-1, ST-2, RI -3, BU -4, TE- 5\n \nHence, the code will be – TESTRIDIBU",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "In a certain code,\n\n \n\nLEAF\n\n \n\nis written as 12516\n\n \n\nthan in the same code how\n\n \n\nROSE\n\n \n\nwill be\n \nwritten.",
+    "code_snippet": "",
+    "options": {
+      "A": "1716195",
+      "B": "2019195",
+      "C": "1815195",
+      "D": "1915195"
+    },
+    "answer": "C",
+    "explanation": "Given word LEAF\n \nL = 12, E = 5, A = 1, F = 6\n \nBy combining all the numbers 12516\n \nSimilarly ROSE\n \nR = 18, O = 15, S= 19, E = 5\n \nTherefore, combining all the numbers 1815195",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If in a certain code\n\n \n\nNAGPUR\n\n \n\nis written as\n\n \n\nNGUNGU. How will\n\n \n\nPATNA\n\n \n\nbe written in\n \nthe same code?",
+    "code_snippet": "",
+    "options": {
+      "A": "PTAAN",
+      "B": "PATAN",
+      "C": "PNTAA",
+      "D": "TAPAN"
+    },
+    "answer": "A",
+    "explanation": "NAGPUR is written twice i.e NAGPURNAGPUR and then the letter at odd places are taken\n \nfor coding.\n \nSimilarly for PATNA\n \nPATNAPATNA Now pick the odd places of the combined word\n \nThen, PTAAN.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If in a certain code REGISTER\n\n \n\nis written as\n\n \n\nERIGTSRE\n\n \n\nthen in the same code how\n \nPRACTICE is written?",
+    "code_snippet": "",
+    "options": {
+      "A": "RPCIATEC",
+      "B": "RPCAITEC",
+      "C": "RPACITEC",
+      "D": "RPICAETC"
+    },
+    "answer": "B",
+    "explanation": "REGISTER = RE GI ST ER now reverse the pairs, then ERIGTSRE\n \nPRACTICE = PR AC TI CE now reverse the pairs, then RPCAITEC",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "In a row of children, Praveen is 7th from the right and Jaswanth is 10th from the\n \nleft. When Praveen and Jaswanth interchange positions, Jaswanth becomes 20th from\n \nthe left. Which of the following will be Praveen's position from the right?",
+    "code_snippet": "",
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "C",
+    "explanation": "By analyzing the given data\n \n20+7 = 27\n \n27-10=17",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "If Ajay finds that it is seventeenth from the right and eighteenth from the left in a\n \nline facing north. How many persons should be added to the line such that there are\n \n40 people in the line?",
+    "code_snippet": "",
+    "options": {
+      "A": "5",
+      "B": "6\n \n \n\n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Logical Reasoning",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "B",
+    "explanation": "17 + Ajay+ 16 + X = 40\n \nBy solving the above equation X = 6\n \nTherefore, persons should be added to the line = 6",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If Anand finds that he is 10th from the right in a line of boys and 7th from the left,\n \nhow many boys should be added to the line such that there are 30 boys in the line?",
+    "code_snippet": "",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "C",
+    "explanation": "Number of boys in the line = 10+7 -1 = 16\n \nNumber of boys to be added = 30 – 16 = 14",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Seating Arrangement & Ordering",
+    "difficulty": "Medium",
+    "question": "In a row of ten girls, when Vyshnavi was shifted by two places towards the left,\n \nshe became fourth from the left end. What was his earlier position from the left end of\n \nthe row?",
+    "code_snippet": "",
+    "options": {
+      "A": "4th",
+      "B": "5th",
+      "C": "6th",
+      "D": "7th"
+    },
+    "answer": "D",
+    "explanation": "A number of boys in the row = 10.\n \n10-2-1 = 7th from the left",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Find a pair that is similar to 3: 15",
+    "code_snippet": "",
+    "options": {
+      "A": "1: 2",
+      "B": "5: 45",
+      "C": "11: 65\n \n \n\n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n eLitmus Logical Reasoning",
+      "D": "2: 14"
+    },
+    "answer": "A",
+    "explanation": "The 1st number is multiplied by the next prime number to obtain the 2nd number.\n \nHence 1: 2 is a perfect pair according to that rule.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "GECA: JHFD:: QSUW:?",
+    "code_snippet": "",
+    "options": {
+      "A": "TSGT",
+      "B": "TVXZ",
+      "C": "KNMP",
+      "D": "MPNR"
+    },
+    "answer": "B",
+    "explanation": "Each letter of the 1st group is moved three steps forward to obtain the corresponding letter\n \nof the 2nd group.\n \nHence, the correct answer is 'TVXZ'.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Peacock: India:: Bear:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Russia",
+      "B": "England",
+      "C": "Australia",
+      "D": "America"
+    },
+    "answer": "A",
+    "explanation": "Peacock is the national bird of India.\n \nSimilarly, Bear is the national animal of Russia.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Safe: Secure:: Protect:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Lock",
+      "B": "Conserve",
+      "C": "Sure",
+      "D": "Guard"
+    },
+    "answer": "D",
+    "explanation": "Safe and Secure have the same meaning\n \nSimilarly, Protect and Guard have the same meaning.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Melt: Liquid:: Freeze:?",
+    "code_snippet": "",
+    "options": {
+      "A": "Ice",
+      "B": "Solid",
+      "C": "Force",
+      "D": "Condense"
+    },
+    "answer": "B",
+    "explanation": "As on melting, the liquid is formed\n \nSimilarly on freezing solid is formed.",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "logical",
+    "company": "eLitmus",
+    "topic": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "Tiger: Forest:: Fish: ?",
+    "code_snippet": "",
+    "options": {
+      "A": "Cage",
+      "B": "Sky",
+      "C": "Water",
+      "D": "Nest"
+    },
+    "answer": "C",
+    "explanation": "As Tiger is found in Forest\n \nSimilarly, Fish is found in the water.\n \n \n \n\n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "eLitmus-Logical.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Loquacious",
+    "code_snippet": "",
+    "options": {
+      "A": "Talkative",
+      "B": "Thirsty",
+      "C": "Beautiful",
+      "D": "Complicated"
+    },
+    "answer": "A",
+    "explanation": "Loquacious means are excessively talkative.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Educe\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n eLitmus Verbal Ability / English",
+    "code_snippet": "",
+    "options": {
+      "A": "Demand",
+      "B": "Elicit",
+      "C": "Ideal",
+      "D": "Unlawful"
+    },
+    "answer": "B",
+    "explanation": "Educe means to develop something potential or latent.\n \nMoreover, Elicit means to draw out something hidden or latent.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Stationary",
+    "code_snippet": "",
+    "options": {
+      "A": "Moving",
+      "B": "Detached",
+      "C": "Fixative",
+      "D": "Attachable"
+    },
+    "answer": "A",
+    "explanation": "The word stationary means fixed.\n \nTherefore, moving is an antonym.\n \nDirection (Q. 11 - 13): In each of the following questions, a word has been used in\n \nsentences in four different ways. Choose the option that word usage is grammatically\n \nwrong.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Parsing: Grammar",
+    "code_snippet": "",
+    "options": {
+      "A": "Paratrooping: Air force",
+      "B": "Cleaning: House",
+      "C": "Running: Health",
+      "D": "Praying: God"
+    },
+    "answer": "A",
+    "explanation": "First is an essential part of the second.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Money: Transaction",
+    "code_snippet": "",
+    "options": {
+      "A": "Ideas: Exchange",
+      "B": "Language: Conversation",
+      "C": "Life: Death",
+      "D": "Water: Drink"
+    },
+    "answer": "A",
+    "explanation": "second is the process of exchange of the first.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "East: Orient",
+    "code_snippet": "",
+    "options": {
+      "A": "North: Polar",
+      "B": "South: Capricorn",
+      "C": "West: Occident",
+      "D": "North: tropic"
+    },
+    "answer": "C",
+    "explanation": "Second is another name for the first.\n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n eLitmus Verbal Ability / English\n \n \n \nDirection (Q. 17 – 20): Fill in the Blanks. Choose the word which exactly suits in blank\n \nand makes the sentence meaningful.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Of course, to occupy the White House, she will first have to ward off a stiff attack\n \nfrom___________Republican nominee Donald Trump, the fire-breathing property\n \nbillionaire.",
+    "code_snippet": "",
+    "options": {
+      "A": "unconvincing",
+      "B": "presumptive",
+      "C": "harassing",
+      "D": "unbelievable"
+    },
+    "answer": "B",
+    "explanation": "Presumptive – of the nature of a presumption\n \nPresumed in the absence of further information.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "question": "If such a law comes into force there should no prizes for guessing which\n \ncommunity will be targeted most, although anyone can potentially be____________by\n \nauthorities.",
+    "code_snippet": "",
+    "options": {
+      "A": "harassed",
+      "B": "naive",
+      "C": "omitting",
+      "D": "disfavor"
+    },
+    "answer": "A",
+    "explanation": "Harassed -feeling or looking strained as a result of having too many demands made on one.",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "In the 1950s, most of the policies our Constitution enacted were\n \nto____________those aspects of our tradition that had made us weak.",
+    "code_snippet": "",
+    "options": {
+      "A": "combat",
+      "B": "gratify",
+      "C": "illiteracy",
+      "D": "soothe\n \n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/\n \n \n eLitmus Verbal Ability / English"
+    },
+    "answer": "A",
+    "explanation": "Combat – fighting between armed forces",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "eLitmus",
+    "topic": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "India has for thousands of years___________and worshipped all natural\n \nresources, flora, and fauna.",
+    "code_snippet": "",
+    "options": {
+      "A": "lassitude",
+      "B": "revered",
+      "C": "innocuous",
+      "D": "backing"
+    },
+    "answer": "B",
+    "explanation": "Revered – feel deep respect\n \n \n \n \n \n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "source": "eLitmus-Verbal.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "Express a speed of 36 kmph in meters per second?",
+    "code_snippet": "",
+    "options": {
+      "A": "10 mps",
+      "B": "12 mps",
+      "C": "14 mps",
+      "D": "17 mps"
+    },
+    "answer": "A",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "Express 25 mps in kmph?",
+    "code_snippet": "",
+    "options": {
+      "A": "15 kmph",
+      "B": "99 kmph",
+      "C": "90 kmph",
+      "D": "None"
+    },
+    "answer": "C",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "The speed of a train is 90 kmph. What is the distance covered by it in 10 \nminutes?",
+    "code_snippet": "",
+    "options": {
+      "A": "15 kmph",
+      "B": "12 kmph",
+      "C": "10 kmph",
+      "D": "5 kmph"
+    },
+    "answer": "A",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Speed, Time & Distance",
+    "difficulty": "Medium",
+    "question": "A car covers a distance of 624 km in 6 ½ hours. Find its speed?",
+    "code_snippet": "",
+    "options": {
+      "A": "104 kmph \nwww.freshersnow.com",
+      "B": "140 kmph",
+      "C": "104 mph",
+      "D": "10.4 kmph"
+    },
+    "answer": "A",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A and B complete a work in 6 days. A alone can do it in 10 days. If both together \ncan do the work in how many days?",
+    "code_snippet": "",
+    "options": {
+      "A": "3.75 days",
+      "B": "4 days",
+      "C": "5 days",
+      "D": "6 days"
+    },
+    "answer": "A",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A can do a piece of work in 4 days. B can do it in 5 days. With the assistance of \nC they completed the work in 2 days. Find in how many days can C alone do it?",
+    "code_snippet": "",
+    "options": {
+      "A": "10 days",
+      "B": "20 days",
+      "C": "5 days",
+      "D": "4 days"
+    },
+    "answer": "B",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A, B and C can do a piece of work in 24, 30 and 40 days respectively. They start \nthe work together but C leaves 4 days before the completion of the work. In how \nmany days is the work done?",
+    "code_snippet": "",
+    "options": {
+      "A": "15 days",
+      "B": "14 days \nwww.freshersnow.com",
+      "C": "13 days",
+      "D": "11 days"
+    },
+    "answer": "D",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "5 men and 12 boys finish a piece of work in 4 days, 7 men and 6 boys do it in 5 \ndays. The ratio between the efficiencies of a man and boy is?",
+    "code_snippet": "",
+    "options": {
+      "A": "1:2",
+      "B": "2:1",
+      "C": "2:3",
+      "D": "6:5"
+    },
+    "answer": "D",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A and B can finish a work in 16 days while A alone can do the same work in 24 \ndays. In how many days B alone will complete the work?",
+    "code_snippet": "",
+    "options": {
+      "A": "56",
+      "B": "48",
+      "C": "36",
+      "D": "58"
+    },
+    "answer": "B",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "Some persons can do a piece of work in 12 days. Two times the number of \nthese people will do half of that work in?",
+    "code_snippet": "",
+    "options": {
+      "A": "3 days",
+      "B": "4 days",
+      "C": "6 days",
+      "D": "12 days \nwww.freshersnow.com"
+    },
+    "answer": "A",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "What number has a 5:1 ratio to the number 10?",
+    "code_snippet": "",
+    "options": {
+      "A": "42",
+      "B": "50",
+      "C": "55",
+      "D": "62"
+    },
+    "answer": "B",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Ratios, Proportions & Ages",
+    "difficulty": "Medium",
+    "question": "Two same glasses are respectively 1/4th 1/5th full of milk. They are then filled \nwith water and the contents mixed in a tumbler. The ratio of milk and water in \nthe tumbler is?",
+    "code_snippet": "",
+    "options": {
+      "A": "3:8",
+      "B": "9:31",
+      "C": "8:21",
+      "D": "10:27"
+    },
+    "answer": "B",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Time & Work / Pipes & Cisterns",
+    "difficulty": "Medium",
+    "question": "A and B entered into a partnership investing Rs.25000 and Rs.30000 \nrespectively. After 4 months C also joined the business with an investment of \nRs.35000. What is the share of C in an annual profit of Rs.47000?",
+    "code_snippet": "",
+    "options": {
+      "A": "Rs.18000",
+      "B": "Rs.15000",
+      "C": "Rs.17000",
+      "D": "Rs.14000"
+    },
+    "answer": "D",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Simple & Compound Interest",
+    "difficulty": "Medium",
+    "question": "In how many years does a sum of Rs. 5000 yield a simple interest of Rs. 16500 \nat 15% p.a.?",
+    "code_snippet": "",
+    "options": {
+      "A": "22",
+      "B": "24",
+      "C": "25",
+      "D": "23"
+    },
+    "answer": "A",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "AMCAT",
+    "topic": "Percentages",
+    "difficulty": "Medium",
+    "question": "The radius of a circle is increased by 1%. Find how much % does its area \nincreases?",
+    "code_snippet": "",
+    "options": {
+      "A": "1.01%",
+      "B": "5.01%",
+      "C": "3.01%",
+      "D": "2.01%"
+    },
+    "answer": "D",
+    "explanation": "Standard placement exam solution.",
+    "source": "AMCAT-Aptitude.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Property which allows to produce different executable for different platforms \nin C is called?",
+    "code_snippet": "",
+    "options": {
+      "A": "File inclusion",
+      "B": "Selective inclusion",
+      "C": "Conditional compilation",
+      "D": "Recursive macros"
+    },
+    "answer": "C",
+    "explanation": "Conditional compilation is the preprocessor facility to produce different",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Preprocessors & Directives",
+    "difficulty": "Medium",
+    "question": "C preprocessors can have compiler specific features.",
+    "code_snippet": "",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "Depends on the standard",
+      "D": "Depends on the \nplatform"
+    },
+    "answer": "A",
+    "explanation": "#pragma is compiler specific feature.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Preprocessors & Directives",
+    "difficulty": "Medium",
+    "question": "Preprocessor feature that supply line numbers and file names to compiler is \ncalled?",
+    "code_snippet": "",
+    "options": {
+      "A": "Selective inclusion",
+      "B": "macro substitution",
+      "C": "Concatenation",
+      "D": "Line \ncontrol"
+    },
+    "answer": "D",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Preprocessors & Directives",
+    "difficulty": "Medium",
+    "question": "Which of the following are C preprocessors?",
+    "code_snippet": "",
+    "options": {
+      "A": "#ifdef",
+      "B": "#define",
+      "C": "#endif",
+      "D": "All of the mentioned."
+    },
+    "answer": "D",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Preprocessors & Directives",
+    "difficulty": "Medium",
+    "question": "The C-preprocessors are specified with _________symbol.",
+    "code_snippet": "",
+    "options": {
+      "A": "#",
+      "B": "$",
+      "C": "\" \"",
+      "D": "None of the mentioned."
+    },
+    "answer": "A",
+    "explanation": "The C-preprocessors are specified with # symbol.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Preprocessors & Directives",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "#define a 20 \nint main() \n{ \nconst int a = 50; \nprintf(\"a = %d\\n\", a); \n}",
+    "options": {
+      "A": "a = 50",
+      "B": "a = 20",
+      "C": "Run time error",
+      "D": "Compilation Error"
+    },
+    "answer": "D",
+    "explanation": "The #define substitutes a with 20 leaving no identifier and hence compilation",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "int main() \n{ \nint var = 010; \nprintf(\"%d\", var); \n}",
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "answer": "B",
+    "explanation": "010 is octal representation of 8.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "enum types are processed by?",
+    "code_snippet": "",
+    "options": {
+      "A": "Compiler",
+      "B": "Preprocessor",
+      "C": "Linker",
+      "D": "Assembler"
+    },
+    "answer": "A",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "int main() \n{ \nprintf(\"AllIndiaExams\\r\\nclass\\n\"); \nreturn 0; \n\n\n}",
+    "options": {
+      "A": "AllIndiaExamsclass",
+      "B": "AllIndiaExamsclass",
+      "C": "classundry",
+      "D": "AllIndiaExams"
+    },
+    "answer": "B",
+    "explanation": "rn combination makes cursor move to nextline.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "int main() \n{ \nconst int a; \na = 32; \nprintf(\"a is %d\", a); \nreturn 0; \n}",
+    "options": {
+      "A": "a is 32",
+      "B": "Compile time error",
+      "C": "Run time error",
+      "D": "none"
+    },
+    "answer": "B",
+    "explanation": "Since the constant variable has to be declared and defined at the same time, not",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Comment on the output of this C code? \nint const print() \n{ \nprintf(\"AllIndiaExams.in\"); \n\n\nreturn 0; \n} \nvoid main() \n{ \nprint(); \n}",
+    "code_snippet": "",
+    "options": {
+      "A": "AllIndiaExams.in is printed infinite number of times",
+      "B": "AllIndiaExams.in",
+      "C": "Runtime Error",
+      "D": "complilation \nerror"
+    },
+    "answer": "B",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Does this compile without error? \nint main() \n{ \nint k; \n{ \nint k; \nfor (k = 0; k < 10; k++); \n} \n}",
+    "code_snippet": "",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Depends on the compiler",
+      "D": "Depends on the C standard implemented by compilers"
+    },
+    "answer": "A",
+    "explanation": "There can be blocks inside block and within blocks variables have only block",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "void main() \n{ \nint k = 4; \nfloat k = 4; \nprintf(\"%d\", k) \n}",
+    "options": {
+      "A": "Compile time error",
+      "B": "4",
+      "C": "4.0000000",
+      "D": "4.4"
+    },
+    "answer": "A",
+    "explanation": "Since the variable k is defined both as integer and as float, it results in an error.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "A variable declared in a function can be used in main?",
+    "code_snippet": "",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "True if it is declared static",
+      "D": "None of the mentioned."
+    },
+    "answer": "B",
+    "explanation": "Since the scope of the variable declared within a function is restricted only within",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "The name of the variable used in one function cannot be used in another \nfunction?",
+    "code_snippet": "",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "May be",
+      "D": "None of the mentioned."
+    },
+    "answer": "B",
+    "explanation": "Since the scope of the variable declared within a function is restricted only within",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "C99 standard guarantees uniqueness of ____ characters for internal names.",
+    "code_snippet": "",
+    "options": {
+      "A": "31",
+      "B": "63",
+      "C": "12",
+      "D": "14"
+    },
+    "answer": "B",
+    "explanation": "ISO C99 compiler may consider only first 63 characters for internal.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which of the following is not a valid variable name declaration?",
+    "code_snippet": "",
+    "options": {
+      "A": "int __a3;",
+      "B": "int __3a;",
+      "C": "int __A3;",
+      "D": "None of the mentioned."
+    },
+    "answer": "D",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which of the following is not a valid variable name declaration?",
+    "code_snippet": "",
+    "options": {
+      "A": "int _a3;",
+      "B": "int a_3;",
+      "C": "int 3_a;",
+      "D": "int _3a"
+    },
+    "answer": "C",
+    "explanation": "Variable name cannot start with a digit.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "All keywords in C are in?",
+    "code_snippet": "",
+    "options": {
+      "A": "Lower Case letters",
+      "B": "Upper Case letters",
+      "C": "Camel Case letters",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Variable name resolving (number of significant characters for uniqueness of \nvariable) depends on?",
+    "code_snippet": "",
+    "options": {
+      "A": "Compiler and linker implementations",
+      "B": "Assemblers and loaders \nimplementations",
+      "C": "C Language",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "It depends on the standard to which compiler and linkers are adhering to.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which of the following is not a valid C variable name?",
+    "code_snippet": "",
+    "options": {
+      "A": "int number;",
+      "B": "float rate;",
+      "C": "int variable_count;",
+      "D": "int $main;"
+    },
+    "answer": "D",
+    "explanation": "Since only underscore and no other special character is allowed in a variable",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which is valid C expression?",
+    "code_snippet": "",
+    "options": {
+      "A": "int my_num = 100,000;",
+      "B": "int my_num = 100000;",
+      "C": "int my num = 1000;",
+      "D": "int $my_num = 10000;"
+    },
+    "answer": "B",
+    "explanation": "space, comma and $ cannot be used in a variable name.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which of the following is not a valid variable name declaration?",
+    "code_snippet": "",
+    "options": {
+      "A": "float PI = 3.14;",
+      "B": "double PI = 3.14;",
+      "C": "int PI = 3.14;",
+      "D": "#define PI 3.14"
+    },
+    "answer": "D",
+    "explanation": "#define PI 3.14 is a macro preprocessor, it is a textual substitution.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which of the following cannot be a variable name in C?",
+    "code_snippet": "",
+    "options": {
+      "A": "Volatile",
+      "B": "True",
+      "C": "friend",
+      "D": "export"
+    },
+    "answer": "A",
+    "explanation": "volatile is C keyword.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "int main() \n{ \nvoid foo(); \nvoid f() \n{ \nfoo(); \n} \nf(); \n} \nvoid foo() \n{ \nprintf(\"2 \"); \n}",
+    "options": {
+      "A": "2 2",
+      "B": "2",
+      "C": "Compile time error",
+      "D": "Depends on the compiler"
+    },
+    "answer": "D",
+    "explanation": "Even though the answer is 2, this code will compile fine only with gcc. GNU C",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "void foo(); \nint main() \n{ \nvoid foo(); \nfoo(); \nreturn 0; \n} \nvoid foo() \n{ \nprintf(\"2 \"); \n}",
+    "options": {
+      "A": "Compile time error",
+      "B": "2",
+      "C": "Depends on the compiler",
+      "D": "Depends on \nthe standard"
+    },
+    "answer": "B",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the default return type if it is not specified in function definition?",
+    "code_snippet": "",
+    "options": {
+      "A": "void",
+      "B": "int",
+      "C": "double",
+      "D": "short int"
+    },
+    "answer": "B",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "int foo(); \n int main() \n { \n int i = foo(); \n } \n foo() \n { \n printf(\"2 \"); \n return 2; \n }",
+    "options": {
+      "A": "2",
+      "B": "Compile time error",
+      "C": "Depends on the compiler",
+      "D": "Depends on the \nstandard"
+    },
+    "answer": "A",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "functions can return structure in c?",
+    "code_snippet": "",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "Depends on the compiler",
+      "D": "Depends on the standard"
+    },
+    "answer": "A",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "functions can return enumeration constants in c?",
+    "code_snippet": "",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "depends on the compiler",
+      "D": "depends on the standard"
+    },
+    "answer": "A",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "Recursion & Call Stack",
+    "difficulty": "Medium",
+    "question": "Which keyword can be used for coming out of recursion?",
+    "code_snippet": "",
+    "options": {
+      "A": "break",
+      "B": "return",
+      "C": "exit",
+      "D": "Both (a) and (b)"
+    },
+    "answer": "B",
+    "explanation": "none",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "int main() \n{ \n int a = 0, i = 0, b; \n for (i = 0;i < 5; i++) \n { \n a++; \n continue; \n\n\n } \n}",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "D",
+    "explanation": "none",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "Which keyword is used to come out of a loop only for that iteration?",
+    "code_snippet": "",
+    "options": {
+      "A": "break",
+      "B": "continue",
+      "C": "return",
+      "D": "None of the mentioned"
+    },
+    "answer": "B",
+    "explanation": "none",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "void main() \n { \n double k = 0; \n for (k = 0.0; k < 3.0; k++) \n printf(\"Hello\"); \n }",
+    "options": {
+      "A": "Run time error",
+      "B": "Hello is printed thrice",
+      "C": "Hello is printed twice",
+      "D": "Hello \nis printed infinitely"
+    },
+    "answer": "B",
+    "explanation": "none",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "void main() \n { \n double k = 0; \n for (k = 0.0; k < 3.0; k++); \n printf(\"%lf\", k); \n }",
+    "options": {
+      "A": "2.000000",
+      "B": "4.000000",
+      "C": "3.000000",
+      "D": "Run time error"
+    },
+    "answer": "C",
+    "explanation": "none",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "typedef which of the following may create problem in the program?",
+    "code_snippet": "",
+    "options": {
+      "A": ";",
+      "B": "printf/scanf",
+      "C": "Arithmetic operators",
+      "D": "All of the mentioned."
+    },
+    "answer": "D",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "typedef declaration:",
+    "code_snippet": "",
+    "options": {
+      "A": "Does not create a new type",
+      "B": "It merely adds a new name for some \nexisting type.",
+      "C": "Both a & b",
+      "D": "None of the \nmentioned"
+    },
+    "answer": "C",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "What is the output of this C code?",
+    "code_snippet": "typedef struct p \n{ \nint x, y; \n}k; \nint main() \n{ \nstruct p p = {1, 2}; \nk k1 = p; \nprintf(\"%d\\n\", k1.x); \n}",
+    "options": {
+      "A": "Compile time error",
+      "B": "1",
+      "C": "0",
+      "D": "Depends on the standard"
+    },
+    "answer": "B",
+    "explanation": "None.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "TCS",
+    "topic": "C Programming & Technical Concepts",
+    "difficulty": "Medium",
+    "question": "The following query belongs to which condition types? \nSELECT fname \nFROM person \nWHERE dept_id= (SELECT dept_id FROM department WHERE names='s');",
+    "code_snippet": "",
+    "options": {
+      "A": "Equality condition",
+      "B": "Inequality condition",
+      "C": "Range condition",
+      "D": "All of \n\n\nthe mentioned"
+    },
+    "answer": "A",
+    "explanation": "In the following query column equate to the value returned by subquery.",
+    "source": "TCS-Coding.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word MOST SIMILAR in meaning to: Clamored",
+    "code_snippet": "",
+    "options": {
+      "A": "Acclaimed",
+      "B": "Applauded",
+      "C": "Cried",
+      "D": "Refused"
+    },
+    "answer": "C",
+    "explanation": "Correct grammatical/contextual usage is option C.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word MOST SIMILAR in meaning to: Stimulate",
+    "code_snippet": "",
+    "options": {
+      "A": "Increase",
+      "B": "Goad",
+      "C": "Project",
+      "D": "Exhilarate"
+    },
+    "answer": "B",
+    "explanation": "Correct grammatical/contextual usage is option B.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word MOST SIMILAR in meaning to: Spur",
+    "code_snippet": "",
+    "options": {
+      "A": "Hindrance",
+      "B": "Trigger",
+      "C": "Curb",
+      "D": "Impede"
+    },
+    "answer": "B",
+    "explanation": "Correct grammatical/contextual usage is option B.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word MOST OPPOSITE in meaning to: Viable",
+    "code_snippet": "",
+    "options": {
+      "A": "Practicable",
+      "B": "Reasonable",
+      "C": "Feasible",
+      "D": "Impossible"
+    },
+    "answer": "D",
+    "explanation": "Correct grammatical/contextual usage is option D.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Synonyms & Antonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word MOST OPPOSITE in meaning to: Sluggish",
+    "code_snippet": "",
+    "options": {
+      "A": "Indolent",
+      "B": "Alert",
+      "C": "Lifeless",
+      "D": "Slack"
+    },
+    "answer": "B",
+    "explanation": "Correct grammatical/contextual usage is option B.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "Current deposit accounts are opened to ______ transactions of business and trade\n \nand hence not ______ to any interest from the bank.",
+    "code_snippet": "",
+    "options": {
+      "A": "accept, obliged",
+      "B": "do, liable",
+      "C": "seek, authorized",
+      "D": "meet, entitled"
+    },
+    "answer": "D",
+    "explanation": "Correct grammatical/contextual usage is option D.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "The opening up of insurance sector has resulted in ______ of new products,\n \nparticularly the unit-linked products which offer both capital______ and insurance cover\n \nand have attracted the attention of the insured.",
+    "code_snippet": "",
+    "options": {
+      "A": "appropriation, formation",
+      "B": "introduction, appreciation",
+      "C": "opening, collection",
+      "D": "distinction, depreciation"
+    },
+    "answer": "B",
+    "explanation": "Correct grammatical/contextual usage is option B.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "It is _____that congress leader Shashi Tharoor had to lose his job as the party's\n \nspokesperson______ for praising a man who had called Tharoor's wife a Rs. 50 crore\n \ngirl friend.",
+    "code_snippet": "",
+    "options": {
+      "A": "ironical, allegedly",
+      "B": "useless, certainly",
+      "C": "worthless, illegally",
+      "D": "critical, particularly"
+    },
+    "answer": "A",
+    "explanation": "Correct grammatical/contextual usage is option A.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "More than two lakh students________ up to two years preparing for the Common\n \nAdmission Test (CAT) all in the attempt to ______ a seat at one of the top business\n \nschool in the century?\n\nhttps://www.freshersnow.com/placement-papers-download/",
+    "code_snippet": "",
+    "options": {
+      "A": "read, fetch",
+      "B": "wait, go",
+      "C": "spend, secure",
+      "D": "go, here"
+    },
+    "answer": "C",
+    "explanation": "Correct grammatical/contextual usage is option C.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "In the past two years, Goa witnessed high growth in household saving and was one\n \nof the few state where inflation declined.",
+    "code_snippet": "",
+    "options": {
+      "A": "saving and was the few states",
+      "B": "saving and were one of the few states",
+      "C": "savings and was one of the few states",
+      "D": "savings and has one of the few states"
+    },
+    "answer": "C",
+    "explanation": "Correct grammatical/contextual usage is option C.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "India should not tolerate Chinese incursion of its territory and realize that\n \nappeasement of an assertive China is a recipe for global marginalization.",
+    "code_snippet": "",
+    "options": {
+      "A": "incursion of their territory",
+      "B": "incursion of his territories",
+      "C": "incursion besides its territory",
+      "D": "incursions into its territory"
+    },
+    "answer": "D",
+    "explanation": "Correct grammatical/contextual usage is option D.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "To illustrate my point, I have been taking the example of three cars from three\n \ndifferent segments.",
+    "code_snippet": "",
+    "options": {
+      "A": "I have taken",
+      "B": "I might take",
+      "C": "I ever take",
+      "D": "I could be taking"
+    },
+    "answer": "A",
+    "explanation": "Correct grammatical/contextual usage is option A.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "verbal",
+    "company": "TCS",
+    "topic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "The congress working committee will be restructure and young faces will be\n \ninducted.",
+    "code_snippet": "",
+    "options": {
+      "A": "will restructure",
+      "B": "will be restructured",
+      "C": "will have restructured",
+      "D": "can restructure"
+    },
+    "answer": "B",
+    "explanation": "Correct grammatical/contextual usage is option B.",
+    "source": "TCS-Verbal.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "TCS",
+    "topic": "Number Systems & Divisibility",
+    "difficulty": "Hard",
+    "question": "A two digit number is 18 less than the \n\nsquare of the sum of its digits\n\n. How many such numbers\n \nare there?",
+    "code_snippet": "",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "explanation": "Ans: Option 2\n \nTake N = 10a+b.\n \n \nGiven that, (10a+b)+18 = K\n\n2 \n\n= (a+b)\n\n2\n \nGiven number = K\n\n2 \n\n-\n\n \n\n18 = (10a+b)\n \nThat means, when we add 18 to the given number it should be a perfect square. So K\n\n2 \n\ntakes the\n \nfollowing values. 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, ....\n \n1 to 16 are ruled out as if we subtract 18 from them, the resulting number is a single digit number.\n \nNow 25 - 18 = 7\n \n36 - 18 = 18\n \n49 - 18 = 31\n \n64 - 18 = 46\n \n81 - 18 = 63\n \n100 - 18 = 82\n \n121 - 18 = 103\n \nNow 63, 82 satisfies.",
+    "source": "TCS-NQT-Paper.pdf"
+  },
+  {
+    "category": "quantitative",
+    "company": "TCS",
+    "topic": "Number Systems & Divisibility",
+    "difficulty": "Hard",
+    "question": "A two digit number is 18 less than the\n\n \n\nsum of the squares of its digits.\n\n How many such\n \nnumbers are there?",
+    "code_snippet": "",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "explanation": "Ans: Option 2\n \nOnly 47 and 67 satisfy the condition",
+    "source": "TCS-NQT-Paper.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Capgemini",
+    "topic": "C Functions & Pass-by-Value",
+    "difficulty": "Easy",
+    "question": "What will be the output of the following C program?",
+    "code_snippet": "#include <stdio.h>\nvoid fun(int x) {\n    x = 30;\n}\nint main() {\n    int y = 20;\n    fun(y);\n    printf(\"%d\", y);\n    return 0;\n}",
+    "options": {
+      "A": "30",
+      "B": "20",
+      "C": "Compile Time Error",
+      "D": "Run time error"
+    },
+    "answer": "B",
+    "explanation": "In C, function arguments are passed by value by default. The modification of x inside fun() does not affect y in main(). Hence y remains 20.",
+    "source": "Pseudocode-Test-3.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Capgemini",
+    "topic": "Pointers & Dereferencing",
+    "difficulty": "Medium",
+    "question": "What will be the output of the following C program with pointers?",
+    "code_snippet": "#include <stdio.h>\nvoid fun(int *ptr) {\n    *ptr = 30;\n}\nint main() {\n    int y = 20;\n    fun(&y);\n    printf(\"%d\", y);\n    return 0;\n}",
+    "options": {
+      "A": "20",
+      "B": "30",
+      "C": "Compile Time Error",
+      "D": "Runtime error"
+    },
+    "answer": "B",
+    "explanation": "Address of y is passed to fun(), and *ptr = 30 dereferences the pointer to directly modify the value stored in y. Hence y becomes 30.",
+    "source": "Pseudocode-Test-3.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Capgemini",
+    "topic": "Bitwise Shift Operators & Loops",
+    "difficulty": "Medium",
+    "question": "How many times will \"SVES\" be printed in the following program?",
+    "code_snippet": "#include <stdio.h>\nint main() {\n    int i = 1024;\n    for (; i; i >>= 1)\n        printf(\"SVES\");\n    return 0;\n}",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "Infinite Loop",
+      "D": "Compile Time Error"
+    },
+    "answer": "B",
+    "explanation": "i >>= 1 divides i by 2 at each step. Values of i: 1024 (2^10), 512, 256, 128, 64, 32, 16, 8, 4, 2, 1 (total 11 powers from 2^10 down to 2^0), then 0 terminating the loop. Total count = 11.",
+    "source": "Pseudocode-Test-3.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Accenture",
+    "topic": "printf Return Value & Conditions",
+    "difficulty": "Medium",
+    "question": "What will be the output of the following program?",
+    "code_snippet": "#include <stdio.h>\nint main() {\n    int i;\n    if (printf(\"0\"))\n        i = 3;\n    else\n        i = 5;\n    printf(\"%d\", i);\n    return 0;\n}",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "03",
+      "D": "05"
+    },
+    "answer": "C",
+    "explanation": "printf(\"0\") prints \"0\" to stdout and returns the number of characters printed, which is 1 (non-zero truthy in C). The if condition succeeds, setting i = 3. Next printf(\"%d\", i) prints \"3\". Combined output is \"03\".",
+    "source": "Pseudocode-Test-3.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Capgemini",
+    "topic": "Loop Termination & Post-Decrement",
+    "difficulty": "Hard",
+    "question": "What will be the output of the following code snippet?",
+    "code_snippet": "#include <stdio.h>\nint main() {\n    int n;\n    for (n = 9; n != 0; n--)\n        printf(\"n = %d \", n--);\n    return 0;\n}",
+    "options": {
+      "A": "n = 9 n = 7 n = 5 n = 3 n = 1",
+      "B": "n = 9 n = 8 n = 7 n = 6",
+      "C": "Infinite Loop",
+      "D": "Compilation Error"
+    },
+    "answer": "C",
+    "explanation": "n is decremented both in printf (n--) and in the for-loop step (n--). Sequence of n checked: 9 -> prints 9, decrements to 8, loop decrements to 7... At n = 1, prints 1, decrements to 0, loop decrements to -1. Since condition is n != 0, it misses 0 and loops infinitely.",
+    "source": "Pseudocode-Test-3.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Infosys",
+    "topic": "Data Structures & Stacks",
+    "difficulty": "Easy",
+    "question": "Which of the following applications primarily uses a Stack data structure?",
+    "code_snippet": "",
+    "options": {
+      "A": "Parenthesis balancing in compiler syntax checking",
+      "B": "Breadth-First Search queueing",
+      "C": "Round-robin CPU scheduling",
+      "D": "Cache replacement policy"
+    },
+    "answer": "A",
+    "explanation": "Stack operates on Last-In-First-Out (LIFO) and is the standard data structure used for matching opening and closing parentheses, function call stack frames, and expression evaluations.",
+    "source": "Pseudocode-Test-2.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "Wipro",
+    "topic": "Matrix Operations & Comparison",
+    "difficulty": "Easy",
+    "question": "Given two N x N matrices A and B, what is the optimal time complexity to determine if both matrices are identical?",
+    "code_snippet": "",
+    "options": {
+      "A": "O(N)",
+      "B": "O(N log N)",
+      "C": "O(N^2)",
+      "D": "O(N^3)"
+    },
+    "answer": "C",
+    "explanation": "An N x N matrix contains N^2 elements. Comparing corresponding elements A[i][j] and B[i][j] requires checking at most N^2 entries, taking O(N^2) time in the worst case.",
+    "source": "Wipro-Coding.pdf"
+  },
+  {
+    "category": "coding",
+    "company": "AMCAT",
+    "topic": "Array Searching & Geometry Condition",
+    "difficulty": "Medium",
+    "question": "In an array of positive integers, what is the mathematical condition for any triplet (a, b, c) where a <= b <= c to form a valid non-degenerate triangle?",
+    "code_snippet": "",
+    "options": {
+      "A": "a + b > c",
+      "B": "a + b < c",
+      "C": "a * b >= c",
+      "D": "a^2 + b^2 = c^2"
+    },
+    "answer": "A",
+    "explanation": "By the Triangle Inequality Theorem, the sum of any two sides must be strictly greater than the third side. If a <= b <= c, verifying a + b > c is sufficient.",
+    "source": "Amcat-Coding.pdf"
+  }
+]

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placement Aptitude Practice Bot | TCS, Infosys, Accenture Prep</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="logo-area">
+        <div class="logo-icon">🚀</div>
+        <div class="logo-text">
+          <h2>PlacementBot</h2>
+          <span>Aptitude & Coding Prep</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="practice">
+          <span class="icon">🎯</span> Practice Mode
+        </button>
+        <button class="nav-item" data-tab="mock">
+          <span class="icon">🏆</span> Company Mock Tests
+        </button>
+        <button class="nav-item" data-tab="generator">
+          <span class="icon">⚡</span> Infinite Generator
+        </button>
+        <button class="nav-item" data-tab="coding">
+          <span class="icon">💻</span> Coding & Pseudocode
+        </button>
+        <button class="nav-item" data-tab="analytics">
+          <span class="icon">📊</span> Performance & Stats
+        </button>
+      </nav>
+
+      <div class="db-stats-badge" id="dbSummaryBox">
+        <div class="stat-label">Drive Question Bank</div>
+        <div class="stat-num" id="totalQuestionsCount">Loading...</div>
+        <div class="stat-sub">Across Quant, Logical, Verbal & Coding</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header -->
+      <header class="top-bar">
+        <div class="page-title" id="pageTitle">Practice Mode</div>
+        <div class="header-actions">
+          <div class="streak-badge">🔥 Streak: <span id="streakCount">0</span></div>
+          <div class="score-badge">⭐ Score: <span id="scoreCount">0</span></div>
+        </div>
+      </header>
+
+      <!-- TAB 1: PRACTICE MODE -->
+      <section id="tab-practice" class="tab-panel active">
+        <div class="filter-strip">
+          <div class="filter-group">
+            <label>Domain:</label>
+            <select id="practiceCategorySelect">
+              <option value="">All Domains (Mixed)</option>
+              <option value="quantitative">Quantitative Aptitude</option>
+              <option value="logical">Logical Reasoning</option>
+              <option value="verbal">Verbal Ability</option>
+              <option value="coding">Coding & Technical</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Company Style:</label>
+            <select id="practiceCompanySelect">
+              <option value="">Any Company</option>
+              <option value="TCS">TCS NQT</option>
+              <option value="Infosys">Infosys</option>
+              <option value="Accenture">Accenture</option>
+              <option value="Cognizant">Cognizant</option>
+              <option value="Capgemini">Capgemini</option>
+              <option value="eLitmus">eLitmus</option>
+              <option value="AMCAT">AMCAT</option>
+            </select>
+          </div>
+          <button class="btn btn-primary" id="btnNextPractice">New Question ➔</button>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-container" id="practiceQuestionCard">
+          <div class="question-meta-bar">
+            <span class="badge" id="qBadgeCategory">QUANTITATIVE</span>
+            <span class="pill" id="qPillTopic">Speed, Time & Distance</span>
+            <span class="pill pill-company" id="qPillCompany">TCS</span>
+            <div class="timer-box">⏱️ <span id="questionTimer">0.0s</span></div>
+          </div>
+
+          <div class="question-text" id="qText">Loading placement question...</div>
+
+          <!-- Code Snippet Area -->
+          <div class="code-box" id="qCodeBox" style="display:none;">
+            <pre><code id="qCodeText"></code></pre>
+          </div>
+
+          <!-- Options Grid -->
+          <div class="options-grid" id="optionsGrid">
+            <!-- Dynamically injected options -->
+          </div>
+
+          <!-- Solution & Explanation Panel -->
+          <div class="explanation-box" id="explanationBox" style="display:none;">
+            <div class="exp-header" id="expHeader">Correct Answer: Option A</div>
+            <div class="exp-body" id="expText">Explanation steps...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: COMPANY MOCK TESTS -->
+      <section id="tab-mock" class="tab-panel">
+        <div id="mockSetupView">
+          <div class="section-heading">
+            <h3>Select Placement Mock Test</h3>
+            <p>Full-length timed simulated exams based on company patterns from Google Drive materials.</p>
+          </div>
+
+          <div class="company-cards-grid">
+            <div class="company-card" data-comp="TCS">
+              <div class="card-icon">🔷</div>
+              <h4>TCS NQT Full Mock</h4>
+              <p>Numerical, Reasoning, Verbal & Hands-on Coding MCQs</p>
+              <div class="meta-tag">20 Questions • 30 Mins</div>
+              <button class="btn btn-outline start-mock-btn" data-comp="TCS">Start Test</button>
+            </div>
+            <div class="company-card" data-comp="INFOSYS">
+              <div class="card-icon">🔶</div>
+              <h4>Infosys Assessment</h4>
+              <p>Mathematical Thinking, Analytical Reasoning & Pseudocode</p>
+              <div class="meta-tag">20 Questions • 35 Mins</div>
+              <button class="btn btn-outline start-mock-btn" data-comp="INFOSYS">Start Test</button>
+            </div>
+            <div class="company-card" data-comp="ACCENTURE">
+              <div class="card-icon">🟣</div>
+              <h4>Accenture Cognitive Test</h4>
+              <p>Critical Thinking, Abstract Reasoning & Technical</p>
+              <div class="meta-tag">20 Questions • 30 Mins</div>
+              <button class="btn btn-outline start-mock-btn" data-comp="ACCENTURE">Start Test</button>
+            </div>
+            <div class="company-card" data-comp="COGNIZANT">
+              <div class="card-icon">🔵</div>
+              <h4>Cognizant GenC Test</h4>
+              <p>Quantitative, Reasoning, Verbal & Automata</p>
+              <div class="meta-tag">20 Questions • 30 Mins</div>
+              <button class="btn btn-outline start-mock-btn" data-comp="COGNIZANT">Start Test</button>
+            </div>
+            <div class="company-card" data-comp="CAPGEMINI">
+              <div class="card-icon">🟢</div>
+              <h4>Capgemini Assessment</h4>
+              <p>Pseudocode, Numerical Ability & Game-based Logic</p>
+              <div class="meta-tag">20 Questions • 30 Mins</div>
+              <button class="btn btn-outline start-mock-btn" data-comp="CAPGEMINI">Start Test</button>
+            </div>
+            <div class="company-card" data-comp="ELITMUS">
+              <div class="card-icon">🔴</div>
+              <h4>eLitmus pH Test</h4>
+              <p>High-level Quantitative, Cryptarithmetic & Analytical Reasoning</p>
+              <div class="meta-tag">15 Questions • 30 Mins</div>
+              <button class="btn btn-outline start-mock-btn" data-comp="ELITMUS">Start Test</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Mock Test Active View -->
+        <div id="mockActiveView" style="display:none;">
+          <div class="mock-top-nav">
+            <div>
+              <h3 id="mockTitleText">TCS NQT Test</h3>
+              <span id="mockSectionTitle">Section: Quantitative Ability</span>
+            </div>
+            <div class="mock-countdown" id="mockCountdownTimer">⏳ 30:00</div>
+            <button class="btn btn-danger" id="btnFinishMock">Finish & Submit</button>
+          </div>
+
+          <div class="mock-layout">
+            <div class="mock-question-pane">
+              <div class="question-container">
+                <div class="question-meta-bar">
+                  <span class="badge" id="mockBadgeCategory">QUANTITATIVE</span>
+                  <span class="pill" id="mockPillTopic">Time & Work</span>
+                  <span class="pill" id="mockQuestionNumber">Question 1 of 20</span>
+                </div>
+                <div class="question-text" id="mockQText"></div>
+                <div class="code-box" id="mockCodeBox" style="display:none;">
+                  <pre><code id="mockCodeText"></code></pre>
+                </div>
+                <div class="options-grid" id="mockOptionsGrid"></div>
+                <div class="mock-nav-buttons">
+                  <button class="btn btn-secondary" id="btnMockPrev">◀ Previous</button>
+                  <button class="btn btn-primary" id="btnMockNext">Next ▶</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="mock-palette-pane">
+              <h4>Question Palette</h4>
+              <div class="palette-grid" id="mockPaletteGrid"></div>
+              <div class="palette-legend">
+                <span class="legend-item"><span class="dot answered"></span> Answered</span>
+                <span class="legend-item"><span class="dot unanswered"></span> Unanswered</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mock Test Result Report Card -->
+        <div id="mockResultView" style="display:none;">
+          <div class="report-card">
+            <h2>🏆 Mock Test Report Card</h2>
+            <div class="score-summary-grid">
+              <div class="summary-box">
+                <div class="num" id="resAccuracy">0%</div>
+                <div class="lbl">Accuracy Rate</div>
+              </div>
+              <div class="summary-box">
+                <div class="num" id="resCorrect">0 / 0</div>
+                <div class="lbl">Score</div>
+              </div>
+              <div class="summary-box">
+                <div class="num" id="resTime">0m</div>
+                <div class="lbl">Time Taken</div>
+              </div>
+              <div class="summary-box">
+                <div class="num" id="resVerdict">-</div>
+                <div class="lbl">Readiness Status</div>
+              </div>
+            </div>
+
+            <h3>Sectional Breakdown</h3>
+            <div class="breakdown-table-wrapper">
+              <table class="report-table" id="sectionalTable">
+                <thead>
+                  <tr>
+                    <th>Section</th>
+                    <th>Correct / Total</th>
+                    <th>Accuracy %</th>
+                  </tr>
+                </thead>
+                <tbody id="sectionalTableBody"></tbody>
+              </table>
+            </div>
+
+            <div class="report-actions">
+              <button class="btn btn-primary" id="btnReviewMock">Review All Questions & Solutions</button>
+              <button class="btn btn-outline" id="btnExitMock">Return to Tests</button>
+            </div>
+
+            <div id="mockReviewContainer" style="display:none; margin-top:24px;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: INFINITE GENERATOR -->
+      <section id="tab-generator" class="tab-panel">
+        <div class="section-heading">
+          <h3>⚡ Infinite Dynamic Question Generator</h3>
+          <p>Procedurally generates algorithmic problems with computed mathematical solutions and step-by-step reasoning.</p>
+        </div>
+
+        <div class="generator-controls">
+          <button class="btn btn-accent" data-gencat="quantitative">📐 Generate Math / Quant Problem</button>
+          <button class="btn btn-accent" data-gencat="logical">🧩 Generate Logical Reasoning</button>
+          <button class="btn btn-accent" data-gencat="verbal">📖 Generate Verbal / Vocab</button>
+          <button class="btn btn-accent" data-gencat="coding">💻 Generate Code Output Problem</button>
+        </div>
+
+        <div class="question-container" id="generatorQuestionCard" style="display:none; margin-top:20px;">
+          <div class="question-meta-bar">
+            <span class="badge" id="genBadgeCategory">QUANTITATIVE</span>
+            <span class="pill" id="genPillTopic">Dynamic Formula</span>
+            <span class="pill pill-company">Algorithmic Generator</span>
+          </div>
+          <div class="question-text" id="genQText"></div>
+          <div class="code-box" id="genCodeBox" style="display:none;">
+            <pre><code id="genCodeText"></code></pre>
+          </div>
+          <div class="options-grid" id="genOptionsGrid"></div>
+          <div class="explanation-box" id="genExplanationBox" style="display:none;">
+            <div class="exp-header" id="genExpHeader">Solution</div>
+            <div class="exp-body" id="genExpText"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: CODING SANDBOX -->
+      <section id="tab-coding" class="tab-panel">
+        <div class="section-heading">
+          <h3>💻 Coding & Technical Aptitude Sandbox</h3>
+          <p>Master C/Python output tracing, pointer dereferencing, bitwise logic, and complexity analysis.</p>
+        </div>
+
+        <div class="filter-strip">
+          <button class="btn btn-primary" id="btnNextCoding">Next Coding Question ➔</button>
+        </div>
+
+        <div class="question-container" id="codingQuestionCard">
+          <div class="question-meta-bar">
+            <span class="badge" style="background:#059669;">CODING & TECHNICAL</span>
+            <span class="pill" id="codingPillTopic">Pointers & Memory</span>
+            <span class="pill pill-company" id="codingPillCompany">TCS</span>
+          </div>
+          <div class="question-text" id="codingQText"></div>
+          <div class="code-box" id="codingCodeBox" style="display:none;">
+            <pre><code id="codingCodeText"></code></pre>
+          </div>
+          <div class="options-grid" id="codingOptionsGrid"></div>
+          <div class="explanation-box" id="codingExplanationBox" style="display:none;">
+            <div class="exp-header" id="codingExpHeader"></div>
+            <div class="exp-body" id="codingExpText"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 5: ANALYTICS & STATS -->
+      <section id="tab-analytics" class="tab-panel">
+        <div class="section-heading">
+          <h3>📊 Your Performance & Weak Area Diagnosis</h3>
+          <p>Real-time analytics across your practice sessions and company mock tests.</p>
+        </div>
+
+        <div class="score-summary-grid">
+          <div class="summary-box">
+            <div class="num" id="statOverallAcc">0%</div>
+            <div class="lbl">Overall Accuracy</div>
+          </div>
+          <div class="summary-box">
+            <div class="num" id="statTotalAttempts">0</div>
+            <div class="lbl">Questions Attempted</div>
+          </div>
+          <div class="summary-box">
+            <div class="num" id="statCorrectAttempts">0</div>
+            <div class="lbl">Correct Answers</div>
+          </div>
+          <div class="summary-box">
+            <div class="num" id="statAvgTime">0s</div>
+            <div class="lbl">Avg Speed per Q</div>
+          </div>
+        </div>
+
+        <div class="analytics-split">
+          <div class="analytics-card">
+            <h4>Domain Breakdown</h4>
+            <div id="analyticsCategoryList">Loading...</div>
+          </div>
+
+          <div class="analytics-card">
+            <h4>Diagnosed Weak Topics (Needs Revision)</h4>
+            <div id="analyticsWeakList">Loading...</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
